@@ -1,0 +1,109 @@
+Ex S:AGS-Stuff
+
+IconsToFastMem
+
+;BEGIN NewIcons
+ Run <NIL: >NIL: c:NewIcons
+;END NewIcons
+
+Assign Blitz2: Work:Programming/Blitz2
+Assign BlitzLibs: Work:Programming/Blitz2/Blitzlibs
+
+Assign DPaintV: Work:Graphics/DPaintV
+
+Assign ST-00: Work:ST-00/
+
+Assign ADPro: Work:Graphics/ADpro
+Assign ADP_Fred: ADPro:
+Assign ADPROSCRIPTS: Adpro:Commands2
+Assign FREDSCRIPTS: Adpro:FredScripts
+
+Assign Aladdin4D: Work:3DRendering/Aladdin4d
+Assign Aladdin4DTools: Aladdin4d:tools
+Assign Aladdin4DDef: Aladdin4D:Support/Def/Defaults
+
+Assign Mand2000: Work:Fractal/Mand2000
+
+Assign Toaster: Work:3DRendering/Toaster
+Assign 3D: Work:3DRendering/Toaster
+
+;BEGIN CAPREFS
+C:CAPrefs >NIL:
+;END CAPREFS
+
+;BEGIN MUI
+if exists "System:Utilities/MUI"
+   assign MUI: "System:Utilities/MUI"
+   if exists MUI:Libs
+      assign add LIBS: MUI:Libs
+   endif
+   if exists MUI:Locale
+      assign add LOCALE: MUI:Locale
+   endif
+   version >nil: exec.library 39
+   if not warn
+      if exists MUI:Docs
+         if exists HELP:dummy ; do not remove
+         endif                ; this entry!
+         assign add HELP: MUI:Docs
+      endif
+   endif
+endif
+;END MUI
+
+;BEGIN Picasso96
+ Assign Picasso96: "System:Utilities/Picasso96"
+;END Picasso96
+
+;BEGIN SAS/C
+ assign sc: Work:Programming/SAS-C
+ assign lib: sc:lib
+ assign include: sc:include
+ path sc:c add
+;END SAS/C
+
+assign asmpro: Work:Programming/ASMPro
+
+;BEGIN PageStream3
+Assign PageStream3: "Work:Design/PageStream3"
+Assign SoftLogik: "PageStream3:SoftLogik"
+Assign Fonts: "PageStream3:SoftLogik/Fonts" ADD
+;END PageStream3
+
+;BEGIN ARexx
+sys:system/rexxmast >NIL:
+;END ARexx
+
+;BEGIN ModePro
+;Don't run ModePro from User-Startup
+;END ModePro
+
+;BEGIN CanDo
+ASSIGN CanDo: "Work:Multimedia/CanDo"
+;END CanDo
+
+;BEGIN AmigaWriter
+ASSIGN AMIGAWRITER: Work:Office/AmigaWriter
+;END AmigaWriter
+
+;BEGIN Real3D_V3
+assign R3D3: Work:3DRendering/Real3DV3
+;END Real3D_V3
+
+;BEGIN AmiSSL
+Assign AmiSSL: "Work:Web/AmiSSL"
+If Exists AmiSSL:Libs
+  Assign LIBS: AmiSSL:Libs ADD
+EndIf
+Path AmiSSL: ADD
+;END AmiSSL
+
+;BEGIN Miami
+assign Miami: "Work:Web/Miami"
+;END Miami
+;BEGIN Ami-Express
+Assign bbs: Work:Web/AmiExpress
+Assign doors: bbs:doors
+Path bbs:utils add
+Resident SYS:Rexxc/RX pure
+;END Ami-Express

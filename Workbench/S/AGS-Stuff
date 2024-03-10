@@ -1,0 +1,32 @@
+Cls
+
+Assign AGS: AGS_Drive:AGS2
+Assign Scripts: AGS:Scripts
+Assign Admin: Scripts:Admin
+Assign Emulators: Extra:Emulators
+Assign ST-00: Work:ST-00
+
+If $HW EQ "Mini"
+ Ex Scripts:Recovery_Mode
+Endif
+
+Ex Scripts:Splash
+Echo ""
+Type AGS:Texts/Retro32.txt
+Echo ""
+Ex Scripts:Startup
+
+Ex Scripts:HW_Select
+
+If $HW EQ "Mini"
+  Assign AGS_Drive: WHD1:
+  Assign AGS_Drive: WHD2: ADD
+  Assign AGS_Drive: WHD3: ADD
+Endif
+
+Ex >NIL: Scripts:Speed_Reset
+
+If $BOOT EQ "AGS"
+  Ex Scripts:Logo
+  Ex Scripts:Start_AGS
+Endif
