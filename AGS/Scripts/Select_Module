@@ -1,0 +1,7 @@
+cls
+Echo "Please Select A Module."
+requestfile >ENV:Temp ST-00:modules
+Echo $Temp >ENV:Module
+Delete >NIL: ENV:Temp
+copy env:module envarc:module
+ex scripts:play_module

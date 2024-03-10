@@ -1,0 +1,4 @@
+If $Play EQ "1"
+ cls
+ bastyplayer >NIL: r
+Endif

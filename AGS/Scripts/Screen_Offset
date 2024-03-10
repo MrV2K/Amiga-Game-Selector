@@ -1,0 +1,10 @@
+.key height
+.bra {
+.ket }
+if $HW EQ "Mini"
+  uae-configuration gfx_center_vertical false amiberry.gfx_dynamic_top {height}
+Endif
+
+if $HW EQ "Pi"
+  uae-configuration gfx_center_vertical false amiberry.gfx_dynamic_top {height}
+Endif

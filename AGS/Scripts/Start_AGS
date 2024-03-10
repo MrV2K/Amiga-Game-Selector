@@ -1,0 +1,33 @@
+cls
+SetEnv Expert 0
+If $RandomMod EQ 1
+ Ex Scripts:Random_Module
+Endif
+CD "AGS:+  Favourites.ags"
+nrename >NIL: "[Expert Mode Enabled].run" "[Expert Mode Enabled].rub"
+nrename >NIL: "[Expert Mode Disabled].rub" "[Expert Mode Disabled].run"
+CD "AGS:Options.ags"
+nrename >NIL: "[Expert Mode Enabled].run" "[Expert Mode Enabled].rub"
+nrename >NIL: "[Expert Mode Disabled].rub" "[Expert Mode Disabled].run"
+AGS:
+If $Play EQ "1"
+ bastyplayer >NIL: l"$Module"
+ bastyplayer >NIL: p
+ If $bpvol EQ "16"
+  bastyplayer >NIL: cv16
+ Endif
+ If $bpvol EQ "32"
+  bastyplayer >NIL: cv32
+ Endif
+ If $bpvol EQ "48"
+  bastyplayer >NIL: cv48
+ Endif
+ If $bpvol EQ "64"
+  bastyplayer >NIL: cv64
+ Endif
+ If $bpvol EQ "0"
+  bastyplayer >NIL: cv0
+ Endif
+endif
+AGS2
+bastyplayer >NIL: x

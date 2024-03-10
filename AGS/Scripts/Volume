@@ -1,0 +1,7 @@
+.key volume
+.bra {
+.ket }
+cls
+Setenv bpvol {volume}
+copy env:bpvol envarc:bp_vol
+bastyplayer >NIL: cv{volume}

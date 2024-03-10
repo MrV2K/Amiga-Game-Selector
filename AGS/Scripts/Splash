@@ -1,0 +1,14 @@
+avail >NIL: flush
+cls
+If $HW EQ "Pi"
+  type Scripts:Splash_UAE
+Endif
+If $HW EQ "UAE"
+  type Scripts:Splash_UAE
+Endif
+If $HW EQ "Real"
+  type Scripts:Splash_Real
+Endif
+If $HW EQ "Mini"
+  Type Scripts:Splash_Mini
+Endif
