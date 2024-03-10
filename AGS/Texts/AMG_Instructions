@@ -1,0 +1,67 @@
+                            AmiMasterGear F.A.Q.
+                            ~~~~~~~~~~~~~~~~~~~~
+
+Useful Keys
+-----------
+
+Space  - Start.
+
+How to add your own games to AmiMasterGear.
+-------------------------------------------
+
+1. Read the AmiMasterGear document to check which formats are supported.
+2. Get hold of the Master System / Game Gear image files you want to add on your PC.
+3. Make sure that the image file names are less than 100 characters long.
+4a. A500 Mini - Insert your AGS USB drive into your PC. and copy your new image files into the AGS/SHARED folder. This can be in a subfolder.
+4b. UAE - Copy your new image files into the AGS/SHARED folder. This can be in a subfolder.
+4c. Pi - SSH your image files into the SHARED folder on your AGS SD card.
+5. Run AGS and select '+  Emulators' then 'Sega Master System' from the lists.
+6. Run "+ Start AmiMasterGear +' at the top of the list.
+7. Press the 'Insert' button and the 'Volumes' button at the bottoom of the window.
+8. Find your image file in the list, select it and press OK.
+9. Select either Game Gear or Master System depending on the rom type.
+9. Press the 'Power On' button and the image should load.
+
+How to add your own games to ZX Live.
+-------------------------------------
+
+1. Read the AmiMasterGear document to check which formats are supported.
+2. Get hold of the Master System / Game Gear image files you want to add on your PC.
+3. Make sure that the image file names are less than 100 characters long.
+4a. A500 Mini - Insert your AGS USB drive into your PC. and copy your new image files into the AGS/SHARED folder. This can be in a subfolder.
+4b. UAE - Copy your new image files into the AGS/SHARED folder. This can be in a subfolder.
+4c. Pi - SSH your image files into the SHARED folder on your AGS SD card.
+5. Run AGS and go to Workbench.
+6. Open Directory Opus (the first icon on the menu bar).
+7. Select the left window and press the 'Volumes' button.
+8. Select 'USB:' from the list.
+9. Select the right hand list and press the 'Volumes' button again.
+10. Select 'Emulators:' from the list and then 'AmiMasterGear'.
+11. Open the 'Cartridges' drawer.
+12. Select the files that you want to copy from the left hand window.
+13. Press 'Copy' to copy the files.
+14. When done, close Directory Opus. 
+15. Run AGS (the boing ball button on the menubar) and select '+  Emulators' then 'ZX Spectrum' from the list.
+16. Run "+ Start AmiMasterGear +' at the top of the list.
+17. Press the 'Insert' button and find your image file in the list, select it and press OK.
+18. Select either Game Gear or Master System depending on the rom type.
+19. Press 'Power On' and the game will now load.
+
+Frequently Asked Questions.
+---------------------------
+
+Q: I pressed 'Power On' and the graphics are corrupted. What do I do?
+
+A: Press escape and change the rom type to the correct format.
+
+
+Q: I can't see a game that I added in the load window.
+
+A1: Check that the image type is supported first in the docs.
+A2: Check that the filename is not too long and has the correct file extension.
+
+
+Q: Why are my games playing so slow?
+
+A1: Try AGS JIT mode from the workbench menu as that should speed up the emulator.
+A2: Turn off AY sound as that is very CPU intensive.

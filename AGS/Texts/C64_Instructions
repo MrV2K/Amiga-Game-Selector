@@ -1,0 +1,89 @@
+                            Commodore 64 Games Help
+                            ~~~~~~~~~~~~~~~~~~~~~~~
+
+Useful Keys.
+------------
+
+Esc         - Quit back to the Magic 64 window.
+Keypad *    - Switch joystick ports.
+Keypad +/-  - Change frameskip.
+F9          - Reset the C64.
+LCTRL       - Runstop
+
+For a full list of keys, please read the Readme file.
+
+Running a game from the emulator.
+---------------------------------
+
+1. Run "+ Start Magic 64 +' at the top of the list.
+2. Press the relevant button based on your image type. e.g. 'D64-Disks' if you want to run a D64 disk image.
+3. Press the 'Load_xxx' button to open the file requester and find your image file in the list, select it and press OK.
+4. Tape images should automatically load as they are scanned by Magic64. Some of the files names can be a bit obscure as the list is based on the program name, not the image file name.
+5. For disk images, on the next screen select the PRG that loads the game and press OK.
+6. The image should now load and automatically run.
+
+How to play your own games on Magic 64.
+---------------------------------------
+
+1. Read the Magic 64 document to check which formats are supported.
+2. Get hold of the Commodore 64 image files you want to add on your PC.
+3. Make sure that the image file names are less than 100 characters long.
+4a. A500 Mini - Insert your AGS USB drive into your PC. and copy your new image files into the AGS/SHARED folder. This can be in a subfolder.
+4b. UAE - Copy your new image files into the AGS/SHARED folder. This can be in a subfolder.
+4c. Pi - SSH your image files into the SHARED folder on your AGS SD card.
+5. Run AGS and select '+  Emulators' then 'Commodore 64' from the list.
+6. Run "+ Start Magic 64 +' at the top of the list.
+7. Press the relevant button based on your image type. e.g. 'D64-Disks' if you want to run a D64 disk image.
+8. Press the 'Load' button to open the file rquester and press 'Volumes' at the bottom of the window.
+8. Find your image file in the list, select it and press OK. Tape images will automatically load, disk images will open a new window.
+9. On the next screen select the PRG that loads the game and press OK. The image should now load and automatically run.
+
+How to add your own games to the Magic 64 program lists.
+--------------------------------------------------------
+
+1. Read the Magic 64 document to check which formats are supported.
+2. Get hold of the Commodore 64 image files you want to add on your PC.
+3. Make sure that the image file names are less than 100 characters long.
+4a. A500 Mini - Insert your AGS USB drive into your PC. and copy your new image files into the AGS/SHARED folder. This can be in a subfolder.
+4b. UAE - Copy your new image files into the AGS/SHARED folder. This can be in a subfolder.
+4c. Pi - SSH your image files into the SHARED folder on your AGS SD card.
+5. Run AGS and go to Workbench.
+6. Open Directory Opus (the first icon on the menu bar).
+7. Select the left window and press the 'Volumes' button.
+8. Select 'USB:' from the list.
+9. Select the right hand list and press the 'Volumes' button again.
+10. Select 'Emulators:' from the list and then 'Magic64'.
+11. Open the relevant drawer for the image that you have downloaded. e.g. t64 images go in the 'T64TAPES' drawer.
+12. Select the files that you want to copy from the left hand window.
+13. Press 'Copy' to copy the files.
+14. When done, close Directory Opus. 
+15. Run AGS (the boing ball button on the menubar) and select '+  Emulators' then 'Commodore 64' from the list.
+16. Run "+ Start Magic 64 +' at the top of the list.
+17. Press the relevant button based on your image type. e.g. 'D64-Disks' if you want to run a D64 disk image.
+19. Find your image file in the list, select it and press OK.
+20. Tape images will automatically load, disk images will open a new window.
+21. If you are using disk images you need to select the PRG file to load the game from the list.
+
+Frequently Asked Questions.
+---------------------------
+
+Q: How to I stop some games flickering?
+A: Use Shift+Keypad + or - to change the raster cycles (Default is 64)
+
+Q: I added my own game and it won't load. I get an error message.
+
+A: Make sure you get a cracked verion of the game.
+A: Not all games are supported especially fast load disk images. Try getting the game in another format.
+A: CPU code errors can be caused by bad cracks. Try getting an image cracked by another group.
+
+
+Q: The game I'#m trying to play is really slow.
+
+A: Read the Magic 64 readme as it has some hints on how to improve the speed of games.
+A: Turn on JIT.
+
+
+Q: I can't see a game that I added in the load window.
+
+A1: Check that the image type is supported first in the docs.
+A2: Check that the filename is not too long and has the correct file extension.

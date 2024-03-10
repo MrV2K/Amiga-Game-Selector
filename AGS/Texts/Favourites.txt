@@ -1,0 +1,43 @@
+                                Favourites
+                                ~~~~~~~~~~
+
+I've managed to work out a system to add your favourite games and demos to a special list. To do this it
+required some special scripting to get it to work. What the script does is add a prompt when you run
+a game or demo that asks if you want to add it to the favourites list. If you answer yes, the script copies
+the necessary files into the favourites drawer. You can then decide to run the game or demo or go back to the menu.
+The removal process is very similar except it doesn't ask to run the game.
+
+Instructions
+============
+
+Here's how to add games and demos to the favourites list.
+
+1. Open the '+  Favourites' list
+2. Select 'Enable Add Favourite'
+3. Go back to the main lists and run the games or demos you want to add.
+4. When promped to 'Add to favourites (y/n)?' press 'y' to add the game or demo or press any other key to continue.
+5. When you are asked to load the game or demo, press 'y' to load it or any other to go back to the menu.
+6. When you are done adding games and demos go back to the '-= Favourites =-' menu.
+7. Press 'Disable All Prompts' to get rid of the 'Add to favourite' prompts.
+
+Here's how to remove games and demos from the favourites list.
+
+1. Open the '+  Favourites' list
+2. Select 'Enable Remove Favourite'
+3. Run the game or demo from the list.
+4. When promped to 'Remove from favourites (y/n)?' press 'y' to remove the game or demo or press any other key to continue.
+5. Repeat as required.
+6. Press 'Disable All Prompts' to get rid of the 'Remove from favourites' prompts.
+
+Troubleshooting
+===============
+
+Older versions of the AGS configuration files are not compatible with the new favourites process so cannot be removed
+using the game startup option. To remove them you will need to manually remove them with a program like Directory Opus
+or remove all your favourites from the favourites menu and start again. 99% of configurations stay the same when AGS is
+updated and will continue to run the games. It's only the removal process that is broken.
+
+To remove favourites manually open Directory Opus and navigate to the 'System:AGS2/+  Favourites.ags' drawer. In the
+drawer you will see a list of games and some files that are enclosed in square bracket '[]'. Do not delete those as
+they are the scripts that run the favourites process. Find the game you want to delete and delete the five files. The
+five files should be named xxx.run, xxx.txt, xxx_1.iff, xxx_2.iff & xxx_3.iff.

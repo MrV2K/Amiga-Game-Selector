@@ -1,0 +1,133 @@
+*******************************************
+*                                         *
+* Amiga Game Selector Program & Apps List *
+*                                         *
+*******************************************
+
+This is a list of the programs and utilities that are included with AGS.
+Most are available from the 'Work' drive and 'Utilities' drawer on the
+Workbench drive. To access Workbench, press the 'Escape' key on the AGS
+menu.
+
+WHDLoad
+=======
+Arcade Game Selector 2
+IGame
+
+Graphics
+========
+Art Department Professional 2
+Art Effect 4
+Art Expression
+Brilliance
+True Brilliance
+Deluxe Paint V
+Image FX 2
+Photogenics 5
+TVPaint
+Disney Animation Studio
+
+3D Rendering
+============
+Tornado 3D
+Imagine 5
+Imagine 5 Objects
+Cinema 4D
+Aladdin 4D
+Lightwave 5
+Real3D 3.5
+
+Fractal
+=======
+Vista Pro 3.05
+World Creation System
+Scenery Animator 4
+Mand2000
+
+Multimedia
+==========
+Adorage AGA
+Scala MM400
+Cando 3
+
+Programming
+===========
+AmiBlitz 3
+Amos Professional Unity
+ASM-One
+ASMPro
+Blitz Basic 2
+DevPac 3
+Purebasic
+SAS C v6.5
+Redpill Game Creator
+Amiga E
+Hisoft HiSpeed Pascal
+EVO
+
+Office
+======
+Final Calc
+Final Copy
+Final Data
+Final Writer
+Turbo Calc
+Pagestream 3
+Amiga Writer
+
+Music
+=====
+OctaMED Sound Studio
+OctaMED v4 Professional
+Protracker 2.3F
+Protracker 3.62
+Videotracker
+Samples Disks: ST-01 to ST-10
+Hippoplayer
+Eagle Player
+AmigaAmp
+EdPlayer
+Aegis Audiomaster IV
+
+Emulators
+=========
+ZX-Live
+Magic C64
+ScummVM
+AmiMasterGear
+Hatari
+PC-Task
+Ami-CPC
+EmuCPC
+
+Utilities
+=========
+Directory Opus 4
+CygnusEd Pro 4.2
+Evenmore
+MUI 3.8
+New Mode
+NewZap
+Sysinfo
+VirusZ
+Voodoo-X
+WBDock 2
+Powerpacker 4 Pro
+UAE Control
+App Replace Icon
+Ken's Icon Collection v4
+Magic Menu
+MCP
+New Meter
+ADFer
+PFSDoctor
+Backup
+Rewincy
+Button Menu
+SGrab
+Iconian
+Icon Deluxe
+Which Amiga
+Disk Image
+AIBB
+Unzip

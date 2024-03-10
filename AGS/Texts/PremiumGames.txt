@@ -1,0 +1,51 @@
+******************************************
+*                                        *
+* Amiga Game Selector Premium Games List *
+*                                        *
+******************************************
+
+These games are not runnable from the AGS
+launcher. Please run them from the drawers
+on the 'Extra' drive.
+
+Included Games
+--------------
+
+Blake Stone - Aliens of Gold
+Blake Stone Planet - Planet Strike
+Blood + Data Disk
+Cannonball (Out Run)
+Catacombs Series
+Cave Story
+Dark Forces
+Death Rally
+Descent
+Diablo
+DOOM (Shareware WAD included)
+DOOM 2
+Duke Nukem 3D
+Exhumed + Data Disk
+Exult
+Heart of Darkness
+Heretic + Data Disks
+Hexen + Data Disks
+Heroes of Might & Magic 2
+Keen Dreams
+Napalm
+Payback
+Quake + Data Disks
+Quake 2 + Data Disks
+Rise of the Triad
+Shadow Warrior + Data Disks
+Spear Of Destiny
+Strife
+Wolfenstein 3D
+X-Com - Terror from the Deep
+
+----------------------------------------------
+
+IMPORTANT! Most of these games do not have the
+retail data files included. Please read the
+documents in each drawer for details.
+
+----------------------------------------------

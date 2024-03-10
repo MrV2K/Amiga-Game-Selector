@@ -1,0 +1,171 @@
+                         Frequently Asked Questions
+                         ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+All I get is a Kickstart screen when I run AGS on the A500 mini. How do I fix it?
+---------------------------------------------------------------------------------
+You've ignored the important comment at the top of the Readme and broken the 
+config file. You will need to copy the original .uae files back. I've included
+a script to do this for you called 'Restore Configs'. Just run it from the USB 
+screen on the A500 mini carousel and the configs will be restored. You can also
+copy them back manually if you want to. The backup configs are stored in a folder
+called 'Backup' in the AGS folder on the USB drive.
+
+Whe I run a game, I get DOS-Error #205 (object not found) on reading "devs:kickstarts/kickxxx.xxx"
+--------------------------------------------------------------------------------------------------
+WHDLoad requires kickstart ROM images to run certain games and demos. These files
+need to be located in the System:Devs/kickstarts drawer. You can find a list of
+the required kickstart images in the needed_kickstarts.txt file in the AGS
+installation archive. Amiga kickstart images are still copyrighted so I cannot
+distribute them with AGS. If you don't have the kickstart images then Google
+is your friend.
+
+Can I use save states on the A500 Mini?
+---------------------------------------
+Yes and No. The Pandory version of AGS supports save states through the 
+Amiberry interface. The standard version of AGS does not support save states as 
+the current version of the carousel supplied on the A500 mini doesn't recognize
+the custom configuration file and extended memory used by AGS. Therefore it
+cannot create a save state. If the game supports saving, it will save to the
+'Savegames' folder on the USB drive.
+
+Why do I get HDD block and sector errors when running AGS on the A500 mini.
+---------------------------------------------------------------------------
+AGS requires a 2.5A to 3A power supply to run properly on the A500 mini. If your
+power supply is too low then AGS shows errors. Replace you power supply and
+re-run the AGS config.
+
+Why does the power light stay lit on the A500 mini when I power it off after using AGS?
+---------------------------------------------------------------------------------------
+It is a bug in the carousel that fails to end a task when Amiberry closes if
+it has been using a custom configuration. If you have shut down AGS correctly,
+you shouldn't have an issue pulling the power cord. It is recommended to invest
+in an inline USB-C power switch as this will prevent wear on the USB connector.
+
+Why are my saves not err... saving?
+-----------------------------------
+Make sure to use the WHDLoad quit key when you exit a game. Check the game's
+readme file or the bottom of the blue WHDLoad splash screen to see what that
+key is.
+
+Where is the 'PrtScn' or '*' quit key button on the A500 mini virtual keyboard?
+-------------------------------------------------------------------------------
+There are several keys not available on the virtual keyboard. Some of theses are
+used to quit certain games. If you do not have access to a real keyboard, I have
+added the ability to change the WHDLoad quit key. If you go to 'Options' 
+then 'WHDLoad', you can set a different quit key which will be used
+universally with all games. This option is saved so you don't need to do it
+every time you run AGS. You can also change the quit key back to it's default
+at any time from the same menu.
+
+Can I shut down AGS without a keyboard?
+---------------------------------------
+Yes. Go to 'Options' - 'Quit to OS'. This will shutdown AGS correctly.
+
+Can I back-up my saves?
+-----------------------
+Yes. WHDLoad saves it's games to a folder on the SHARED drive. The folder is 
+located in SHARED/Savegames. Copy that folder to your PC and 
+your saves are backed up. Some of the WHDLoad games and most of the extra games 
+save into their install folder. You would have to manually copy those saves to 
+the 'SHARED' drive yourself. I have included Directory Opus 4 for that reason.
+
+Can I use AGS with A500 mini firmware updates?
+----------------------------------------------
+Yes. AGS isn't affected by firmware updates.
+
+Can I run 'It Came From The Desert' without glitches on the A500 Mini?
+----------------------------------------------------------------------
+Yes.
+
+Can I install my own games and programs?
+----------------------------------------
+Yes. Add the ADF's in the Amiberry interface and install as normal. There is a
+tutorial in the help list in AGS.
+
+XXXXXX game still runs too fast. Can I slow it down?
+----------------------------------------------------
+Yes. There are two things to try...
+1. The version of Amiberry on the A500 Mini is quite old and buggy. Most speed
+   and graphic errors can be fixed by pressing F12 to open Amiberry and press
+   F12 again to close it.
+2. Also report it on the thread in the AGS Facebook group and if I can fix it, I
+   will add it to my database so the speed will be set automatically in the next
+   version of AGS.
+
+What programs are included?
+---------------------------
+There is a list of included programs in the AGS search list.
+
+Why are some RTG games very slow?
+---------------------------------
+Run them with the JIT configuration.
+
+Why do the RTG games not fill the screen on the A500 mini?
+----------------------------------------------------------
+RTG scaling is broken on the standard version. You can use the Pandory version
+which has an updated version of Amiberry but runs slightly slower.
+
+On the A500 mini, can I use scanlines?
+--------------------------------------
+Yes. Enable them in the A500 Mini Options screen under Display options - Enable
+CRT effect.
+
+How do I access Workbench?
+--------------------------
+Press the 'Escape' key when the AGS launcher has loaded.
+
+How do I re-open AGS from Workbench?
+------------------------------------
+The AGS icon is located in the Workbench menu and on the tool bar at the bottom 
+of the Workbench screen.
+
+Can I run the games from the Workbench?
+---------------------------------------
+Yes. There is a full WHDLoad install on the 'WHD' drives and the extra games are
+located on the Games and Extras drives. I have also included IGame which can be
+launched from the Workbench menu and the toolbar at the bottom of the Workbench
+screen.
+
+Where are my games saved?
+-------------------------
+Games are saved in a folder called 'Savegames' on the 'SHARED' drive.
+
+Why do the screenshots sometimes disappear on the AGS launcher?
+---------------------------------------------------------------
+If you run a game or demo whilst the image is fading in or out the image
+corrupts or stops loading. This is less of a problem from v1.2 onwards as the
+images load a lot faster.
+
+Can I access the Amiberry/WinUAE interface?
+-------------------------------------------
+Yes. Press the 'F12' key to open the menu and 'ESC' key to close it again. You 
+can also access it by opening the '[Options]'  menu in AGS. You can also
+access Amiberry/WinUAE from the System Workbench menu.
+
+Can I use two controllers for two player games?
+-----------------------------------------------
+Yes. Use the Amiberry interface to add/change controllers.
+
+Can I use ADF files in AGS Mini?
+--------------------------------
+Yes. Use the Amiberry interface to add ADF files. You may need to use the
+Amiberry interface to shut down the program as the menu button is disabled.
+
+Will there be updates when new games or WHDLoad updates come out?
+-----------------------------------------------------------------
+Yes. I will add an update config file that updates the installs and 
+configurations.
+
+The sound runs too slow on Hippoplayer. Can I fix it?
+-----------------------------------------------------
+Yes. Switch Workbench into AGA mode and Hippoplayer is fine.
+
+Vista Pro and Scenery Generator dont work when I run them. How do I fix them?
+-----------------------------------------------------------------------------
+Switch Workbench into AGA mode from the menu or with the icons in the drawer.
+
+When I run a premium game, nothing happens. What do I do?
+---------------------------------------------------------
+The premium games are not supplied with the retail data files. You will need to
+source these files and add them to the relevant drawer. Instructions are
+included in the help files.

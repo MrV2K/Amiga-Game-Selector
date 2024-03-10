@@ -1,0 +1,17 @@
+                            Amstrad CPC Games F.A.Q.
+                            ~~~~~~~~~~~~~~~~~~~~~~~~
+
+F10 is the quit key for both Amstrad emulators.
+
+To run a game...
+----------------
+1. Select a disk from the file requester.
+2. Type 'cat' on Amstrad screen.
+3. Find the file you want to run.
+4. Type 'run"{filename}' where {filename} is the program you
+   want to run. e.g run"star.bas will run Starquake
+
+Speed Regulation
+----------------
+1. Turn of JIT
+2. Increase the CPU Speed in the emulator settings to get the right speed.

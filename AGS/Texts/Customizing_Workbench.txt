@@ -1,0 +1,83 @@
+                     How to customize Workbench
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This tutorial explains how to use the Workbench preference programs to 
+customize your Workbench environment. All programs described are accessible from
+the Workbench menu or in the System:Preferences drawer.
+
+
+Setting The Screen Resolution.
+==============================
+
+To set the screen resolution use ScreenMode. On the window you will see a list
+of resolutions and below a slider for the amount of colours to display. AGS is 
+set up as 1920x1080 (1280x720 A500 Mini) using 16 million colours. Changing the
+screen resolution or colours will not adversely affect the running of the AGS
+launcher or Workbench applications. The only affect is the workbench backdrops
+which do not scale and may not fit the screen afterward.
+
+When changing any resolution I advise using the 'Test' button first to check 
+that your monitor supports the screenmode. If the screen mode works as you 
+expect, then you can save the settings. Once saved, the AGS workbench will
+default to your new settings.
+
+
+Changing the Workbench Backdrop.
+================================
+
+To change the Workbench background image use WBPattern. On the window you will 
+see a couple of buttons on the left and a pattern maker on the right.
+
+The Placement button determines whether Workbench on the window backdrops are
+changed.
+
+The Type button determines whether to use an IFF picture or a hand drawn pattern
+for the window of Workbench background. Patterns can be selected from the right
+hand tools and can be selected from the presets or hand drawn in the editor box.
+
+The Select Picture button activates if you select Picture from the Type button.
+This opens up a file requester for the path with the IFF pictures in it. This
+path is in System:Preferences/Presets. Use this list to select a new backdrop.
+You need to make sure that the picture is the same size as Workbench or the 
+image will be tiled or stretch outside of the Workbench screen.
+
+Use the 'Test' button to preview your selections and to check before saving.
+Once saved, the AGS workbench will default to your new settings.
+
+
+Changing the Font colours.
+==========================
+
+It's not recommended to change the actual fonts in AGS as the launcher relies
+on the Courier font being installed. Changing this font will break the launcher.
+You can however change the font colours without breaking the launcher.
+
+To set the Workbench icon font colours open the Fonts program. If you select
+the Workbench Icon Text button you will see a new window with a selection of
+colours in it. The Text colours determine the main text colour. The Field button
+sets the dropshadow colour. AGS uses NewIcons so does not have a solid 
+background for the icon text. Select the colours that you want to use and press
+the 'Proceed' button. On the font selection screen I would recommend just
+pressing 'OK' and not changing anything.
+
+To save your settings, press the 'Save' button. You can preview your changes by
+pressing the 'Use' button. If you just use the 'Use' button, your changes will
+be lost when you reboot.
+
+
+Changing The Workbench Colours.
+===============================
+To change the Workbench window and menu colours use the Palette program. To
+change the colours it's as simple as selecting what you want to change from the
+list on the right and picking a colour underneath. You will see a preview of the
+changes below.
+
+As with all changes, it's best to use the 'Use' button before hitting the 'Save'
+button to make sure that you are happy with your changes.
+
+
+Changing The Keyboard Country Layout.
+=====================================
+You can set your keyboard type in the Input program. All you need to do is to
+select it from the list on the right hand side of the window and press the save
+button.

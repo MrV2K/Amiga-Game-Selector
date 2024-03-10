@@ -1,0 +1,99 @@
+                     How to mount an ADF file.
+                     ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This tutorial explains how to access ADF files and run them from the
+Amiberry/WinUAE interface.
+
+
+Loading and ADF file
+====================
+
+1. For Amiberry, copy the ADF files onto your USB drive. It doesn't matter
+   where you put them. 
+
+2. Run AGS and wait for it to finish loading.
+
+3. Press 'F12' to access the emulator interface. To navigate the options,
+   use the cursor keys and 'TAB' key. To select an option, use the 'Enter'
+   key. On Raspberry Pi and UAE you can use the mouse.
+
+4. Select 'Floppy drives' from the menu. On the screen you will see that
+   there are two drives enabled. You can enable more if you want.
+
+5. Select the button with the three dots on it on the DF0: line then press
+   enter.
+
+6. On the file screen that comes up, make sure the two dots are highlighted.
+   Double click it or press enter to change the folder.
+
+(Raspberry Pi & A500 Mini only)
+
+7. Repeat pressing enter until you see a long list with 'mnt' in it.
+
+8. Use the cursor keys to highlight the 'mnt' folder and press enter. You are
+   now looking at the USB drive. Find the first ADF file that you copied earlier
+   and press enter. If you have put them in a folder then you just need to
+   highlight it and press enter.
+
+(All systems)
+
+9. You should now see the ADF file in the box under the button. If you need to
+   use multiple disks, repeat instructions 5 to 8 on the 'DF1' line.
+
+10. To boot from the floppy disk, navigate to the 'Reset' button at the bottom
+    of the emulator interface and press 'Enter'. This will reset the Amiga and
+    if the disk is bootable, it will load.
+
+11. If you want to access the disk from Workbench, just press the 'F12' button and
+    you will go back to the AGS screen. The disk will appear as an icon on the 
+    desktop.
+
+
+Changing the ADF file
+=====================
+
+1. Press 'F12' to access the emulator interface.
+
+2. Select 'Floppy drives' from the menu.
+
+3. Use the cursor keys to highlight the button with the three dots on it
+   on the drive line that you want to change and then press enter.
+
+4. On the file screen that comes up, select a new ADF file and press 'Enter'.
+   You will now see the new disk in the box below.
+
+5. Press 'F12' to return to the game or AGS and the disk will change.
+
+
+Ejecting an ADF file
+====================
+
+1. Press 'F12' to access the emulator interface. To navigate the options,
+   use the cursor keys and 'TAB' key. The select an option use the 'Enter'
+   key.
+
+2. Select 'Floppy drives' from the menu.
+
+3. Use the cursor keys to highlight the 'Eject' button on the disk drive line 
+   and then press enter.
+
+4. The disk is now ejected. You can now either reset or resume the Amiga to 
+   go back to AGS.
+
+
+NOTES
+=====
+
+AGS is set up to be as fast as possible. When you run a game from the AGS menu, it
+slows the Amiga down to make the game run correctly. If you run an ADF file, it 
+doesn't automatically do this.
+
+To slow down a bit of software...
+
+1. Press 'F12' to open the emulator interface.
+
+2. Navigate to the CPU screen.
+
+3. Select either 7mhz or 14mhz to set the right speed.
+
+4. Press 'F12' to close emulator.

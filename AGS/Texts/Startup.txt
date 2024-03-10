@@ -1,0 +1,27 @@
+*****************************************
+*                                       *
+*    Welcome to Amiga Game Selector!    *
+*                                       *
+*             Version 2.5               *
+*           Released xx-xx-23           *
+*                                       *
+*  Amiga Games Selector is completely   *
+*  free of charge for private, non-     *
+*  commercial and non-profit use only.  *
+*                                       *
+*  If you have paid money for Amiga     *
+*  Game Selector, please ask for a      *
+*  refund as AGS is totally free of     *
+*  charge to all users. This includes   *
+*  if you bought it through the         *
+*  authorised USB burning service       *
+*  offered by www.Retro32.com where     *
+*  only the USB and burning costs are   *
+*  authorised. No money from the USB    *
+*  burning service is passed back to    *
+*  the creators of Amiga Game Selector  *
+*                                       *
+*    Amiga Game Selector is Copyright   *
+*            2023 Paul Vince            *
+*                                       *
+*****************************************

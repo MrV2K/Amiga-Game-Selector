@@ -1,0 +1,42 @@
+                             Add Program
+                             ===========
+
+Welcome to the AGS add program script. This script will add any program to the AGS Launcher.
+
+I've tried to automate the process as much as I can but some knowledge of AmigaDOS is an advantage.
+
+I would suggest that you have the program in it's final location and if you want a preview image,
+make sure to have a 320x256 image ready. This image must have a maximum of 128 colours. You can
+use ADPro or deluxe paint to edit your image. They are both available in the launch bar on Workbench.
+
+There are several steps that you need to follow to add your program. You can cancel the process at any
+time. These are the steps that you will need to take...
+
+1. Enter a name for your program. This can only be 25 characters as the launcher list is limited in width.
+
+2. Select the type of program that you are adding. This can be...
+
+   a. WHDLoad file
+   b. Executable file
+   c. AmigaDOS script
+
+3. Select the drawer that your program is located.
+
+4. Select the actual file that you are adding.
+
+5. Select an IFF preview image to add.
+
+The script will then generate a generic script that is supported by the AGS launcher. This script is very
+similar to the scripts used in other games and demos.
+
+6. You will now get the option to edit the script.
+
+This allows you to set custom emulator settings that are executed before the program is run. This includes
+setting the CPU speed, toggling JIT and setting custom hardware settings like blitter modes and NTSC.
+To do this all you need to do is uncomment the line in the script. Information on the options are in
+the scripts file.
+
+If you need to change these settings after the script has finished; you can edit the script manually
+in the 'AGS:+  My Programs.ags' drawer using CygnusEd or the 'Edit' button in Directory Opus. You can also
+edit the file by enabling 'Expert Mode' in the launcher and selecting 'Edit Config' from the subsequent
+menu.

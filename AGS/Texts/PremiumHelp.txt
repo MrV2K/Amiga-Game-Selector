@@ -1,0 +1,19 @@
+         Premium Games Help
+         ------------------
+
+Unfortunately most of the premium games
+are still available to buy so I haven't 
+included the retail data files.
+
+There is a text file in each folder
+that tells you which files are needed
+and where to install them.
+
+I would suggest dropping them into
+the AGS SHARED folder on your PC and
+then copying them from the SHARED: drive
+in Workbench to the correct drawer.
+
+The easiest way to do this is with
+Directory Opus which is on the button
+bar at the bottom of the desktop.

@@ -1,0 +1,11 @@
+This is how to set up multiple controllers in Amiberry.
+
+You will need a real keyboard or mouse to do this! Also, you may need set the controller before starting a game.
+
+1. Press F12 to open the Amiberry screen.
+2. Select 'Input' from the side menu with the arrow keys or mouse.
+3. Select 'Port 0' with the 'TAB' key or mouse and press 'Enter' or left click.
+4. Select your second controller and press 'Enter.
+5. Use 'TAB' key or mouse to select the controller type in the box underneath and press 'Enter' or left click.
+6. Select the controller type you want to use and press 'Enter'
+7. Press F12 to go back to the AGS screen.

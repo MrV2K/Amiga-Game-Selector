@@ -1,0 +1,10 @@
+This is how to set up multiple controllers in WinUAE.
+
+Please note that you may need to do this before starting a game.
+
+1. Press F12 to open the WinUAE screen.
+2. Select 'Game Port' from the side menu.
+3. Set 'Port 1' to the first controller.
+4. Set the controller type in the box underneath.
+5. Repeat for each controller as needed.
+6. Press escape to go back to the AGS screen.

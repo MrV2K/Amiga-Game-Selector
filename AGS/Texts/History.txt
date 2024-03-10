@@ -1,0 +1,1348 @@
+                       AGS Version History
+                       ~~~~~~~~~~~~~~~~~~~
+	
+
+Version v1.0 (Released 29-04-22)
+================================
+Initial Release		   
+
+
+Version v1.1 (Released 28-05-22)
+================================
+
+WHDLoad Games & Demo Updates
+----------------------------
+
+1943
+Air Support
+Amazing Tunes
+Conquests Of Camelot
+Extemporized
+Fusion
+Green Beret
+Indanapolis 500
+Mortal Kombat 2
+Narco Police
+Puzznic
+Red Zone
+Shuttle
+Space Crusade
+Space Crusade - Voyage Beyond
+Test Drive
+Turrican 2 AGA
+PGA Tour Golf
+Space Quest Enhanced
+2 Unlimited
+
+Fixes / Changes
+---------------
+
+Added an automatic update script to user-startup. The process is totally
+automatic and removes itself when done.
+Removed unneeded configs as they were no longer required.
+Stopped the menu button opening the carousel. AGS2 can be closed from the '[System]'
+menu in AGS2 and from the Workbench menu. 
+All WHDLoad games are up to date as of 27/5/22
+Changed the name of the 'Saves' drive to 'USB' as the drawer allows access to 
+the USB drive.
+Fixed approx 40 games that ran too fast. CPU Speed is now set automatically 
+when launched.
+Fixed duplicate named games not showing up in the games lists.
+Fixed some game names that were too long and didn't show in the lists
+Fixed 512k games not showing up in the games lists.
+Fixed a couple of games with the wrong genres.
+Fixed the Workbench colours corrupting sometimes when a game was loaded.
+Fixed horizontal alignment in some games.
+Added '[Settings]' menu to AGS which allows the changing of Amiberry settings 
+on the fly.
+Added '[System]' menu to AGS which allows you to reset and shutdown Amiberry.
+Added beta & unreleased games to the year and genre lists.
+Added 'Demos by Group' category.
+Added WHDLoad readme files for all games and demos.
+Added all languages to the 'Non English' list.
+Added over 60 new titles that are not part of the WHDLoad database including 
+PD, AGA and RTG games. Nearly all the games are accessible in AGS and have 
+custom scripts to change the CPU and other settings when run. All the games 
+are accessible from the System:Games drawer but the CPU settings will need
+to be changed manually.
+Added IGame for loading WHDLoad games from Workbench.
+Added custom database to IGame with categories and fixed names.
+Added aSP, ZX Live, ZX AM and over 300 ZX Spectrum games that can be accessed from 
+Workbench. It's recommended you use the JIT config for ZX Spectrum emulation.
+Added Amos Pro Unity and Ultimate Blitz Basic for programming.
+Added Final Writer & Wordsworth for word processing.
+Added Final Copy for DTP.
+Added Deluxe Paint V, Art Department Pro and Brilliance for art.
+Added Mand2000 for fun!
+Added Turbo Calc and Final Calc for spreadsheets
+Added Final Data for database creation.
+Added Protracker 2.3F and Octamed Sound Studio for music creation.
+Added ST-01 to ST-10 samples disks and a couple of my own mods (they are 
+fairly terrible)
+Added the shareware version of GoADF for ADF support in Workbench.
+Workbench is now 1280x720 in 16 Million Colours with ful RTG support
+Added AHI driver for faster sound access.
+Added BlazeWCP for faster graphics
+Added FBlit to keep chipmem free.
+Added icon.library v46 for full colour icons
+Added JPEG and PNG datatypes.
+Added 8,16 and 256 colour backdrops located in the Prefs/presets drawer. (Only 
+recommended on A4000 & JIT settings as they take a while to load on slower 
+CPU settings.)
+Added NewMode for screen mode promotion.
+Added Tools Daemon for quick access to some of the installed programs.
+Added Magic Menu for popup menu access.
+Added UAE Control program to add ADF files directly into Amiberry from 
+Workbench. The files need to be located in the 'USB' drive to be accessible. 
+Use the F12 Amiberry menu to remove them if necessary.
+Changed all icons to high colour ones.
+Changed chipmem to 8mb.
+Changed WHDLoad.prefs to disable write caches so games should save immediately 
+rather than waiting until you exit the game. I would still recommend using 
+the quit key as well. You can see the quit key at the bottom of the splash
+screen.
+Update WHDLoad to the latest beta (18.8 build 6423) which has mouse, keyboard 
+and controller support for the splash screen options.
+
+Version v1.2 (Released 01-07-22)
+================================
+
+Changes
+-------
+Moved all options to new '-= Options =-' menu.
+Changed AGS2 menu [System] to 'Options - Amiberry' to avoid confusion.
+Changes AGS2 menu [Settings] to 'Options - CPU & Chipset'.
+Changes 'Games - Extra' to '-= Extra Games =-'.
+Increased AGS HDF size by 500mb.
+Enabled the Workbench backdrops by default.
+Removed the MMU nag screen from ASp.
+Moved emulator games and ROMS to the USB drive and added an assign to help find 
+them.
+Changed game configs to automatically set immediate blits, fast copper, all cpu 
+speeds and NTSC if needed.
+Removed speed regulation in user startup as no longer needed.
+The AGS2 standard config now runs at 25mhz when not running a game or demo.
+The AGS2 JIT config now runs at max speed when not running a game or demo.
+Scanlines are enabled in both configs. Use the A500 mini options menu to enable/
+disable them.
+Fast Copper and full overscan are set by default for all demos.
+NTSC is set by default for all NTSC games.
+The AGS2 splash screen is now 640x512 to look better on bigger screens.
+Updated IGame to v2.1.
+Removed the WHDLoad write cache to immediately save games.
+Improved update process.
+Renamed ChampMan drawer to Football
+
+Script Changes
+--------------
+54  games set to Fast Copper
+83  games set to Immediate Blits
+2   games set to NTSC
+153 games set to 7mhz
+790 games set to 200 lines
+113 games set to 216 lines
+17  games set to 224 lines
+119 games set to 240 lines
+32  games set to 262 lines
+17  games set to 270 lines
+1   game and all demos set to 288 lines
+
+Fixes
+-----
+Fixed save requester in Final Writer.
+Fixed the icon loading and appearance.
+Fixed Giana Sisters SE
+Fixed Dynablasters
+Fixed Workbench colour corruption.
+Fixed picture loading in AGS2. Only stops if image loading is interupted.
+Fixed WHD drive icons in update process.
+Fixed some WHDLoad games in the Extra Games folder.
+Fixed Championship Manager 93 save games.
+
+Additions
+---------
+Added favourites system to AGS2.
+Added 'Options - AGS2' menu which includes the ability to change the AGS2
+      background colour.
+Added 'Options - Boot' menu to boot to either AGS2 or Workbench.
+Added 'Options - WHDLoad' menu which allows you to change the WHDLoad quit key.
+Added the ability to open the Amiberry GUI from AGS2 or Workbench.
+Added option descriptions to the 'Options - Amiberry' & 'Options - CPU & Chipset'
+      menus.
+Added SnoopDOS to 'Tools' folder and Workbench Menu.
+Added VirusZ with the latest database.
+Added Hisoft DevPac 3, AmiBlitz3, ASM-One and Purebasic to Programming.
+Added Aladdin4D, ArtEffect4, Cinema4D, Imagine 5, Personal Paint, Tornado3D,
+      TV Paint, ImageFX 2 and World Creation System to Graphics.
+Added loads of Imagine 5 objects.
+Added VideoTracker demo maker to Music
+Added 19 Workbench based games
+Added 700 Atari 2600 roms and emulator.
+Added NewZap for HEX editing.
+Added AppReplaceIcon for easy icon replacement.
+Added Kens Icon Pack v4 to the storage drawer.
+Added Reqtools patch which fixes file requester size and sorting.
+Added MCP for extra Workbench hacks and patches
+Added PowerPacker Pro v4
+Added a load of fonts to Workbench.
+Added WindowToFront commodity.
+Added a couple of dozen Workbench backdrops to the Prefs/Presets folder.
+Added a script on USB drive to copy back configs if overwritten.
+Added screen dimmer and blanker
+
+Extra Game Additions (Total extra games is now over 80!)
+--------------------------------------------------------
+   Air Bucks AGA
+   Ryder Cup Golf
+   International Open Golf
+   Heart Of Darkness RTG
+   Empire - Wargame of the Century
+   Starfleet 1
+   Maria Renards Revenge (Demo)
+   Ocean Trader AGA
+   Flying Shark 2022 (Demo)
+   Jet Hunt AGA
+   Kings Valley
+   Raid Over Moscow
+   Riamel - Black Prophecy
+   JETPilot
+   Big Red Adventure
+   Exult - Ultima 7
+   Heroes of Might & Magic 2
+   Litil Divil
+   Transport Tycoon Deluxe
+   Valhalla 3
+   Wasted Dreams
+   Simon The Sorceror 2
+   Commander Keen - Keen Dreams
+   Ultimate Soccer Manager
+   
+Extra Games Removed
+-------------------
+Reach For The Skies - Too unstable.
+   
+New or updated WHDLoad games.
+-----------------------------
+   2 Unlimited
+   Carnage
+   Deep Core
+   Deep Core CD32
+   FA-18 Interceptor
+   Giana Sisters SE
+   Guardian AGA
+   Guardian CD32
+   Jimmy Whites Snooker
+   Lotus 2
+   Lotus 2 CD32
+   Mayday Squad
+   Mayday Squad French
+   Pinball Mania
+   Prey
+   Sensible Golf
+   Seven Cities Of Gold
+   Sharkey's Moll
+   Space Crusade
+   Space Crusade Voyage Beyond
+   Space Hulk
+   Street Cat
+   Super Seymour
+   Turrican 2 AGA
+   Turrican 2 AGA NTSC
+   Snoopy & Peanuts
+   
+Version v1.3 (Released 06-08-22)
+================================
+
+Changes
+-------
+Changed the collection name to A500 Mini Game Selector to stop all the 'Why is
+it called Arcade Game Selector 2?' questions.
+Changed '-= About AGS2 Mini =-' to '-= AGS2 Mini Help =-' for future help files.
+Moved the Amiberry options to the main '-= Options =-' list
+Re-Organized the menus (Again!)
+ - Removed Non English games from main lists. They must be accessed from the 
+   'Games - Non English' list.
+ - Removed CDTV, CD32 & Arcadia from AGA and ECS-OCS lists.
+Speed regulation now defaults to 7mhz and is adjusted by a custom game list.
+Removed adult games from IGame in PG version.
+Removed ROMs and Emulators as they were faily terrible. Will be re-introduced as
+an addon pack shortly.
+Moved 'USB:' drive to 'SHARED' folder in the USB root to protect the 'THEA500'
+directory structure and allow for future updates without breaking things.
+
+Fixes
+-----
+Fixed Keyboard / Controller controls on the WHDLoad splash screen options.
+Added back write cache option to WHDLoad to fix flashing screens. You must close
+WHDLoad with the quit key for games to save.
+Fixed several game names and genres.
+Fixed Kickstart 1.2 naming for WHDLoad.
+
+Additions
+---------
+Added '-= Search =-' menu which has a very basic game search function.
+Added NTSC & PAL settings to the 'Options - CPU & Chipset' list
+Added '-= Filter =-' menu to hide/show the Demos, ReadMe and Non English lists
+from the main page.
+Added Voodoo-X to Utilities for universal archive management.
+
+Script Changes
+--------------
+125  games set to Fast Copper
+132  games set to Immediate Blits
+214  games set to NTSC
+3299 games set to 7mhz
+688  games set to 14mhz
+2389 games set to 200 lines
+109  games set to 216 lines
+136  games set to 224 lines
+127  games set to 240 lines
+33   games set to 262 lines
+61   games set to 270 lines
+879  games and demos set to 288 lines
+1    game cycle exact disabled
+231  games screen offset fixed
+
+New or updated WHDLoad games.
+-----------------------------
+   Armourgeddon
+   Bar Games
+   Cadaver & The Payoff
+   Castle Master 1&2
+   Driller
+   Dune 2 It
+   Dynablaster
+   Grid Start
+   Hybris Beta Removed
+   Jim Power
+   Indiana Jones And The Last Crusade Adventure
+   Kennedy Approach
+   LCD Dreams
+   Mad Professor Moriarty
+   Prince Of Persia
+   Roadwar Europa
+   Seven Cities Of Gold
+   Star Ways
+   Super Monaco GP
+   Super Cars 2 AGA
+   Tetris (Infogrames)
+   
+Extra Game Additions
+--------------------
+   RCCross
+   
+Extra Games Removed
+-------------------
+   None
+   
+
+Version v1.4 (Released 04-09-22)
+================================
+
+Additions
+---------
+Added theme support to AGS.
+Added 27 themes to the AGS Menu.
+Added in-game screenshots to IGame
+Added WBDock menu to Workbench for better access to programs
+and utilities.
+Added some programs and utilities to the Workbench menu for 
+ease of access.
+Added config file recovery to the A500 mini USB menu to restore
+the main configuration files, if they get overwritten.
+Added MT32 to the filter.
+Added Asterisk to the WHDLoad quit key options.
+Added 37 extra games.
+Added the new Emerald Mines list to the filter
+Added a tutorial on running ADF files in AGS to the help list
+Added a list of the programs and utilities included in AGS to the help list
+
+Changes
+-------
+Changed AGS menu resolution to 640x512 hi-res 256 colours.
+Improved menu redraw speed.
+Removed game title screenshots due to HDF space.
+Changed screenshots and cover art to 320x256 128 colour images
+Reduced the size of the text information to make room for the themes
+Moved old AGS backdrops to the new "-= Themes =-" menu
+Tweaked the information shown for each game and reduced the length.
+Replaced extra game screenshots with higher resolution ones.
+All non WHDLoad games moved to their own HDF drive called 'Games:'
+Moved Emerald Mines games and maps to their own list
+Updated WHDLoad to v18.9 Beta
+Updated all generic slaves to latest version
+Sorted all WHDLoad drawers and snapshotted all icons
+
+Fixes
+-----
+Tweaked the config files for better performance in games. Stopped some of the
+graphics glitches in games.
+Fixed a few game names to be more consistent.
+Fixed the IGame list to be based on the slaves and not the icons as it doesn't
+support them.
+Dyna Blaster updated to the beta slave which fixes the graphics problems and crashes.
+Fixed the speed in Drip, Test Drive 2 and Cruise For A Corpse.
+Fixed a slow down in R-Type II.
+Fixed scrolling stutter in Shadow Of The Beast.
+Fixed the paths in the search list for CDTV games.
+
+
+Script Changes
+--------------
+124  games set to Fast Copper
+135  games set to Immediate Blits
+214  games set to NTSC
+3164 games set to 7mhz
+822  games set to 14mhz
+2391 games set to 200 lines
+109  games set to 216 lines
+135  games set to 224 lines
+1    game  set to 232 lines
+127  games set to 240 lines
+33   games set to 262 lines
+63   games set to 270 lines
+879  games and demos set to 288 lines
+1    game cycle exact disabled
+232  games screen offset fixed
+
+
+New or Updated WHDLoad Games.
+-----------------------------
+
+   Another World / Out Of This World
+   Moonbase
+   Ambermoon
+   Driller
+   Fiendish Freddy
+   Worms AVI Files
+
+
+Extra Game Additions
+--------------------
+   
+   Alien Breed 2 AGA (Beta Version)
+   Ball
+   Blob Kombat AGA
+   BombJack Beer Edition v1.5
+   Catacomb 3D
+   Catacomb 3D Abyss
+   Catacomb 3D Apocalypse
+   Catacomb 3D Armageddon
+   Codename Hellsquad
+   Coco Banana AGA
+   Final Odyssey AGA
+   Game Over Moscow
+   Genetic Species RTG  
+   Gloom Deluxe RTG/AGA
+   Gloom 3 RTG/AGA
+   Gloom 4 - Zombie Massacre RTG
+   Italy '90 Soccer
+   Jet Set Billy
+   Jet Set Billy (Jet Set Maps)
+   Jet Set Billy (New Maps)
+   Jet Set Willy '97
+   Land Of Genesis AGA
+   Lumberjack Reloaded
+   Megaball
+   Megaball 2
+   Megaball 3 AGA
+   Metagalactic LLamas
+   Minky (Demo)
+   Mouse Impossible
+   Pong 50
+   Renegades Deluxe
+   Super Foul Egg
+   SuperSprint AGA
+   Tank Furry
+   Teen Agent AGA (Polish)
+   Testament 2 AGA
+   Zodes AGA
+   Zombie Mall (PD)
+
+
+Extra Game Updates
+------------------
+
+   Creeping Me Out : Hex Night (Demo)
+   Depthcharge
+   RCross
+   Duckstroma (Demo)
+   International Open Golf (Fixed)
+   Ryder Cup Golf (Fixed)
+
+
+Extra Games Removed
+-------------------
+   
+   None
+
+
+Version v1.5 (Released 07-11-22)
+================================
+
+Additions
+---------
+
+Added game title screens to AGS menu lists.
+Added Hippoplayer to the music drawer and menu bar.
+Added SAS C v6.5 to programming.
+Added 5 new menu themes.
+Added 'Games - Adult' category to the main list.
+Added 'Adult Games' to the filter.
+Added '-= AGS Contents =-" menu with lists of all the games, demos and programs included in AGS.
+Added New Meter to show free memory and HDD space.
+
+Changes
+-------
+
+Ported AGS to UAE and Amiberry emulators
+Removed FBlit and FText as they caused problems with RTG.
+Amiblitz 3 updated to v3.9.8
+
+Fixes
+-----
+
+Tweaked the config files for the best speed regulation on UAE emulators.
+Fixed a few script errors in the extra games configs.
+
+New or Updated WHDLoad Games.
+-----------------------------
+
+   Metagalctic LLamas
+   Willy The Kid (De)
+   Pinball Illusions
+   Harricana
+   Ooops Up
+   Tip Off
+   Purple Saturn Day
+   Venom Wing
+   Joe & Mac - Caveman Ninja
+   Turrican 2
+   Quest For The Time Bird (En,De,Fr,It)
+   Obitus
+   Emetic Skimmer
+   Tintin On The Moon
+   Thunder Burner
+   The Oath
+   Streetfighter 2
+   Rambo 3
+   Postman Pat 3
+   Grand Monster Slam
+   Godfather
+   BombJack - Beer Edition
+   Face Off (Anco)
+   Face-Off (Krisalis)
+   Stormball
+   Armalyte
+   Manhattan Dealers
+   Operation Cleansweep
+   Dark Century
+   Xorron 2001
+   Stryx
+   Space Panic (De)
+   Space Panic Demo (De)
+   Passengers on the Wind (En,Fr,De,It)
+   Passengers on the Wind 2 (En,Fr,De)
+   Dark Side
+   Shadow of the Beast
+   Thunder Blade
+   Ambermoon
+   Hunter
+   Bubble Ghost
+   Awesome
+   Spitting Image
+   Running Man
+   Passing Shot
+   Colorbuster
+   Golden Axe
+   Shadow Warriors
+   Lollypop
+   Epic
+   Quasar Wars
+   Devil's Temple
+
+Extra Game Additions
+--------------------
+   
+   Croaker
+   Dynatech AGA
+   River Raid Reloaded
+   Now That's What I Call A Pop Quiz
+   Teen Agent AGA (English Version)
+   Doom (Raspberry Pi & UAE Only)
+   Doom 2 (Raspberry Pi & UAE Only)
+   Quake (Raspberry Pi & UAE Only)
+   Quake - Mission Pack 1 (Raspberry Pi & UAE Only)
+   Quake - Mission Pack 2 (Raspberry Pi & UAE Only)
+   Wolfenstein 3D (Raspberry Pi & UAE Only)
+   Spear Of Destiny (Raspberry Pi & UAE Only)
+   Blake Stone - Planet Strike (Raspberry Pi & UAE Only)
+   Blake Stone - Aliens Of Gold (Raspberry Pi & UAE Only)
+   None Of Us
+   The Surgeon
+   Whales Voyage CD32
+   Whales Voyage 2 (English Translation)
+   Devils Temple (Demo)
+   Turbo Sprint
+
+Extra Game Updates
+------------------
+
+   Microprose Grand Prix (Updated to 2022 carsets and data)
+   Minky (Demo)
+
+Extra Games Removed
+-------------------
+   
+   Alien Breed 2 (Beta) (Too unstable on UAE)
+   Turrican A500 Mini Editions (Not needed on UAE)
+   Metagalctic LLamas (Official beta released)
+   BombJack Beer Edition v1.5 (Official release)
+   
+   
+Version v2.0 (Released 29-04-23)
+================================
+
+Changes
+-------
+
+1. A500 Mini Game Selector renamed to Amiga Game Selector.
+2. Changed AGS logo.
+3. Changed AGS menu layout to be more user friendly.
+4. Remade all the existing themes.
+5. All scripts are smaller, faster and adapt to the hardware that AGS is being
+   used on.
+6. Restructured the AGS2 folder to make it easier to update.
+7. Separated the themes into subjects to reduce the list sizes.
+8. All theme backgrounds are now 128 colours.
+9. Replaced the games and demos file lists with Amiga guide databases.
+10. IGame lists are automatically filtered if you hide the adult games in AGS.
+11. The config recovery process no longer requires a keyboard.
+12. Moved the Apps and Programs to a new 4GB 'Work' drive.
+13. Split Games: drive. Added second HDF image. (Now 8GB in total!)
+14. Updated the documentation. There's now a credits.txt file which has all the
+    links for the recent games that have been added and a thanks.txt file which
+	has all the guys who have contributed to AGS or have donated to my coffee
+	fund.
+15. Removed UAE screen modes from DPaint selector.
+
+Additions
+---------
+
+1. Added help files on how to add 2nd player controllers.
+2. Added a complete collection of LSD docs disks in Amigaguide format.
+3. Added dark mode to Workbench. This is switchable from the Workbench menu.
+4. Added [Show All] to the filter to reset the hidden lists
+5. Added NTSC and Disk Magazines to the filter.
+6. Added 11,000 iff samples
+7. Added 5000 mods
+8. Added ability to switch between AGA and RTG workbench modes.
+9. Added ADF mount to Dopus and Workbench menu.
+10. Added over 62 new themes. (109 in total!)
+11. Added JIT Enable/Disable to Workbench menu.
+12. Added ReWincy to allow Left-Amiga + Tab to switch between programs.
+13. Added loads of datatypes to DOpus
+14. Added game and demo only IGame lists & launcher
+15. Added 120 extra games (255 in total!).
+16. Added 22 educational titles.
+17. Added 330 ZX Spectrum games.
+18. Added almost 470 Commodore 64 games.
+19. Added 'Work' HDF file to store the programs and music MOD's and samples.
+20. Added random theme option.
+21. Added new buttons and functionality to DOpus 4.
+22. Added 85 Sega Master System Games
+23. Added 6 ScummVM games.
+24. Added 29 Premium games and data disks
+
+Fixes
+-----
+
+1. Fixed asterisk quitkey in WHDLoad options.
+2. Fixed search documents.
+3. Fixed a couple of typos in the WB menus.
+4. Fixed speed regulation lists.
+5. Fixed box art image creation script.
+6. Fixed DOpus image loading.
+7. Fixed IGame lists showing data disk names on some games.
+8. Fixed MagicWB colours for WHDLoad drawers.
+
+Updates
+-------
+
+1. Test Drive WHDLoad updated with the correct fonts.
+2. Updated the FAQ.txt file with more frequent user questions.
+3. IGame updated to v2.3.2
+4. Updated MCP to v1.48
+5. Updated MMU Libraries
+6. Updated ILBM, JPEG and ANIM datatypes.
+7. Updated Hisoft Devpac to v3.18 and added OS3.1 includes.
+8. Updated Protracker 2.3F to March '23 build.
+9. Updated Xad.Library.
+10. Updated Super Cars 2 AGA to v0.89 (Beta)
+11. Updated WHDLoad to latest v18.9 (Beta)
+12. Updated Icon.Library to v46.4
+13. All Workbench icons updated and optimized.
+14. Updated Dread to final version.
+15. Updated ClassAct to v3.3.
+16. All Workbench drawers sized and snapshotted.
+
+Application Additions
+---------------------
+Added 150+ Vista Pro DEM files
+Added ADFer v1.3
+Added ASMPro v1.19c
+Added Adorage AGA v2.0
+Added AmigaAmp v3.33
+Added AmiMasterGear v0.91
+Added AmigaE v3.3a & Compiler
+Added AmigaWriter v2.20
+Added Backup v1.91
+Added Button Menu v1.23
+Added CYCAS v1.78
+Added CanDo v3.0
+Added EaglePlayer v2.06
+Added Hatari v1.3.1
+Added Hisoft High Speed Pascal v1.2
+Added Lightwave v5.00r
+Added OctaMED v4.00 Professional
+Added PFSDoctor v1.6
+Added Pagestream v3.0i
+Added Protracker v3.62
+Added ReWincy v0.8
+Added RedPill Game Creator v0.9.18
+Added SGrab v1.22
+Added Scala MM400
+Added Scenery Animator v4.03
+Added ScummVM v1.5
+Added Vista Pro v3.05 
+Added ZX-Live v0.51
+
+Applications Removed
+--------------------
+WordWorth (Crashes too often)
+
+Extra Game Updates
+------------------
+Creeping Me Out AGA (Demo)
+Turrican II AGA (A500 Mini Version)
+Maria Renard's Revenge
+
+Extra Game Additions
+--------------------
+A-Type
+A320 Airbus 2
+Ace - Battle Over The Sea
+Agonman AGA
+Air Warrior
+Alien Breed 3D 2
+Alien Breed 3D 2 Mod
+Ambermoon Advanced
+Amega Race
+Ami Mine Sweeper
+Ami Tower
+Aminer
+Bad Apple (Demo)
+Blower
+Boxx 1 Remake
+Boxx 2
+Boxx 3
+Boxx 4
+Chaos Arena
+Crazy 8's AGA
+Crazy Columns
+Creepie Crawlies
+Crimbo
+Croaker
+Daredevil Dennis Remix
+Dead Metal II
+Death Rally
+Dino Run
+Dogfight 2
+Doom
+Doom 2
+Dragnet Case, The
+Dropzone
+Duke Nukem 3D
+Elf Spirit Hunters
+Emotiworld AGA
+Enemy 1 v2
+Enemy 2 v2
+Farmiga Demo
+Flappybird
+Geo Quest 1
+Geo Quest 2
+Geo Quest 3
+Hillsea Lido
+Hop To The Top
+Hunting Frogs
+Hydrozone
+Jetpack (WB Game)
+JumpMan
+Jumpman Junior
+Karate Champ (Alpha)
+Luma
+Mario Bros
+Megaball 4.1 AGA
+Megafortress
+Microprose F1GP 2023
+MineSweeper (WB Game)
+Mini Legion
+Mystery 2144
+Neon Noir AGA
+Panic LCD
+Pinball Dreams 2 AGA (Demo)
+Professional Bingo
+Raster Bike
+Reach For The Skies
+RemGame (Tech Demo)
+Rick Dangerous AGA
+Screech AGA (Demo)
+Settle The World (Demo)
+Shadow of the Third Moon
+Soccer Rivals
+Solomons Key
+Space Taxi 1
+Space Taxi 2
+Space Taxi 3
+Spear Of Destiny
+Streetfight 2 AGA (Demo)
+Strife
+Sudoku
+Super Delivery Boy Holidays
+Swapper (Demo)
+TV Chubbies - Armchair Assassin 1
+TV Sports Basketball (IT)
+TV Sports Basketball 22/23
+TV Sports Basketball 22/23 (IT)
+Tenebra
+The Ultimate Quiz
+The Ultimate Quiz 2 General Knowledge
+The Ultimate Quiz 2 Movies
+The Ultimate Quiz 2 Pot Luck
+The Ultimate Quiz 2 Sport
+Turbo Santa DX22
+Uridium (Demo)
+Weegie Knights
+Wheelspin AGA
+Wolfenstein 3D
+Wood Puzzle
+
+Premium Games (Not for A500 Mini)
+---------------------------------
+Blood
+Blood : Cryptic Passage
+Blood : Death Wish
+Descent
+Exhumed / Powerslave
+Heretic
+Hexen
+Hexen : Dark Citadel
+Napalm
+Quake
+Quake : Mission Pack 1
+Quake : Mission Pack 2
+Quake 2
+Quake 2 : Ground Zero
+Quake 2 : Reckoning
+Rise of the Triad
+Shadow Warrior
+XCOM Terror From The Deep
+
+Extra Educational Titles
+------------------------
+ADI Junior Complete
+Bertie's Animal Kingdom
+Funschool 2 - 6 to 8
+Funschool 2 - Over 8's
+Funschool 2 - Under 6's
+Funschool 3 - 5 to 7
+Funschool 3 - 5 to 7 CDTV
+Funschool 3 - Over 7's
+Funschool 3 - Over 7's CDTV
+Funschool 3 - Under 5's
+Funschool 3 - Under 5's CDTV
+Funschool 4 - 5 to 7
+Funschool 4 - 7 to 11
+Funschool 4 - Under 5's
+Funschool - Merlin's Maths
+Funschool - Paint & Create
+Funschool - Spelling Fair
+Mavis Beacon Teaches Typing
+Noddy's Big Adventure
+Noddy's Playtime
+Noddy's Word Blast
+
+Extra Games Removed
+-------------------
+Scramble 500 (Official Release)
+Wrong Way Driver (Official Release)
+
+Extra ScummVM Games
+-------------------
+Indiana Jones & the Fate of Atlantis (DOS CD Version)
+The Secret of Monkey Island (DOS CD Version)
+Monkey Island 2 : Le Chuck's Revenge (DOS CD Version)
+Day of the Tentacle (DOS CD Version)
+Lure of the Temptress (VGA Version)
+Flight of the Amazon Queen (VGA Version)
+
+WHDLoad Additions/Updates
+-------------------------
+Action Service
+Adidas Championship Soccer
+Air Support (NTSC)
+Akira
+All We Need Is Music 5 (Demo)
+Ambermoon
+Amnios (NTSC)
+Arena (NTSC)
+Assassin (Team 17)
+Atomix
+Back to the Future 2
+Bard's Tale
+Bard's Tale 2
+Beast Busters
+Bill & Ted's Excellent Adventure
+Billiards Simulator
+Billiards II Simulator
+Body Blows
+Bubble Dizzy
+Bug Bomber
+Cadaver
+Carl Lewis Challenge (NTSC)
+Challenge Foot Senior (FR)
+Chariots of Wrath
+Cobra
+Collection Eureka Maths 4ème/3ème (FR)
+Collection Eureka Maths 6ème/5ème (FR)
+Combat Course (NTSC)
+Cricket Captain
+Dangerous Streets
+Days of Thunder
+Demolition
+Desert Strike
+Detector
+Dragon Strike
+Dragons Lair (NTSC)
+Dragons of Flame
+Dungeon Master
+Edd the Duck
+Edd the Duck 2
+Elvira
+Elvira 2
+Escape from Colditz
+Escape from the Planet of the Robot Monsters
+European Championship 1992
+Fighter Bomber
+Ghouls 'n Ghosts
+Graffiti Man
+Hellrun Machine
+Hoi
+Hoyle Book Of Games Volume 3: Great Board Games / Hoyle Volume III
+IK+
+International Soccer Challenge
+Jetsons, The - George Jetson & The Legend Of Robotopia
+Jump Machine
+Kid Gloves
+L'essentiel en Maths Niveau 6ème
+Lionheart
+Magica
+Manix
+Megademo 2 (Wings Of Tomorrow) (Demo)
+Melodies (Demo)
+Mind of Traces (Demo)
+Mind Roll
+Moonbase - Lunar Colony Simulator
+Murder in Venice
+Musical Massacre (Demo)
+Nebulus 2 - Pogo A Go Go
+Necronom
+Obitus (NTSC)
+Pacman 500 (Beta)
+Phalanx 2 - The Return
+Pinball Mania
+Pink Panther
+Portal
+Poker Nights
+Pot Panic
+Pushover
+Regent (De)
+Rocket Attack
+Scary Mutant Aliens From Mars
+Screaming Wings
+Shadow of the Beast 2 (NTSC)
+Shadow of the Beast 3 (NTSC)
+Shootout
+Simon The Sorcerer
+Sink or Swim
+Sir Fred
+Ski or Die
+Solid Gold
+Soul Crystal
+Space Ace
+Spellbound (Psyclapse)
+Spirit of Excalibur
+Stardust
+Steel
+Stone Age
+Suicide Mission
+Surf Ninjas CD32
+Talking Storybook - The Three Bears
+Tank Buster
+Tetris Pro
+The Power
+The Settlers
+Tie Break
+Time Runner
+TV Sports Basketball (IT)
+TV Sports Basketball 22/23
+TV Sports Basketball 22/23 (IT)
+Twilight Zone (Demo)
+Universe
+Vengeance of Excalibur
+Venus the Flytrap
+Walker
+Wrong Way Driver
+Xevious AGA (Beta)
+
+WHDLoad Game Updates
+--------------------
+Max Rally - Fixed.
+Lionheart Fixed.
+Giana Sister SE Fixed.
+
+
+Version v2.1 (Released 17-06-23)
+================================
+
+Changes
+-------
+1.  Removed background on WBDock.
+2.  Changed all backdrops to 24 bit.
+3.  Removed SGrab from WBStartup.
+4.  Removed CPU from NewMeter as it wasn't very accurate.
+5.  Completely overhauled the favourites system. Now easier to update.
+6.  Added a 10 second delay to the first boot introduction.
+7.  First boot introduction now shows on all versions of AGS.
+8.  Removed light and dark modes.
+9.  Updated approximately 200 game & demo screenshots and cover art.
+10. Updated and optimized all extra game scripts.
+11. Changed Beta tag in launcher lists to ß to save list name space.
+12. Changed the menu option 'Shutdown' to 'Quit to OS' to reflect it's action.
+13. Combined the Help and Documentation menus into one.
+14. Updated CPU speeds in WB menu to CPU Speed scripts.
+15. Enabled Bluetooth in the Raspberry Pi edition.
+
+Additions
+---------
+1.  Added OCS chipset type to database.
+2.  Added 720p backdrop images to WBPattern.
+3.  Added igame.data files to WHD-HDD: Games.
+4.  Added a dropshadow to the default icon font.
+5.  Added Mod playback support to the AGS game launcher.
+6.  Added Music Options to the Options list to manage the mod music playback.
+7.  Added Screenmode, MCPPrefs, Locale, WBPattern, Font & Palette to the WB menu.
+8.  Added pick a random game option to main list.
+9.  Added return to the previous launcher menu with the help key.
+10. Added new ASCii splash screens to C64 & ZX Spectrum games.
+11. Added a guide on how to customize Workbench.
+12. Added a guide on how to install your own software in AGS.
+13. Added some instructions for AmiMasterGear.
+
+Fixes
+-----
+1.  Fixed bug in game scripts that prevented the removal of favourites.
+2.  Fixed Adult games and demos menu description.
+3.  Fixed No Cycle Exact scripting.
+4.  Fixed Dragon's Lair crash.
+5.  Fixed Addams Family sound.
+6.  Fixed Lionheart crash.
+7.  Fixed Spy vs Spy black screen (kind of).
+8.  Fixed NewMode popup error.
+9.  Fixed Turrican CDTV screen height on A500 Mini.
+10. Fixed various game names in database.
+11. Fixed NewMeter CPU usage.
+12. Fixed Alien Breed 3D framerate in JIT mode.
+13. Fixed Testament 2 graphics.
+14. Fixed dozens of errors in the extra games scripts.
+15. Fixed gamma in Doom & Doom 2
+16. Fixed spelling in Sport / Miniature Golf genre.
+17. Fixed Lightwave Modeler screen resolution.
+18. Fixed the ZX-Live Instructions.
+
+Updates
+-------
+1. Updated IGame to v2.4.0
+2. Redpill updated to 0.9.20
+3. MUI updated v5.0
+4. Updated WHDLoad to v18.9
+
+Application Additions
+---------------------
+Scout v3.6
+Freewheel v2.2.2
+InstallerNG v1.5
+
+Applications Removed
+--------------------
+None
+
+Extra Game Updates
+------------------
+Death Rally
+Artpazz AGA
+Follix AGA
+Rings Around the World
+
+Extra Game Additions
+--------------------
+1497 - 5 Years After
+Blockhead 1
+Blockhead 2
+Chopper Duel
+Formula Ace
+Inherit The Earth AGA
+Legend of the Exploding Fist
+Lost Parrot Island
+Max Knight
+Megaman (Fireman Level)
+Megaman (Flashman Level)
+Nemac IV AGA
+Ninja Zombie Killer AGA
+QBall 2
+Quasar Wars
+Skinvaders AGA
+Space Cavern Blaster (Demo)
+Superted
+Tales of Gorluth 1
+Tapper
+Tenebra 1
+Tenebra 2
+TFX AGA (New Version)
+Testament 1
+Testament 2
+Tony (Demo)
+Turbo Racer 3D AGA
+Ultraviolent Worlds AGA
+Vampire Curse Of The Night
+Vegetables DX AGA
+Wendetta 2175 AGA
+Wheelie
+Xenomorphs 2 AGA
+Yachting
+Yatcy
+Zero Gravity AGA
+Zombies
+Zzzep
+
+Premium Games (Not for A500 Mini)
+---------------------------------
+None
+
+Extra Educational Titles
+------------------------
+None
+
+Extra Games Removed
+-------------------
+Rick Dangerous AGA
+Maria Renard's Revenge
+
+Extra ScummVM Games
+-------------------
+None
+
+WHDLoad Additions
+-----------------
+Galaxian 500
+Maria Renard's Revenge
+Rick Dangerous AGA
+
+WHDLoad Game Updates
+--------------------
+Max Rally AGA
+Vixen / She-Fox
+TurboRaketti
+Big Time Sensuality
+Blockbuster
+Chambers of Shaolin
+Chuck Rock
+Dark Castle
+Escape From Colditz
+Impact!
+Impact! 95
+Killing Cloud
+Max Rally
+Maya (Fr)
+Ms Pacman 500
+Paladin
+Poker Nights + Data Disks
+Pool of Radiance
+Racter
+SWIV
+Sensible World of Soccer
+Starflight
+Steel Empire
+Strip Poker 3 & Data Disks
+Suspicious Cargo
+SWIV
+Total Eclipse
+TurboRaketti
+Ultima V
+Vixen / She-Fox33
+Wembley International Soccer
+WizKid
+
+Version 2.2 (Released 02-08-23)
+===============================
+							  
+Changes
+-------
+1. Removed Games2 drive, Will be released as a drop in update when redone.
+2. Changed speed regulation scripts to manage JIT on the fly.
+3. Removed Start_AGS_JIT config on A500 mini as it's no longer needed.
+4. Updated all logo artwork with the AGS sponsor www.retro32.com logo.
+5. Updated dozens of screenshot and box artwork images.
+6. Updated all drives to take 107 character file names.
+7. Improved the module playback logic in the AGS launcher and scripts.
+8. Added web links to selected games in the Extra Games list. Please support
+   the developers!
+
+Additions
+---------
+1. Added Enable/Disable Speed Regulation to CPU options.
+2. Added Enable/Disable Speed Regulation to Workbench menu.
+3. Added mouse control to favourites system.
+4. Added graphic chipset data to IGame launcher.
+5. Added the AGS documentation to the Workbench menu.
+6. Added the AGS search documentation to the Workbench menu
+7. Added Amstrad CPC emulators to the Emulators list.
+8. Added over 300 Amstrad CPC disk images.
+
+Fixes
+-----
+1. Fixed Another World black screen.
+2. Fixed ProjectX v2 & Bonus Level screen height on A500 mini.
+3. Fixed Duckstroma config
+4. Fixed IGame menu by adding `Current Selection` option that doesn't overwrite
+   the favourites or play data.
+5. Fixed 'Remove Favourite' starting the selected game.
+6. Fixed Lionheart flickering.
+
+Application Updates
+-------------------
+Hippoplayer v2.58 (21-06-23)
+IGame v2.4.2
+RedPill Game Creator v0.9.22
+ScummVM v2.0.1
+
+Application Additions
+---------------------
+EdPlayer v2.1
+Iconian v2.98u
+IconDeluxe v2.0
+WhichAmiga v1.3.3
+Aegis Audio-Master IV v3.1
+PC-Task v4.4
+Disk Image v1.7
+Real 3D v3.5
+Disney Animation Studio v1.0
+AIBB v6.5
+EVO v3.6.1
+UnZip v5.52
+EmuCPC v0.7
+Ami-CPC v0.46
+
+Applications Removed
+--------------------
+None
+
+Extra Games Updates
+-------------------
+Tony (Demo)
+Boxx 1 Remake
+Microprose F1GP 2023 (Driver / Stats Update)
+Renegades Deluxe
+Skinvaders
+Rastan Demo
+
+Extra Game Additions
+--------------------
+Absolute Zero AGA
+Atic Atac (Demo)
+Battle Duel AGA
+Bowls
+Bulbmaster (Demo)
+Celloids
+Cursed Kingdoms (Demo)
+Doomed Castle (Demo)
+Fayoh 1 AGA
+Fayoh 2 AGA
+GothicVania AGA (Demo)
+Hamulet (Demo)
+Jack in the Pit
+KnightLore (Demo)
+Monkey Lad
+Night Shift AGA
+Rana
+Rogue Declan Zero
+Rogue Craft (Demo)
+Sokoban
+Speed Racer FX
+TankX
+WonderBoy (v1.2.1)
+
+Extra Games Removed
+-------------------
+TFX AGA
+Castlevania AGA
+ArtPazz AGA
+Follix AGA
+Ring Around The World
+Skill Grid
+
+New Premium Games
+-----------------
+Dark Forces
+
+WHDLoad Updates
+---------------
+Aunt Arctic Adventure
+Back to the Future 2
+Cobra
+Crack
+Castlevania AGA (Beta)
+Day Of The Viper
+Detroit / Reusselheim
+Exterminator
+Galaxian 500
+Hunt For Red October
+Immortal, The
+Inertia Drive
+Killing Cloud
+Navy Moves (Spanish)
+Nevermind
+Nexus 7 AGA
+Nibby Nibble
+PGA Tour Golf
+Pengo 500
+Popeye 2
+Populous
+Project X SE
+Putty / Silly Putty / Super Putty
+Savage
+Skull & Crossbones
+Star Command
+Stunt Car Racer
+Stunt Track Racer
+Super Cars II AGA
+TFX AGA
+The Art of Chess
+The Light Corridor
+World Cup 90
+Xevious 500
+
+WHDLoad Removed
+---------------
+Stunt Car Racer (Beta)
+TFX AGA (Beta)
