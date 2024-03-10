@@ -159,14 +159,34 @@ F1 Teams & Cars
 * Bayern Munich
 Galatasaray
 
+C64 Games to Add
+================
+Blue Max 2001
+Booga-Boo the Flea
+Bop'n Wrestle
+Boulder Dash
+Congo Bongo
+David's Midnight Magic
+Deceptor
+Fort Apocalypse
+Fortress of the Witch King
+Impossible Mission 2
+Karateka
+Labyrinth
+Legacy of the Ancients
+Movie Monster
+One on One
+Dr J vs. Larry Bird
+Pharoah's Curse
+Raid on Bungeling Bay
+Temple of Asphai Trilogy
+The Goonies
+The Last Ninja
+Ultimate Wizard
+
 To Add
 ======
-Risk
-Nobunaga's Ambition
-Romance of the 3 Kingdoms
-Amiga Test Kit
 Delitracker to Classic version
-Evil Garden
 PT1200 to Classic
 
 Additions
@@ -218,6 +238,7 @@ RNOPDF v1.6
 Amiga Test Kit v1.21
 Protracker v3.15
 ReBuild v1.1.0
+AmiExpress v5.6.1
 
 Updated Applications
 ====================
@@ -226,6 +247,8 @@ IGame v2.4.6
 Protracker v3.62
 Hippoplayer v2.60
 Redpill Game Creator v0.9.35
+EVO v3.7.0
+Amiblitz3 v3.9.10beta
 
 New Workbench Games
 ===================
@@ -233,7 +256,8 @@ Untangle v0.3
 Dynamite v24
 ArTKanoid v3.0
 521 v1.0
-Amtris v1.0           
+Amtris v1.0
+GI Poker v1.0         
 
 New Extra Games
 ===============
@@ -245,6 +269,7 @@ Amoeba Invaders
 Ant Wars
 Ant Wars 2
 Bode Runner (Demo)
+Bomber
 Death Angel
 Dogi (Demo)
 Duck Hunt
@@ -256,6 +281,7 @@ Genghis Khan
 Giger Tetris AGA
 Grand Prix Manager '95
 Gravity Power
+Hanse - Expedition AGA (De)
 Hemroids
 Hyper Wings
 Jump 'n Bump
@@ -267,8 +293,10 @@ Manic Miner Mayhem
 M*A*S*H
 Meet Ball
 Merry Xmas 2023
+Mini Zorro
 Mirror
 Mr Beanbag AGA
+Neon World AGA (Demo)
 Poing 1-7
 Powerboat USA
 Risk
@@ -280,7 +308,9 @@ Santa's Present Drop 2
 Santa's Present Drop 3
 Santa's Workout 3
 Shadow Dancer (Demo)
+Silhouette AGA (Demo)
 S*M*A*S*H
+Spaceward Ho!
 Star Wars - Sweary Version
 Starflight 2
 Super Huey
@@ -291,10 +321,12 @@ Zerberk
 Extra Games Updates
 ===================
 Alien Breed 3D 2
+Alien Breed 3D 2 Mod
 Zeewolf (Mod)
 Agonman AGA
 GothicVania AGA
 Super Delivery Boy Holiday Ed.
+Breathless (Fixed)
 
 WHDLoad New & Updates
 =====================
