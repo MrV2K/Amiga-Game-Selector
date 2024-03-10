@@ -1,0 +1,6 @@
+.key bool
+.bra {
+.ket }
+if $HW NOT EQ "Real"
+  uae-configuration ntsc {bool}
+Endif

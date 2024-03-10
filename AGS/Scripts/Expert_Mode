@@ -1,0 +1,28 @@
+SETENV XCPU Max
+SETENV XJIT 0
+SETENV XNTSC 0
+SETENV XCOPPER 0
+SETENV XBLIT 0
+
+If not exists "$XFave"
+ BMX Scripts:Expert_Mode_Add
+ Skip XQuit
+Endif
+
+If exists "$XFave"
+ BMX Scripts:Expert_Mode_Del
+Endif
+
+LAB XQuit
+
+Delete >NIL: ENV:XCPU
+Delete >NIL: ENV:XCOPPER
+Delete >NIL: ENV:XBLIT
+Delete >NIL: ENV:XJIT
+Delete >NIL: ENV:XNTSC
+Delete >NIL: ENV:XFave
+Delete >NIL: ENV:XFile
+Delete >NIL: ENV:XFolder
+Delete >NIL: ENV:XPath
+Delete >NIL: ENV:XInfo
+Delete >NIL: ENV:XType

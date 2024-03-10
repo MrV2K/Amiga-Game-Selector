@@ -1,0 +1,19 @@
+Assign >volumes.txt VOLS
+Search volumes.txt Recovery
+If NOT WARN
+ Delete >NIL: volumes.txt 
+ cls
+ Echo "A500 Mini Game Selector - Recovery Mode"
+ Echo ""
+ Echo "Select 'Restore Configs' to start."
+ Echo "Select 'Cancel' to shut down the system."
+ Echo ""
+ Echo "Remove the USB drive and re-insert it when complete"
+ bmx scripts:recovery_menu
+ cls
+ Echo "Shutting down..."
+ Wait 2
+ uae-configuration SPC_QUIT 1
+Else
+ Delete >NIL: volumes.txt 
+Endif

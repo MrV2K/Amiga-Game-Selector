@@ -1,0 +1,3 @@
+If $HW NOT EQ "Real"
+ uae-configuration cycle_exact false cpu_memory_exact false blitter_cycle_exact false
+Endif

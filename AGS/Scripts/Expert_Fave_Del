@@ -1,0 +1,13 @@
+If EXISTS "$XFave"
+ Requestchoice >ENV:ANS "AGS Favourites" "Remove favourite?" Yes No
+ If $ANS EQ "1"
+  Delete "AGS:+  Favourites.ags/$XFile.run" >NIL:
+  Delete "AGS:+  Favourites.ags/$XFile.txt" >NIL:
+  Delete "AGS:+  Favourites.ags/$XFile.iff" >NIL:
+  Delete "AGS:+  Favourites.ags/$XFile-1.iff" >NIL:
+  Delete "AGS:+  Favourites.ags/$XFile-2.iff" >NIL:
+  Delete "AGS:+  Favourites.ags/$XFile-3.iff" >NIL:
+  Delete "AGS:+  Favourites.ags/$XFile.iff" >NIL:
+ Endif
+ Delete >NIL: ENV:ANS
+Endif 

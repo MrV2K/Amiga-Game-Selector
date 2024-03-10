@@ -1,0 +1,21 @@
+If NOT EXISTS "$XFave"
+ Requestchoice >ENV:ANS "AGS Favourites" "Add to favourites?" Yes No
+ If $ANS EQ "1"
+  Delete >NIL: ENV:ANS
+  Copy >NIL: "$XPath.run"   TO "AGS:+  Favourites.ags/$XFile.run"
+  Copy >NIL: "$XPath.txt"   TO "AGS:+  Favourites.ags/$XFile.txt"
+  If EXISTS "$XPath.iff"
+   Copy "$XPath.iff" TO "AGS:+  Favourites.ags/$XFile.iff"
+  Endif
+  If EXISTS "$XPath-1.iff"
+   Copy >NIL: "$XPath-1.iff" TO "AGS:+  Favourites.ags/$XFile-1.iff"
+  Endif
+  If EXISTS "$XPath-2.iff"
+   Copy >NIL: "$XPath-2.iff" TO "AGS:+  Favourites.ags/$XFile-2.iff"
+  Endif
+  If EXISTS "$XPath-3.iff"
+   Copy >NIL: "$XPath-3.iff" TO "AGS:+  Favourites.ags/$XFile-3.iff"
+  Endif
+  AGS:
+ Endif
+Endif

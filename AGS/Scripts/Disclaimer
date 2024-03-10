@@ -1,0 +1,10 @@
+Ex Scripts:JIT_Disable
+echo "         *e[43m[=======================================================]"
+echo "*e[0m         *e[43m| *E[32mAmiga Game Selector v2.6 is completely free. If you  *E[31m |"
+echo "*e[0m         *e[43m| *E[32mhave paid any money for it, demand a refund straight *E[31m |"
+echo "*e[0m         *e[43m| *E[32maway and please stop supporting the crooks charging  *E[31m |"
+echo "*e[0m         *e[43m| *E[32mfor software collections that they haven't created.  *E[31m |"
+echo "*e[0m         *e[43m|                                                       *E[31m|"
+echo "*e[0m         *e[43m| *E[32m       Developed by Paul Vince - Copyright 2024      *E[31m |"
+echo "*e[0m         *e[43m[=======================================================]*E[0m"
+echo ""

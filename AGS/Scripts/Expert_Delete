@@ -1,0 +1,14 @@
+Requestchoice >ENV:ANS "Remove Entry" "Delete Launcher Entry?" Yes No
+If $ANS EQ "1"
+ Delete >NIL: ENV:ANS
+ Requestchoice >ENV:ANS "Remove Entry" "Are you sure. This cannot be undone?" Yes No
+ If $ANS EQ "1"
+  Delete >NIL: ENV:ANS
+  Delete >NIL: "$XPath.txt"
+  Delete >NIL: "$XPath.run"
+  Delete >NIL: "$XPath-1.iff"
+  Delete >NIL: "$XPath-2.iff"
+  Delete >NIL: "$XPath-3.iff" 
+  Wait 2
+ Endif
+Endif

@@ -1,0 +1,5 @@
+If $XCOPPER EQ 0
+ SetENV XCOPPER 1
+Else
+ SetENV XCOPPER 0
+Endif

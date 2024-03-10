@@ -1,0 +1,29 @@
+Echo "You cannot boot the ADF file from this process."
+Echo "If you wish to boot a disk, please mount it in your emulator."
+Echo ""
+Echo "If nothing happens when you select a file, the path may be too long."
+Echo "Copy the file to a different path to fix this issue"
+Echo ""
+
+requestfile >env:adffile acceptpattern "#?.adf"
+
+filesize >env:adfsize env:adffile
+
+if $adfsize EQ "0"
+	echo "No file selected"
+ wait 1
+endif
+
+if $adfsize NOT EQ "0"
+  RequestChoice >ENV:ADFCHOICE "Insert disk" "Insert disk into unit:" "1|2|3|4|5|6|7|0"
+  assign >NIL: ad$ADFCHOICE: exists devices
+  if warn
+	   mount ad$ADFCHOICE: from devs:adf.ml
+  endif
+  InsertDisk >NIL: unit $ADFCHOICE $adffile
+  diskchange ad$ADFCHOICE:
+Endif
+
+delete >NIL: ENV:ADFCHOICEexecute
+delete >NIL: ENV:adffile
+delete >Nil: ENV:adfsize

@@ -1,0 +1,9 @@
+If $HW EQ "Mini"
+  Multiview AGS:texts/Multiplayer(Amiberry).txt
+endif
+If $HW EQ "Pi"
+  Multiview AGS:texts/Multiplayer(Pi).txt
+endif
+If $HW EQ "UAE"
+  Multiview AGS:texts/Multiplayer(UAE).txt
+endif

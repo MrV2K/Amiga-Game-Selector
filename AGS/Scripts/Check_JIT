@@ -1,0 +1,14 @@
+If $HW NOT EQ "Real"
+ Failat 21
+ c:uae-configuration cachesize >ENV:CACHESIZEVALUE
+ If $CACHESIZEVALUE EQ "0"
+   Echo "*E[1mWARNING! This program requires JIT to be enabled to run properly!"
+   IF $HW EQ "Mini"
+     Echo "Please run this program from the AGS_JIT config!*E[0m"
+   Else
+     Echo "Press F12 to access the emulator menu and enable JIT in the CPU settings.*E[0m"
+   Endif
+   Wait 4
+ Endif 
+ Delete >NIL: env:CACHESIZEVALUE
+Endif

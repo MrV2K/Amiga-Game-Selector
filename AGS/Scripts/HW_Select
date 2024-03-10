@@ -1,0 +1,8 @@
+Wait 5
+MBPress
+Set ANSWER $RC
+If $Answer EQ 3
+	BMX Scripts:HW_Menu
+ Copy >NIL: ENV:HW ENVARC:HW
+Endif
+UnSet ANSWER

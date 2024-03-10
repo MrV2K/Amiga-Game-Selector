@@ -1,0 +1,5 @@
+Echo "Switching to AGA mode"
+Echo "Please close any programs for this process to complete."
+wait 2
+Run >NIL: sys:prefs/Screenmode scripts:screenmode.prefs use
+endcli

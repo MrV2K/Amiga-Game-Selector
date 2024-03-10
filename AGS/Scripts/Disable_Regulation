@@ -1,0 +1,5 @@
+;Echo "Speed Regulation Disabled."
+;Echo ""
+;Echo "WARNING! This may affect system stability!"
+SetEnv SPEEDREG "0"
+Copy ENV:SPEEDREG ENVARC:

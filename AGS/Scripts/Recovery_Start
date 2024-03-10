@@ -1,0 +1,5 @@
+CD Recovery:
+Lha -m x Recovery:Backup/Backup.lha
+Echo "Configurations Restored... Shutting Down"
+Wait 3
+uae-configuration SPC_QUIT 1

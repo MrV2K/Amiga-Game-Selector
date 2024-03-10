@@ -1,0 +1,16 @@
+Stack 40000
+Requestfile >ENV:Temp DRAWER Workbench: PATTERN #?.iff
+If $Temp NOT EQ ""
+ RequestchoiceMUI >ENV:ANS "Expert Mode" "Add IFF/ILBM preview image?" "YES|NO" CENTER
+ If $ANS EQ "1"
+  Copy $Temp TO "$XPath.iff"
+ Endif
+ Filesize >ENV:FS "$XPath.iff"
+ If $FS GT -1
+  RequestchoiceMUI >NIL: "Expert Mode" "Image added..." "OK" CENTER
+ Endif
+Else
+ RequestchoiceMUI >NIL: "Expert Mode" "No Image Selected..." "OK" CENTER
+Endif
+Delete >NIL: ENV:Temp
+Delete >NIL: ENV:FS

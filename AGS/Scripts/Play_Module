@@ -1,0 +1,20 @@
+If $Play EQ "1"
+ cls
+ bastyplayer >NIL: l"$Module"
+ bastyplayer >NIL: p
+ If $bpvol EQ "16"
+  bastyplayer >NIL: cv16
+ Endif
+ If $bpvol EQ "32"
+  bastyplayer >NIL: cv32
+ Endif
+ If $bpvol EQ "48"
+  bastyplayer >NIL: cv48
+ Endif
+ If $bpvol EQ "64"
+  bastyplayer >NIL: cv64
+ Endif
+ If $bpvol EQ "0"
+  bastyplayer >NIL: cv0
+ Endif
+Endif

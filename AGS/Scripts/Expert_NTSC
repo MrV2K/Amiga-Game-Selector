@@ -1,0 +1,5 @@
+If $XNTSC EQ 0
+ SetENV XNTSC 1
+Else
+ SetENV XNTSC 0
+Endif

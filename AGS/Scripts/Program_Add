@@ -1,0 +1,166 @@
+Stack 40000
+SETENV PType ""
+SETENV PName ""
+SETENV PDrawer ""
+SETENV PFile ""
+SETENV PImage ""
+
+Cls
+Multiview AGS:Texts/Add_Program_Intro
+;Echo ""
+;Echo "*E[1mPress a mouse button to continue...*E[0m"
+
+;mousewait
+
+; Add launcher name string
+
+Echo ""
+Echo "Please enter a name for the AGS list (Max 25 Characters!)..."
+RequestString >ENV:PName "Add Program" "Please enter a name for you program*n in the AGS Launcher*n(Max 25 Character!)"
+filesize ENV:PName >ENV:FS
+If $FS EQ 1
+ Skip PError
+Endif
+Delete >NIL: ENV:FS
+Echo "*E[1m"
+Echo You entered : $PName
+RequestchoiceMUI >ENV:ANS "Add Program" "Is this correct?" "YES|NO" CENTER
+If $ANS EQ "0"
+ Skip PExit
+Endif
+
+; Add program type
+
+Echo "*E[0m"
+Echo "Please select the type of program that you want to add..."
+BMX Scripts:Program_Type_Menu
+If $PType EQ "CANCEL"
+ Skip PError
+Endif
+Echo "*E[1m"
+Echo "You selected : $PType"
+RequestchoiceMUI >ENV:ANS "Add Program" "Is this correct?" "YES|NO" CENTER
+If $ANS EQ "0"
+ Skip PExit
+Endif
+
+; Select program drawer
+
+Echo "*E[0m"
+Echo "Please select the program drawer..."
+Requestfile >ENV:Temp Workbench: DRAWERSONLY
+Echo $Temp TO ENV:PDrawer
+Delete >NIL: ENV:Temp
+Filesize ENV:PDrawer >ENV:FS
+If $FS EQ 0
+ Skip PError
+Endif
+Delete >NIL: ENV:FS
+Echo "*E[1m"
+Echo You selected : $PDrawer
+RequestchoiceMUI >ENV:ANS "Add Program" "Is this correct?" "YES|NO" CENTER
+If $ANS EQ "0"
+ Skip PExit
+Endif
+
+; Select program
+
+Echo "*E[0m"
+Echo "Please select the program..."
+Requestfile >ENV:Temp "$PDrawer"
+Echo $Temp TO ENV:PFile
+Delete >NIL: ENV:Temp
+Filesize ENV:PFile >ENV:FS
+If $FS EQ 0
+ Skip PError
+Endif
+Delete >NIL: ENV:FS
+Echo "*E[1m"
+Echo You selected : $PFile
+RequestchoiceMUI >ENV:ANS "Add Program" "Is this correct?" "YES|NO" CENTER
+If $ANS EQ "0"
+ Skip PExit
+Endif
+
+; Select iff preview
+
+RequestchoiceMUI >ENV:ANS "Add Program" "Add IFF/ILBM preview image?" "YES|NO" CENTER
+If $ANS EQ "1"
+ Echo "*E[0m"
+ Echo "Please select an iff/ilbm image..."
+ Requestfile >ENV:Temp DRAWER "$PDrawer" PATTERN #?.iff
+ Echo $Temp TO ENV:PImage
+ Delete >NIL: ENV:Temp
+ Filesize ENV:PImage >ENV:FS
+ If $FS EQ 0
+  Skip PError
+ Endif
+ Delete >NIL: ENV:FS
+ Echo "*E[1m"
+ Echo You selected : $PImage
+ RequestchoiceMUI >ENV:ANS "Add Program" "Is this correct?" "YES|NO" CENTER
+ If $ANS EQ "0"
+  Skip PExit
+ Endif
+Else
+ Echo "*E[1m"
+ Echo "No Image Selected."
+Endif
+
+; Generate config file
+
+Ex Scripts:Program_Config
+
+Filesize ENV:PImage >ENV:FS
+If $FS NOT EQ 0
+ Echo >T:PCopy "Copy *"$PImage*" TO *"AGS:+  My Programs.ags/$PName.iff*""
+ Ex T:PCopy
+Endif
+Delete >NIL: ENV:FS
+
+; Copy blank description file
+
+Echo >T:PCopy "Copy *"AGS:Texts/Blank.txt*" TO *"AGS:+  My Programs.ags/$PName.txt*""
+Ex T:PCopy
+
+; Edit description file
+
+RequestchoiceMUI >ENV:ANS "Add Program" "Edit text description?" "YES|NO" CENTER
+If $ANS EQ "1"
+ Echo "*E[0m"
+ Echo "Editing text description..."
+ Echo >T:PCopy "Ed *"AGS:+  My Programs.ags/$PName.txt*""
+ Ex T:PCopy
+ Echo ""
+ Ex Scripts:Pause_Keyboard
+Endif
+
+Skip PQuit
+
+LAB PError
+
+Echo ""
+Echo "*E[1mError! Process Aborted.*E[0m"
+Wait 2
+Quit
+
+LAB PExit
+
+Echo ""
+Echo "*E[1mProcess aborted.*E[0m"
+Wait 2
+Quit
+
+LAB PQuit
+
+Echo ""
+Echo "*E[1mProcess successful. Reloading the AGS launcher...*E[0m"
+Wait 2
+
+Delete >NIL: ENV:PCopy
+Delete >NIL: ENV:ANS
+Delete >NIL: ENV:PName
+Delete >NIL: ENV:PType
+Delete >NIL: ENV:PDrawer
+Delete >NIL: ENV:PFile
+Delete >NIL: ENV:PImage

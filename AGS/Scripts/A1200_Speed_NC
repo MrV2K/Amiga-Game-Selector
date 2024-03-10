@@ -1,0 +1,17 @@
+If $HW EQ "Real"
+ Quit
+Endif 
+
+Ex Scripts:JIT_Disable
+
+If $HW EQ "UAE"
+ uae-configuration cachesize 0 cpu_speed real cpu_multiplier 4
+Endif
+
+If $HW EQ "Mini"
+ uae-configuration finegrain_cpu_speed 1024
+Endif 
+
+If $HW EQ "Pi"
+ uae-configuration finegrain_cpu_speed 1024
+Endif

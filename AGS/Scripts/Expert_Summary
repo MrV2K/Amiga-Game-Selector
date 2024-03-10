@@ -1,0 +1,35 @@
+If $XCPU EQ 7
+ Echo >PIPE:1 "CPU: 7mhz"
+Endif
+If $XCPU EQ 14
+ Echo >PIPE:1 "CPU: 14mhz"
+Endif
+If $XCPU EQ 25
+ Echo >PIPE:1 "CPU: 25mhz"
+Endif
+If $XCPU EQ "Max"
+ Echo >PIPE:1 "CPU: Maximum"
+Endif
+If $XJIT EQ 1
+ Echo >PIPE:1 "JIT: Enabled"
+Else
+ Echo >PIPE:1 "JIT: Disabled"
+Endif
+If $XCOPPER EQ 1
+ Echo >PIPE:1 "Fast Copper: Enabled"
+Else
+ Echo >PIPE:1 "Fast Copper: Disabled"
+Endif
+If $XBLIT EQ 1
+ Echo >PIPE:1 "Immediate Blits: Enabled"
+Else
+ Echo >PIPE:1 "Immediate Blits: Disabled"
+Endif
+If $XNTSC EQ 1
+ Echo >PIPE:1 "NTSC: Enabled"
+Else
+ Echo >PIPE:1 "NTSC: Disabled"
+Endif
+Copy PIPE:1 T:summary
+Advice "Settings Summary" T:summary OK
+Delete >NIL: T:summary

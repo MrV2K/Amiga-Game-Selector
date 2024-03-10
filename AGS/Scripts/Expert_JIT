@@ -1,0 +1,5 @@
+If $XJIT EQ 0
+ SetENV XJIT 1
+Else
+ SetENV XJIT 0
+Endif

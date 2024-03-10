@@ -1,0 +1,9 @@
+.key file
+.bra {
+.ket }
+
+Date TO ENV:Date
+Copy >NIL: AGS:File_Log TO PIPE:a
+Echo >PIPE:a {file} - $Date
+Copy >NIL: PIPE:a TO AGS:File_Log
+Delete >NIL: ENV:Date

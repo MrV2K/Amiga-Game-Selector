@@ -1,0 +1,46 @@
+If $XJIT EQ 1
+ Ex Scripts:JIT_Enable
+Else
+ Ex Scripts:JIT_Disable
+Endif
+If $XCPU EQ 7
+ Ex scripts:A500_Speed
+Endif
+If $XCPU EQ 14
+ Ex scripts:A1200_Speed
+Endif
+If $XCPU EQ 25
+ Ex scripts:A4000_25_Speed
+Endif
+If $XCPU EQ "Max"
+ Ex scripts:Speed_Reset
+Endif
+If $XCOPPER EQ 1
+ Ex Scripts:FC 1
+Endif
+If $XBLIT EQ 1
+ Ex Scripts:IB 1
+Endif
+If $XNTSC EQ 1
+ Ex Scripts:NTSC 1
+Endif
+
+cd "$XFolder"
+
+Ex Scripts:File_Log "$XFile"
+
+filesize >ENV:FS ENV:XType
+If $FS EQ "-1"
+ kgiconload $XInfo
+Endif
+Delete >NIL: ENV:FS
+If $XType EQ "WHDLOAD"
+ kgiconload $XInfo
+Endif
+If $XType EQ "EXE"
+ "$XInfo"
+Endif
+If $XType EQ "SCRIPT"
+ Ex "$XInfo"
+Endif
+Ex Scripts:Speed_Reset

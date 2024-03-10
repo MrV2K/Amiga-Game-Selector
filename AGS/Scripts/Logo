@@ -1,0 +1,12 @@
+if $HW EQ "UAE"
+  fastview >nil: SM="PAL:High Res Laced" DELAY 3 AGS:images/logo_uae.iff
+Endif
+if $HW EQ "Mini"
+  fastview >nil: SM="PAL:High Res Laced" DELAY 3 AGS:images/logo_mini.iff
+Endif
+if $HW EQ "Pi"
+  fastview >nil: SM="PAL:High Res Laced" DELAY 3 AGS:images/logo_pi.iff
+Endif
+if $HW EQ "Real"
+  fastview >nil: SM="PAL:High Res Laced" DELAY 3 AGS:images/logo_real.iff
+Endif

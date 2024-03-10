@@ -1,0 +1,18 @@
+If $HW EQ "Real"
+ Quit
+Endif
+
+Ex scripts:JIT_Disable
+
+If $HW EQ "UAE"
+ uae-configuration cycle_exact false blitter_cycle_exact false cpu_memory_exact false
+ uae-configuration cpu_speed max cpu_multiplier 16 cycle_exact false
+Endif
+
+If $HW EQ "Mini"
+ uae-configuration cpu_speed max
+Endif
+
+If $HW EQ "Pi"
+  uae-configuration cpu_speed max
+Endif

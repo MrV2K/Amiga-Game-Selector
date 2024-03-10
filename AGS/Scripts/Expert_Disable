@@ -1,0 +1,6 @@
+CD "AGS:Options.ags"
+If exists "[Expert Mode Enabled].run"
+ nrename >NIL: "[Expert Mode Disabled].rub" TO "[Expert Mode Disabled].run"
+ nrename >NIL: "[Expert Mode Enabled].run" TO "[Expert Mode Enabled].rub"
+Endif
+Delete >NIL: ENV:Expert

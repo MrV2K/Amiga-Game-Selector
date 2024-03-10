@@ -1,0 +1,7 @@
+If $HW EQ "Mini"
+  uae-configuration fast_copper true immediate_blits true
+Endif
+
+If $HW EQ "Pi"
+  uae-configuration fast_copper true immediate_blits true
+Endif

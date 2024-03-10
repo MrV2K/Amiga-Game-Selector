@@ -1,0 +1,13 @@
+If $HW EQ "Real"
+ Quit
+Endif
+
+If $HW EQ "Pi"
+ Quit
+Endif
+
+If $HW EQ "UAE"
+ uae-configuration cycle_exact false blitter_cycle_exact false cpu_memory_exact false
+Endif
+
+uae-configuration cachesize 16384 cpu_speed max

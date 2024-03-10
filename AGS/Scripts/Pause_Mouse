@@ -1,0 +1,2 @@
+Echo "*E[1mPress a mouse button to continue...*E[0m"
+C:MouseWait

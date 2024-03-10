@@ -1,0 +1,3 @@
+Echo "Process Aborted... Shutting Down"
+Wait 3
+uae-configuration SPC_QUIT 1

@@ -1,0 +1,24 @@
+Requestchoice >ENV:ANS Warning "This will change your IGame settings.*NAll favourites and play data will be lost.*NContinue?" Yes No
+If $ANS EQ 1
+ cd sys:whdload
+ delete >NIL: gameslist.csv
+ If $HW NOT EQ "Mini"
+  If $ADULT EQ "1"
+   copy gameslists/gameslist_demos.csv sys:whdload/gameslist.csv
+  Endif
+  If $ADULT EQ "0"
+   copy gameslists/gameslist_demosnoadult.csv sys:whdload/gameslist.csv
+  Endif
+ Endif
+ If $HW EQ "Mini"
+  If $ADULT EQ "1"
+   copy gameslists/gameslist_demos_a500.csv sys:whdload/gameslist.csv
+  Endif
+  If $ADULT EQ "0"
+   copy gameslists/gameslist_demosnoadult_a500.csv sys:whdload/gameslist.csv
+  Endif
+ Endif
+ copy gameslists/genres_demos sys:whdload/genres
+ wbrun igame
+Endif
+Delete >NIL: ENV:ANS
