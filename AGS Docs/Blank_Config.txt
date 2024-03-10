@@ -1,0 +1,40 @@
+Bastyplayer >NIL: x
+
+Ex Scripts:Splash
+Ex Scripts:Disclaimer
+Echo "*E[1m*E[32m Loading *E[0m"
+Echo ""
+
+
+
+If $ADDFAVE EQ "y"
+ Ex Scripts:Copy_Temp_Fave "AGS:+  Extra Games.ags/"
+ Ex Scripts:Add_Favourite_Extra ""
+Endif 
+
+If $DELFAVE EQ "y"
+ Ex Scripts:Del_Favourite ""
+Endif 
+
+
+
+If $ADDFAVE EQ "y"
+ Ex Scripts:Copy_Temp_Fave "AGS:+  Extra Games.ags/= Educational =.ags/"
+ Ex Scripts:Add_Favourite_Extra ""
+Endif
+
+If $DELFAVE EQ "y"
+ Ex Scripts:Del_Favourite ""
+ Quit
+Endif 
+
+
+
+cd Games:a/A320Airbus2
+ex scripts:A1200_Speed
+ex scripts:Screen_Height 200
+kgiconload A320Airbus2.info
+
+Ex Scripts:Speed_Reset
+Ex Scripts:Play_Module
+AGS:

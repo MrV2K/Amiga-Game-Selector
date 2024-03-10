@@ -1,0 +1,150 @@
+                  Welcome to Amiga Game Selector v2.6
+                  ===================================
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+                        IMPORTANT INFORMATION!
+						======================
+	
+ ON THE A500 MINI USB SCREEN, DO *NOT* PRESS THE MENU BUTTON WHEN YOU HAVE THE
+ AGS CONFIGURATION FILE SELECTED OR YOU WILL CORRUPT THE FILE. IF YOU DO, YOU 
+ *WILL* BREAK AGS AND ALL YOU WILL SEE IS A KICKSTART 1.3 BOOT SCREEN. TO FIX
+ THE PROBLEM YOU CAN EITHER COPY THE CONFIG FILES BACK FROM THE BACKUP FOLDER
+ OR RUN THE RESTORE_CONFIGS FILE.
+						
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+			 
+Requirements
+============
+The A500 Mini Computer, Controller & Mouse
+A 3 Amp USB Power Supply
+A 64GB USB Flash Drive
+USB Keyboard (Recommended)
+
+Installation
+============
+
+New Install
+-----------
+
+1. Format your USB drive as FAT32. For USB drives over 32GB you may need to use
+   a third party format program like Rufus (www.rufus.ie) to format the drive
+   as FAT32.
+2. Open the archive and extract the three folders onto your computer and then
+   copy the files on to your flash drive.
+
+Existing Install
+----------------
+
+1. Make sure that all your data is backed up onto the SHARED drive.
+2. Open the archive and extract the three folders onto your computer and then
+   copy the files on to your flash drive.
+
+Nothing changes in the SHARED drive so it can either be ignored or just copied
+over. No data will be overwritten.
+
+Folder Structure
+================
+
+USB Root
+  - AGS
+  - Pandory
+  - THEA500
+
+
+Configurations
+==============  
+
+Start AGS - The original configuration
+            Same compatability
+			Same speed
+			No RTG Scaling
+			Slow sound in RTG screens
+			
+Start AGS Pandory - Runs in Amiberry 5.6.1
+					Similar compatability to original config
+					Slightly slower
+					RTG Scaling
+					Correct sound in Workbench
+					Internet and network access
+
+I would suggest that you use the original config to play games as it is more
+compatible. The pandory version is much better for Workbench use.
+					
+If you run the Pandory version of AGS and would like to go back to the original
+configuration, you will need to power cycle the A500 mini.
+
+
+Know issues with the Pandory version
+====================================
+
+The pandory version is about 10% slower than the normal version of AGS. This is
+due to the newer version of Amiberry needing a more powerful CPU.
+
+The screen is slightly offset by default. There is a fix in the Options that
+will re-center the screen.
+
+Most games won't fit the screen by default as Amiberry 5.6.1 uses a different
+set of commands to resize the screen. You can do this manually in the Amiberry
+screen on the `Display` tab.
+
+Sometimes it will freeze during the boot cycle. Don't use the menu button to 
+fix this, power cycle the A500 mini and load AGS again.
+
+For internet access you need to have a USB to Ethernet adaptor connected
+before you run the Pandory config or it will not be picked up.
+
+
+Backing Up Your Save Games
+==========================
+
+1. To back up your save games, you will need to copy the 'Savegames' folder to
+   your computer first. The folder is located here...
+   
+   (v1.0 to v1.2)  - USB Drive -> THEA500 -> whdboot -> save-data -> Savegames
+   (v1.3 to v1.4) - USB Drive -> SHARED -> Savegames
+   (v1.5 to v2.0+) - USB Drive -> AGS -> SHARED -> Savegames
+   
+2. Saves from non WHDLoad games and other programs will need to be backed up 
+   onto the USB drive and then onto your computer before updating using the
+   process above.
+   
+Backing Up Other Content
+========================
+
+1. To backup other data, copy it to the USB drive before you re-install
+   AGS.
+2. You will then need to copy the SHARED folder onto your computer.
+   The folder is located here...  
+   
+   (v1.0 to v1.2)  - USB Drive -> THEA500 -> whdboot -> save-data -> Transfer
+   (v1.3 to v1.4) - USB Drive -> SHARED
+   (v1.5 to v2.0+) - USB Drive -> AGS -> SHARED
+
+Restoring Your Save Games & Other Content
+=========================================
+
+1. Copy the SHARED folder on your computer back onto the USB drive
+   into the AGS folder. It doesn't matter if it overwrites anything.
+2. WHDLoad save games will now work but you will need to manually copy back the
+   other content into the relevant folders with Directory Opus.
+
+Backing Up Your AGS Favourites
+==============================
+
+Please note that the old favourites will work with the AGS v2.0 but may give
+errors as the scripts on some games have changed. If possible, please re-create
+your favourites.
+
+1. Open the '+  Favourites' menu in AGS
+2. Select [Backup Favourites]
+3. Wait for the process to complete and quit AGS.
+4. Back up as above as it will automatically be in the SHARED folder.
+
+Restoring Your AGS Favourites
+=============================
+
+1. Copy the 'SHARED' folder back onto the USB Drive as above.
+2. Run AGS and open the '+  Favourites' menu.
+3. Select [Restore Favourites] and wait for the archive to extract.
