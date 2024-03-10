@@ -1,0 +1,9 @@
+If $HW EQ "Mini"
+ Bastyplayer >NIL: x
+Endif
+AGS:
+Multiview texts/Installing_Software.txt
+cls
+If $HW EQ "Mini"
+ Ex Scripts:Play_Module
+Endif

@@ -1,0 +1,10 @@
+ *****************************************
+ *                                       *
+ *                                       *
+ *                                       *
+ * This document contains the changes and*
+ * updates for this AGS release.         *
+ *                                       *
+ *                                       *
+ *                                       *
+ *****************************************

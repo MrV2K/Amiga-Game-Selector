@@ -1,0 +1,10 @@
+ *****************************************
+ *                                       *
+ *                                       *
+ *                                       *
+ * A step by step guide on how to        *
+ * customise your Workbench environment. *
+ *                                       *
+ *                                       *
+ *                                       *
+ *****************************************
