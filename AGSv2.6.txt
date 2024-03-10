@@ -1,0 +1,396 @@
+To Do / Checks
+--------------
+
+0 byte config files check.
+Check PacMan & Paperboy
+Gothicvania link
+Stolen data 7 & 8.
+Cracker Journal (last one)
+Save path in extra game icons.
+Coverdisks ???
+
+Add permanent delete of adult games
+
+imgbb for images 
+
+JoytoMouse ????
+Shutdown on Pi & A500Mini
+Add more Scummvm games
+DOPUS drive buttons
+256mb memory on Pi4
+
+SmartWin on Classic
+MUI 3.8+key on classic
+Add NoClick to Classic version.
+AGS RTG backdrops in classic.
+Degrader on classic
+Amiga Test Kit on classic
+ENV: fix on classic
+
+Xmas category.
+Halloween Category
+
+New Themes
+==========
+* Battlestar Galactica
+* 2001
+* A-Team
+* AirWolf
+Airplane!
+Aladdin
+Aliens / Alien
+American Werewolf
+Automan
+Avatar
+Avengers
+* Babylon 5
+Back to the Future
+Batman
+Battle of the Planets
+* Beverly Hills Cop
+Big Lebowski
+Blade Runner
+Blue Thunder
+Blues Brothers
+* Bluey
+Breakfast Club
+Buck Rogers
+Captain America
+Casablanca
+* Crazy Cars 2
+Daredevil
+* Darkmere
+Dawn of the Dead
+Deadpool
+Die Hard
+Dirty Harry
+Dr Who
+Dukes of Hazard
+Equaliser ????
+E.T.
+Exorcist
+Fast & Furious
+Ferris Bueller
+Finding Nemo
+* Firefly
+* Firefox
+Friends
+Futurama
+Games Master
+Ghostbusters
+Goonies
+Gremlins
+He-Man
+Hey Duggie
+Highlander
+Home Alone
+Horror
+Impossible Mission
+Indiana Jones
+Iron Giant
+Iron-Man
+James Bond
+Jaws
+Jurassic Park
+Justice League / Superman
+Karate Kid
+Knight Rider
+Knightmare
+LCARS Star Trek
+Last Starfighter
+Lethal Weapon
+Lion King
+Looney Tunes
+Lord of the Rings
+M*A*S*H
+Mad Max
+Man from UNCLE
+Matrix
+Max Headroom
+Minions
+Monsters inc.
+Monty Python
+More StarWars
+More Terminator
+Naked Gun
+Pepper Pig
+Pirates of the Caribbean
+Platoon
+Predator
+Pulp Fiction
+Rick & Morty
+Robocop
+Roger Rabbit
+Shaft
+Shaun of the Dead
+Short Circuit
+Shrek
+Simpsons
+* Space 1999
+Spider-Man
+Spirited Away
+Star Trek
+Starship Troopers
+* Stranger Things
+Street Hawk
+TRON
+Teenage Mutant Ninja Turtles
+The Black Hole
+The Thing
+Thunderbirds
+Thundercats
+Tom & Jerry
+Toy Story
+Trainspotting
+Transformers Cartoon
+Wargames
+Wednesday
+XFiles
+
+Soccer Teams (English League, League Un, Bundesliga, Seria A, La Liga, Top 20 international Teams)
+NFL Teams
+NBA Teams
+Ice Hockey Teams??????
+F1 Teams & Cars
+
+* Tottenham
+* Real Madrid
+* Manchester City
+* Bayern Munich
+Galatasaray
+
+To Add
+======
+Risk
+Nobunaga's Ambition
+Romance of the 3 Kingdoms
+Amiga Test Kit
+Delitracker to Classic version
+Evil Garden
+PT1200 to Classic
+
+Additions
+=========
+Added PiStorm32 version of AGS based on the emulated RTG version.
+Added My Programs and installer to add your own programs to the launcher.
+Added Say speech synthesiser and support files to Workbench.
+Added 'Expert Mode' to replace the favourites system and add more functionality
+and configuration to the loading process of games and demos.
+Added a script that logs the name and date/time of every game & demo when run.
+Added random mod playback to launcher. Mods need to be placed in the AGS:Mods drawer.
+Added Amiga Test Kit v1.21 to Utilities
+Added RNOPDF v1.6 to utilities and 'Programs' workbench menu.
+Added Demanding Games and Demos category to Games by Theme.
+Added SmartWin to WBStartup to speed up window drawing
+
+Changes
+=======
+Reduced the memory requirements for the amige guide based database.
+Sped up A-Train.
+Sped up Beneath a Steel Sky CD32.
+Removed old favourites system.
+Moved favourite options to new folder. Now not included in backup archives.
+Moved all AGS commands out of user startup. Now runs a script called AGS-Stuff.
+Moved A500 mini recovery mode script to AGS-Stuff
+Changed all launcher scripts to look at AGS_Drive: rather than assigning WHD-HDD:
+Added slight pause to random theme option.
+Changed several options to toggle rather than having both options.
+Optimised game scripts again to take into account of new favourites system, my
+program and expert modes.
+
+Fixes
+=====
+Fixed Green Beret height on A500 Mini.
+Fixed Restore Configs on A500 Mini.
+Fixed AGA / RTG Switching on emulated AGS.
+Fixed paths in Workbench menus.
+Fixed Harlequin games speed on Amiberry.
+Fixed AmiMSX scripts.
+Fixed AGS splash screen script resolution description.
+Fixed Operation Wolf (Must be run after boot).
+Fixed Renegade (Must be run after boot).
+Fixed JIT & Speed Regulation scripts running on PiStorm32 causing crash.
+Fixed a few game names that have underscores in them on the launcher
+
+New Applications
+================
+RNOPDF v1.6
+Amiga Test Kit v1.21
+Protracker v3.15
+ReBuild v1.1.0
+
+Updated Applications
+====================
+WHDLoad v19.0 beta
+IGame v2.4.6
+Protracker v3.62
+Hippoplayer v2.60
+Redpill Game Creator v0.9.35
+
+New Workbench Games
+===================
+Untangle v0.3
+Dynamite v24
+ArTKanoid v3.0
+521 v1.0
+Amtris v1.0           
+
+New Extra Games
+===============
+Agonman ECS
+AmiDonkey Kong LCD
+AmiHero
+Aminvaders
+Amoeba Invaders
+Ant Wars
+Ant Wars 2
+Bode Runner (Demo)
+Death Angel
+Dogi (Demo)
+Duck Hunt
+Earth Defence Force AGA (Demo)
+Evil Garden
+Final Fight Enhanced
+Gems Deluxe
+Genghis Khan
+Giger Tetris AGA
+Grand Prix Manager '95
+Gravity Power
+Hemroids
+Hyper Wings
+Jump 'n Bump
+Jumpman Deluxe (Demo)
+Jumpman Junior
+Jumpman Lives
+Lord of the Rings Vol 1
+Manic Miner Mayhem
+M*A*S*H
+Meet Ball
+Merry Xmas 2023
+Mirror
+Mr Beanbag AGA
+Poing 1-7
+Powerboat USA
+Risk
+Romance of the Three Kingdoms
+Romance of the Three Kingdoms 2
+Santa and the Goblin
+Santa's Present Drop
+Santa's Present Drop 2
+Santa's Present Drop 3
+Santa's Workout 3
+Shadow Dancer (Demo)
+S*M*A*S*H
+Star Wars - Sweary Version
+Starflight 2
+Super Huey
+Turbo Tomato (Demo)
+Wizonk (Demo)
+Zerberk
+
+Extra Games Updates
+===================
+Alien Breed 3D 2
+Zeewolf (Mod)
+Agonman AGA
+GothicVania AGA
+Super Delivery Boy Holiday Ed.
+
+WHDLoad New & Updates
+=====================
+Breakthru
+Batman Rises (Batman Group)
+Bomber Bob (Italian)
+Captured Dreams Decrunched (TBL)
+Castlevania AGA
+Challenger
+Cruise for a Corpse
+Darkside (TBL)
+Debut
+Donkey Kong 500
+Donkey Kong (Bignonia)
+Dune 2 (NTSC)
+Dylan Dog - The Murderers
+Frogger
+Graham Gooch Cricket
+Hard Drivin'
+Historia Interminable 2 (Spanish)
+Imaginations (Defiance)
+Karting Grand Prix
+Kelly X
+Locomotion
+Made in Croatia (Binary)
+Music Disk 2 (Elite Inc)
+Menace
+Nuxelia Demo
+Panacea (TBL)
+Plague
+Renegade
+SWOS 23/24
+Spaceport
+Spectral (TBL)
+Stolen Data 10 (Anarchy)
+Stolen Data 9 (Anarchy)
+Storia Infinita 2 (Italian)
+Super Street Fighter II - The New Challengers
+Stuntman Seymour
+Subconscious (Dimension X)
+Summer Games
+Summer Games 2
+Super Bagman
+Tetris AGA
+Turrican 2 AGA
+Unendliche Geschichte 2 (German)
+ViroCop
+Waterloo
+Whizz AGA
+Wonderboy
+Xevious / Super Xevious
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Fixes
+-----
+
+1. Fixed path in AGA / RTG switching.
+2. Fixed AmiMSX link opening AmiMasterGear.
+
+WHDLoad Updates
+===============
+Foundations Waste
+Super Bagman
+
+New WHDLoad Games
+=================
+Locomotion (De)
