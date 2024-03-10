@@ -1,0 +1,10 @@
+ ****************************************
+ *                                      *
+ *                                      *
+ *                                      *
+ * Sets the default WHDLoad quit key to *
+ * the default key set by the slave.    *
+ *                                      *
+ *                                      *
+ *                                      *
+ ****************************************

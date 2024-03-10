@@ -1,0 +1,5 @@
+cls
+echo "Currently selected module..."
+echo ""
+echo $Module
+wait 3

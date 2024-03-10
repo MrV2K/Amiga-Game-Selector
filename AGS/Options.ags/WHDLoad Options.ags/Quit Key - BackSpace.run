@@ -1,0 +1,4 @@
+cls
+echo "Setting WHDLoad quit key to the Backspace key."
+copy AGS:WhdloadPrefs/WHDLoad.back s:WHDLoad.prefs >NIL:
+wait 3

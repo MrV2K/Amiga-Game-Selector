@@ -1,0 +1,16 @@
+stack 40000
+cls
+Echo "Warning! This will remove the currently selected module from all scripts!"
+Echo "Use [Select Module] to re-enable module playback in AGS."
+Echo ""
+RequestchoiceMUI >ENV:ANS "Music Options" "Clear current module?" YES|NO
+If $ANS EQ 1
+ ex scripts:stop_module
+ setenv ENV:Module "None"
+ copy env:module envarc:
+ echo "Module removed!"
+ELSE
+	echo "Aborted!"
+ENDIF
+delete >NIL: ENV:ENS
+Wait 2

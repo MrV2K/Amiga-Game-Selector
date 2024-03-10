@@ -1,0 +1,10 @@
+ ****************************************
+ *                                      *
+ * This option allows to to boot into   *
+ * the AGS game launcher by default.    *
+ *                                      *
+ * Remember, you can press 'Escape' at  *
+ * any time to exit to Workbench.       *
+ *                                      *
+ *                                      *
+ ****************************************

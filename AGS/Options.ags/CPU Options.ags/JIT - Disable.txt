@@ -1,0 +1,10 @@
+ ****************************************
+ *                                      *
+ * This option disables the CPU JIT mode*
+ *                                      *
+ * Use this option for games or demos   *
+ * that run too fast, crash or have     *
+ * corrupt graphics.                    *
+ *                                      *
+ *                                      *
+ ****************************************

@@ -1,0 +1,10 @@
+ ****************************************
+ * In this list you will find options   *
+ * to set the quit key for WHDLoad games*
+ * and demos.                           *
+ *                                      *
+ * If you use one of these options, the *
+ * quit key will be used on all games   *
+ * and demos until changed.             *
+ *                                      *
+ ****************************************

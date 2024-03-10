@@ -1,0 +1,8 @@
+cls
+Echo "Expert Mode Enabled..."
+Wait 2
+SetEnv Expert 1
+CD "AGS:Options.ags"
+nrename >NIL: "[Expert Mode Disabled].run" TO "[Expert Mode Disabled].rub"
+nrename >NIL: "[Expert Mode Enabled].rub" TO "[Expert Mode Enabled].run"
+AGS:

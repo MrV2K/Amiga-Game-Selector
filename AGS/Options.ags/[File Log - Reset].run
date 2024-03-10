@@ -1,0 +1,5 @@
+Requestchoice >ENV:ANS "File Log" "Reset File Log?" YES NO
+If $ANS EQ "1"
+ Delete >NIL: AGS:File_Log
+ Copy AGS:Texts/File_Log AGS:
+Endif

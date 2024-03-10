@@ -1,0 +1,10 @@
+ ****************************************
+ *                                      *
+ *                                      *
+ * Executes a hard reset which is the   *
+ * same as turning the machine off and  *
+ * on again.                            *
+ *                                      *
+ *                                      *
+ *                                      *
+ ****************************************

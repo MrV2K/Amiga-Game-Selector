@@ -1,0 +1,10 @@
+ ****************************************
+ *                                      *
+ * Executes a soft reset which is the   *
+ * same as using CTRL+Amiga+Amiga.      *
+ *                                      *
+ * Using this command leaves resident   *
+ * libraries in memory so is faster to  *
+ * reboot.                              *
+ *                                      *
+ ****************************************

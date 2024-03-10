@@ -1,0 +1,10 @@
+ ****************************************
+ * This option allows to to boot into   *
+ * Workbench by default.                *
+ *                                      *
+ * You can run AGS at any time by using *
+ * the menu option or by using the icon *
+ * on the launcher at the bottom of the *
+ * Workbench screen.                    *
+ *                                      *
+ ****************************************

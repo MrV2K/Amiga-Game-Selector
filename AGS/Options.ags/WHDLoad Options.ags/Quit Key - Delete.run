@@ -1,0 +1,4 @@
+cls
+echo "Setting WHDLoad quit key to the Delete key."
+copy AGS:WhdloadPrefs/WHDLoad.del s:WHDLoad.prefs >NIL:
+wait 3

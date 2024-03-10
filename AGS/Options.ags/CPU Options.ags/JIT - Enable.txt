@@ -1,0 +1,10 @@
+ ****************************************
+ * This option enables the CPU JIT mode.*
+ *                                      *
+ * Use this option for games or demos   *
+ * that run too slow.                   *
+ *                                      *
+ * JIT mode will reduce compatibility   *
+ * so use with care.                    *
+ *                                      *
+ ****************************************

@@ -1,0 +1,10 @@
+cls
+echo "Enabling module playback..."
+wait 2
+setenv Play 1
+copy ENV:Play ENVARC:
+bastyplayer >NIL: x
+CD "AGS:Options.ags/Music Options.ags"
+nrename "[Module Playback Disabled].run" "[Module Playback Disabled].rub"
+nrename "[Module Playback Enabled].rub" "[Module Playback Enabled].run"
+AGS:

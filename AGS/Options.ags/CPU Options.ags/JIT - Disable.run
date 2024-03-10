@@ -1,0 +1,4 @@
+cls
+ex scripts:JIT_Disable
+wait 1
+cls

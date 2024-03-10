@@ -1,0 +1,10 @@
+ ****************************************
+ * In this list you will find the CPU   *
+ * settings.                            *
+ *                                      *
+ * Changes to these settings are not    *
+ * saved and will be lost when you      *
+ * close the emulator, reboot or exit a *
+ * game.                                *
+ *                                      *
+ ****************************************

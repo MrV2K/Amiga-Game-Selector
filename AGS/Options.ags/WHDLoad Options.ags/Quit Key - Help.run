@@ -1,0 +1,4 @@
+cls
+echo "Setting WHDLoad quit key to the Help key."
+copy AGS:WhdloadPrefs/WHDLoad.help s:WHDLoad.prefs >NIL:
+wait 3

@@ -1,0 +1,6 @@
+cls
+Echo "You will now boot straight into Workbench by default."
+setenv BOOT WB
+copy ENV:BOOT ENVARC:BOOT
+wait 4
+cls

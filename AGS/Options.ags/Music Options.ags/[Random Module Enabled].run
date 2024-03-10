@@ -1,0 +1,8 @@
+CLS
+Echo "Random module on load enabled..."
+SetEnv RandomMod 0
+Copy ENV:RandomMod ENVARC:
+CD "AGS:Options.ags/Music Options.ags"
+nrename "[Random Module Disabled].rub" "[Random Module Disabled].run"
+nrename "[Random Module Enabled].run" "[Random Module Enabled].rub"
+AGS:

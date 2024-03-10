@@ -1,0 +1,10 @@
+ ****************************************
+ *                                      *
+ *                                      *
+ * In this list you will find options   *
+ * to change whether to boot into       *
+ * Workbench directly or into the AGS   *
+ * game launcher.                       *
+ *                                      *
+ *                                      *
+ ****************************************
