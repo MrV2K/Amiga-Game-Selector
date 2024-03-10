@@ -1,0 +1,6 @@
+requestfile >ENV:Temp DRAWER "AGS:+  Extra Games.ags" PATTERN "#?.run"
+Filesize >ENV:FS ENV:Temp
+If $FS NOT EQ "0"
+ ed $Temp
+Endif
+Delete >NIL: ENV:Temp

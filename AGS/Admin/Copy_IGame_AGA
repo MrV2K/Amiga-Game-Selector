@@ -1,0 +1,13 @@
+If NOT EXISTS AGS_Mini_Covers_AGA:
+ echo "AGS Covers Not Mounted!"
+ quit
+Endif
+AGS:
+Ex Scripts:JIT_Enable
+echo Creating Delete List
+list >T:Del_List whd-hdd: PAT igame.iff all lformat "Delete %P%N"
+list >T:Del_List2 whd-hdd: PAT igame.data all lformat "Delete %P%N"
+ex t:Del_List
+ex t:Del_List2
+Copy AGS_Mini_Covers_AGA: WHD-HDD: CLONE ALL
+delete >NIL: t:Del_List

@@ -1,0 +1,106 @@
+Stack 40000
+
+SETENV PScript "" ; Original Script Full
+SETENV PName ""   ; Script Name
+SETENV PPath ""   ; Script Path
+SETENV PDrawer "" ; File Drawer
+SETENV PFile ""   ; File Name
+SETENV PType ""   ; File Type
+
+Cls
+
+; Add launcher name string
+
+Echo "Update Script"
+
+Echo ""
+Echo "Please select a config file..."
+Requestfile >ENV:Temp DRAWER "AGS:+  Extra Games.ags" PATTERN #?.run
+Echo $Temp TO ENV:PScript
+Delete >NIL: ENV:Temp
+List >ENV:PName "$PScript" lformat %m
+List >ENV:PPath "$PScript" lformat %p
+Echo "*E[1m"
+Echo You selected : $PScript
+Echo Called       : $PName
+Echo In           : $PPath
+
+; Select program
+
+Echo "*E[0m"
+Echo "Please select the program..."
+Requestfile >ENV:Temp "Games:"
+Echo $Temp TO ENV:Temp
+List >ENV:PDrawer "$Temp" lformat %p
+List >ENV:PFile "$Temp" lformat %n
+Delete ENV:Temp
+Echo "*E[1m"
+Echo You selected : $PFile
+Echo Drawer       : $PDrawer
+
+; Add program type
+
+Echo "*E[0m"
+Echo "Please select the type of program that you want to add..."
+BMX Scripts:Program_Type_Menu
+If $PType EQ "CANCEL"
+ Skip PError
+Endif
+Echo "*E[1m"
+Echo "You selected : $PType"
+
+; Generate config file
+
+Ex Admin:Extra_Config
+
+Echo "Copying files..."
+
+If Exists "$PScript"
+ Echo >T:PCopy "Copy *"$PScript*" TO *"AGS:+  Extra Games.ags/old/$PName.run*""
+ Ex T:PCopy
+Endif
+
+Echo >T:PCopy "Copy T:Tmp TO *"$PScript*""
+Ex T:PCopy
+
+Ed "$PScript"
+Ed "AGS:+  Extra Games.ags/old/$PName.run"
+
+Echo "Opening configs..."
+
+Delete >NIL: T:Tmp
+Delete >NIL: T:PCopy
+
+; Edit description file
+
+Skip PQuit
+
+LAB PError
+
+Echo ""
+Echo "*E[1mError! Process Aborted.*E[0m"
+Wait 2
+Quit
+
+LAB PExit
+
+Echo ""
+Echo "*E[1mProcess aborted.*E[0m"
+Wait 2
+Quit
+
+LAB PQuit
+
+Echo ""
+Echo "*E[1mProcess successful...*E[0m"
+Wait 2
+
+Delete >NIL: ENV:PCopy
+Delete >NIL: ENV:ANS
+Delete >NIL: ENV:PName
+Delete >NIL: ENV:PType
+Delete >NIL: ENV:PDrawer
+Delete >NIL: ENV:PFile
+Delete >NIL: ENV:PImage
+Delete >NIL: ENV:PSubfolder
+Delete >NIL: ENV:PScript

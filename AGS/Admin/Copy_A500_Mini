@@ -1,0 +1,97 @@
+If NOT EXISTS AGS_Drive:
+ echo "AGS Drive Not Mounted!"
+ quit
+Endif
+If NOT EXISTS WHD1:
+ echo "WHD Drive 1 Not Mounted!"
+ quit
+Endif
+If NOT EXISTS WHD2:
+ echo "WHD Drive 2 Not Mounted!"
+ quit
+Endif
+If NOT EXISTS WHD3:
+ echo "WHD Drive 3 Not Mounted!"
+ quit
+Endif
+;Ex Scripts:JIT_Enable
+;Echo "Formatting Drives..."
+;pfsformat DEVICE DH1_2: NAME WHD1 QUICK NOICONS
+;pfsformat DEVICE DH2_0: NAME WHD2 QUICK NOICONS
+;pfsformat DEVICE DH3: NAME WHD3 QUICK NOICONS
+Copy "AGS_Drive:Disk.info" "WHD1:Disk.info"
+Copy "AGS_Drive:Disk.info" "WHD2:Disk.info"
+Copy "AGS_Drive:Disk.info" "WHD3:Disk.info"
+
+Copy "AGS_Drive:Beta" "WHD1:Beta" CLONE ALL
+Copy "AGS_Drive:Beta.info" "WHD1:Beta.info" CLONE ALL
+Copy "AGS_Drive:Demo" "WHD1:Demo" CLONE ALL
+Copy "AGS_Drive:Demo.info" "WHD1:Demo.info"
+Copy "AGS_Drive:Magazine" "WHD1:Magazine" CLONE ALL
+Copy "AGS_Drive:Magazine.info" "WHD1:Magazine.info"
+
+Makedir WHD1:Game
+Copy "AGS_Drive:Game.info" "WHD1:Game.info"
+Copy "AGS_Drive:Game/0" "WHD1:Game/0" CLONE ALL
+Copy "AGS_Drive:Game/0.info" "WHD1:Game/0.info"
+Copy "AGS_Drive:Game/A" "WHD1:Game/A" CLONE ALL
+Copy "AGS_Drive:Game/A.info" "WHD1:Game/A.info"
+Copy "AGS_Drive:Game/B" "WHD1:Game/B" CLONE ALL
+Copy "AGS_Drive:Game/B.info" "WHD1:Game/B.info"
+Copy "AGS_Drive:Game/C" "WHD1:Game/C" CLONE ALL
+Copy "AGS_Drive:Game/C.info" "WHD1:Game/C.info"
+Copy "AGS_Drive:Game/D" "WHD1:Game/D" CLONE ALL
+Copy "AGS_Drive:Game/D.info" "WHD1:Game/D.info"
+Copy "AGS_Drive:Game/E" "WHD1:Game/E" CLONE ALL
+Copy "AGS_Drive:Game/E.info" "WHD1:Game/E.info"
+Copy "AGS_Drive:Game/F" "WHD1:Game/F" CLONE ALL
+Copy "AGS_Drive:Game/F.info" "WHD1:Game/F.info"
+
+Makedir WHD2:Game
+Copy "AGS_Drive:Game.info" "WHD2:Game.info"
+Copy "AGS_Drive:Game/G" "WHD2:Game/G" CLONE ALL
+Copy "AGS_Drive:Game/G.info" "WHD2:Game/G.info"
+Copy "AGS_Drive:Game/H" "WHD2:Game/H" CLONE ALL
+Copy "AGS_Drive:Game/H.info" "WHD2:Game/H.info"
+Copy "AGS_Drive:Game/I" "WHD2:Game/I" CLONE ALL
+Copy "AGS_Drive:Game/I.info" "WHD2:Game/I.info"
+Copy "AGS_Drive:Game/J" "WHD2:Game/J" CLONE ALL
+Copy "AGS_Drive:Game/J.info" "WHD2:Game/J.info"
+Copy "AGS_Drive:Game/K" "WHD2:Game/K" CLONE ALL
+Copy "AGS_Drive:Game/K.info" "WHD2:Game/K.info"
+Copy "AGS_Drive:Game/L" "WHD2:Game/L" CLONE ALL
+Copy "AGS_Drive:Game/L.info" "WHD2:Game/L.info"
+Copy "AGS_Drive:Game/M" "WHD2:Game/M" CLONE ALL
+Copy "AGS_Drive:Game/M.info" "WHD2:Game/M.info"
+Copy "AGS_Drive:Game/N" "WHD2:Game/N" CLONE ALL
+Copy "AGS_Drive:Game/N.info" "WHD2:Game/N.info"
+Copy "AGS_Drive:Game/O" "WHD2:Game/O" CLONE ALL
+Copy "AGS_Drive:Game/O.info" "WHD2:Game/O.info"
+Copy "AGS_Drive:Game/P" "WHD2:Game/P" CLONE ALL
+Copy "AGS_Drive:Game/P.info" "WHD2:Game/P.info"
+Copy "AGS_Drive:Game/Q" "WHD2:Game/Q" CLONE ALL
+Copy "AGS_Drive:Game/Q.info" "WHD2:Game/Q.info"
+Copy "AGS_Drive:Game/R" "WHD2:Game/R" CLONE ALL
+Copy "AGS_Drive:Game/R.info" "WHD2:Game/R.info"
+Copy "AGS_Drive:Game/T" "WHD2:Game/T" CLONE ALL
+Copy "AGS_Drive:Game/T.info" "WHD2:Game/T.info"
+Copy "AGS_Drive:Game/U" "WHD2:Game/U" CLONE ALL
+Copy "AGS_Drive:Game/U.info" "WHD2:Game/U.info"
+Copy "AGS_Drive:Game/V" "WHD2:Game/V" CLONE ALL
+Copy "AGS_Drive:Game/V.info" "WHD2:Game/V.info"
+Copy "AGS_Drive:Game/W" "WHD2:Game/W" CLONE ALL
+Copy "AGS_Drive:Game/W.info" "WHD2:Game/W.info"
+Copy "AGS_Drive:Game/X" "WHD2:Game/X" CLONE ALL
+Copy "AGS_Drive:Game/X.info" "WHD2:Game/X.info"
+Copy "AGS_Drive:Game/Y" "WHD2:Game/Y" CLONE ALL
+Copy "AGS_Drive:Game/Y.info" "WHD2:Game/Y.info"
+Copy "AGS_Drive:Game/Z" "WHD2:Game/Z" CLONE ALL
+Copy "AGS_Drive:Game/Z.info" "WHD2:Game/Z.info"
+
+Makedir WHD3:Game
+Copy "AGS_Drive:Game.info" "WHD3:Game.info"
+Copy "AGS_Drive:Game/S" "WHD3:Game/S" CLONE ALL
+Copy "AGS_Drive:Game/S.info" "WHD3:Game/S.info"
+Copy "AGS_Drive:AGS2" "WHD3:" CLONE ALL
+
+Echo "Success!"

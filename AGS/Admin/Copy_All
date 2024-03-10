@@ -1,0 +1,11 @@
+If NOT EXISTS WHD:
+ echo "WHD Not Mounted!"
+ quit
+Endif
+If NOT EXISTS AGS_Mini_Covers_RTG:
+ echo "AGS Covers Not Mounted!"
+ quit
+Endif
+Ex Admin:Copy_AGS
+Ex Admin:Copy_Games
+Echo "Complete!"

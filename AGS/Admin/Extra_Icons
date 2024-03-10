@@ -1,0 +1,77 @@
+Requestfile >ENV:Temp DRAWER "Games:"
+
+Echo $Temp
+
+Filesize >ENV:FS ENV:Temp
+
+Echo $FS
+
+If $FS EQ 0
+ Skip PQuit
+Endif
+
+Echo $Temp TO ENV:Temp
+
+List >ENV:PDrawer "$Temp" lformat %p
+List >ENV:PFile "$Temp" lformat %n
+List >ENV:PFileNE "$Temp" lformat %m
+List >ENV:PExt "$Temp" lformat %e
+SETENV ENV:PData "Data"
+
+Echo "*E[1m"
+
+Echo Drawer: $PDrawer
+Echo File: $PFile
+Echo File NE: $PFileNE
+Echo Exts: $PExt
+
+Delete >NIL: ENV:Temp
+Filesize >ENV:FS "$Pfile"
+If $FS EQ 0
+ Quit
+Endif
+
+RequestString >ENV:PName "Add Program" "Please enter a name for your icon..."
+Filesize ENV:PName >ENV:FS
+If $FS EQ 0
+ Skip PQuit
+Endif
+Delete >NIL: ENV:FS
+
+Echo ""
+Echo "Filename: $PName"
+Echo ""
+Echo >ENV:POld $PDrawer$PFile
+Echo >ENV:PNew $PDrawer$PName.$PExt
+
+Copy $POld RAM:
+Rename RAM:$PFile RAM:$PName.info
+
+List >T:PDel $PDrawer PAT #?.info LFORMAT "Delete *"%P%N*""
+Ex T:PDel
+Delete T:PDel
+
+List >T:PDel $PDrawer PAT ReadME#? LFORMAT "Delete *"%P%N*""
+Ex T:PDel
+Delete T:PDel
+
+Copy "RAM:$PName.$PExt" "$PDrawer"
+iconcopy env:sys/def_ags_icon.info "$PDrawer$PName.info"
+iconcopy env:sys/def_ags_drawer.info "$PDrawer$PData.info"
+
+Echo "*E[0m"
+
+LAB PQuit
+
+Quit
+
+Delete >NIL: ENV:FS
+Delete >NIL: ENV:Temp
+Delete >NIL: ENV:PFile
+Delete >NIL: ENV:PFileNE
+Delete >NIL: ENV:PName
+Delete >NIL: ENV:PDrawer
+Delete >NIL: ENV:PExt
+Delete >NIL: ENV:PData
+Delete >NIL: ENV:POld
+Delete >NIL: ENV:PNew

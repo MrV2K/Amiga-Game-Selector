@@ -1,0 +1,16 @@
+If NOT EXISTS AGS_Mini_Covers_RTG:
+ echo "AGS Covers Not Mounted!"
+ quit
+Endif
+
+Delete AGS_Drive:Game ALL FORCE
+Delete AGS_Drive:Beta ALL FORCE
+Delete AGS_Drive:Demo ALL FORCE
+Delete AGS_Drive:Magazine ALL FORCE
+
+Copy WHD-HDD:Game AGS_Drive:Game CLONE ALL
+Copy WHD-HDD:Beta AGS_Drive:Beta CLONE ALL
+Copy WHD-HDD:Demo AGS_Drive:Demo CLONE ALL
+Copy WHD-HDD:Magazine AGS_Drive:Magazine CLONE ALL
+
+;Copy AGS_Mini_Covers_RTG: AGS_Drive: CLONE ALL

@@ -1,0 +1,57 @@
+If NOT EXISTS WHD:
+ echo "WHD Not Mounted!"
+ quit
+Endif
+AGS:
+Ex Scripts:JIT_Enable
+Delete "+  Games - 0-Z.ags" ALL FORCE
+Delete "+  Games - Adult.ags" ALL FORCE
+Delete "+  Games - AGA.ags" ALL FORCE
+Delete "+  Games - Beta.ags" ALL FORCE
+Delete "+  Games - By Genre.ags" ALL FORCE
+Delete "+  Games - By Publisher.ags" ALL FORCE
+Delete "+  Games - By System.ags" ALL FORCE
+Delete "+  Games - By Theme.ags" ALL FORCE
+Delete "+  Games - By Year.ags" ALL FORCE
+Delete "+  Games - Emerald Mines.ags" ALL FORCE
+Delete "+  Games - MT32.ags" ALL FORCE
+Delete "+  Games - Multiplayer.ags" ALL FORCE
+Delete "+  Games - Non English.ags" ALL FORCE
+Delete "+  Games - NTSC.ags" ALL FORCE
+Delete "-  Demos - 0-Z.ags" ALL FORCE
+Delete "-  Demos - Adult.ags" ALL FORCE
+Delete "-  Demos - AGA.ags" ALL FORCE
+Delete "-  Demos - By Genre.ags" ALL FORCE
+Delete "-  Demos - By Group.ags" ALL FORCE
+Delete "-  Demos - By Year.ags" ALL FORCE
+Delete "-  Disk Magazines.ags" ALL FORCE
+Delete "Readme Files.ags" ALL FORCE
+Delete "AGS:Search.ags/WHD-DATA" ALL FORCE
+Copy "WHD:+  Games - 0-Z.ags"  "AGS:+  Games - 0-Z.ags" CLONE ALL
+Copy "WHD:+  Games - Adult.ags"  "AGS:+  Games - Adult.ags" CLONE ALL
+Copy "WHD:+  Games - AGA.ags"  "AGS:+  Games - AGA.ags" CLONE ALL
+Copy "WHD:+  Games - Beta.ags"  "AGS:+  Games - Beta.ags" CLONE ALL
+Copy "WHD:+  Games - By Genre.ags"  "AGS:+  Games - By Genre.ags" CLONE ALL
+Copy "WHD:+  Games - By Publisher.ags"  "AGS:+  Games - By Publisher.ags" CLONE ALL
+Copy "WHD:+  Games - By System.ags"  "AGS:+  Games - By System.ags" CLONE ALL
+Copy "WHD:+  Games - By Theme.ags"  "AGS:+  Games - By Theme.ags" CLONE ALL
+Copy "WHD:+  Games - By Year.ags"  "AGS:+  Games - By Year.ags" CLONE ALL
+Copy "WHD:+  Games - Emerald Mines.ags"  "AGS:+  Games - Emerald Mines.ags" CLONE ALL
+Copy "WHD:+  Games - MT32.ags"  "AGS:+  Games - MT32.ags" CLONE ALL
+Copy "WHD:+  Games - Multiplayer.ags"  "AGS:+  Games - Multiplayer.ags" CLONE ALL
+Copy "WHD:+  Games - Non English.ags"  "AGS:+  Games - Non English.ags" CLONE ALL
+Copy "WHD:+  Games - NTSC.ags"  "AGS:+  Games - NTSC.ags" CLONE ALL
+Copy "WHD:-  Demos - 0-Z.ags"  "AGS:-  Demos - 0-Z.ags" CLONE ALL
+Copy "WHD:-  Demos - Adult.ags"  "AGS:-  Demos - Adult.ags" CLONE ALL
+Copy "WHD:-  Demos - AGA.ags"  "AGS:-  Demos - AGA.ags" CLONE ALL
+Copy "WHD:-  Demos - By Genre.ags"  "AGS:-  Demos - By Genre.ags" CLONE ALL
+Copy "WHD:-  Demos - By Group.ags"  "AGS:-  Demos - By Group.ags" CLONE ALL
+Copy "WHD:-  Demos - By Year.ags"  "AGS:-  Demos - By Year.ags" CLONE ALL
+Copy "WHD:-  Disk Magazines.ags"  "AGS:-  Disk Magazines.ags" CLONE ALL
+Copy "WHD:Readme Files.ags"  "AGS:Readme Files.ags" CLONE ALL
+Copy WHD:gameslist#? Workbench:WHDLoad/GamesLists/
+Copy WHD:genres#? Workbench:WHDLoad/GamesLists/
+Copy WHD:WHDLoad#? AGS:Search.ags/
+Copy WHD:WHD-Data AGS:Search.ags/ CLONE ALL
+Copy WHD:Random_Game Scripts:
+Echo "Complete!"
