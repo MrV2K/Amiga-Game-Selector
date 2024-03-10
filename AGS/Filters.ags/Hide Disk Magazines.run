@@ -1,0 +1,11 @@
+cls
+cd AGS:
+echo "Hiding the disk magazines from the main list."
+if EXISTS "-  Disk Magazines.ags"
+ rename "-  Disk Magazines.ags" TO "-  Disk Magazines.agz"
+endif
+if NOT EXISTS "-  Demos - AGA.ags"
+ rename "-  -----------------------.ags" TO "-  -----------------------.agz"
+endif
+wait 2
+cls

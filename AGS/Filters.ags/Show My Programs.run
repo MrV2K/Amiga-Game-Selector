@@ -1,0 +1,8 @@
+cls
+cd AGS:
+echo "Showing My Programs on the main list."
+if EXISTS "+  My Programs.agz"
+ rename "+  My Programs.agz" TO "+  My Programs.ags"
+endif
+wait 2
+cls

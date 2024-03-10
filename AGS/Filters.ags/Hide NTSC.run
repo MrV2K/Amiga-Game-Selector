@@ -1,0 +1,8 @@
+cls
+cd AGS:
+echo "Hiding NTSC Games from the main list."
+if EXISTS "+  Games - NTSC.ags"
+ rename "+  Games - NTSC.ags" TO "+  Games - NTSC.agz"
+endif
+wait 2
+cls

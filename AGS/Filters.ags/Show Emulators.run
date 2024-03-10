@@ -1,0 +1,10 @@
+cls
+cd AGS:
+echo "Showing emulators on the the main list."
+SETENV ADULT "1"
+Copy >NIL: ENV:ADULT ENVARC:
+if EXISTS "+  Emulators.agz"
+ rename "+  Emulators.agz" TO "+  Emulators.ags"
+endif
+wait 2
+cls

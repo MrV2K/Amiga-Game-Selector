@@ -1,0 +1,13 @@
+cls
+cd AGS:
+echo "Showing adult games on the main list."
+SETENV ADULT "1"
+Copy >NIL: ENV:ADULT ENVARC:
+if EXISTS "+  Games - Adult.agz"
+ rename "+  Games - Adult.agz" TO "+  Games - Adult.ags"
+endif
+if EXISTS "-  Demos - Adult.agz"
+ rename "-  Demos - Adult.agz" TO "-  Demos - Adult.ags"
+endif
+wait 2
+cls

@@ -1,0 +1,52 @@
+cls
+cd AGS:
+echo "Showing all hidden subjects on main list."
+SETENV ADULT "1"
+COPY ENV:ADULT ENVARC:
+if EXISTS "+  Games - Adult.agz"
+ rename "+  Games - Adult.agz" TO "+  Games - Adult.ags"
+endif
+if EXISTS "-  Demos - Adult.agz"
+ rename "-  Demos - Adult.agz" TO "-  Demos - Adult.ags"
+endif
+if EXISTS "-  Demos - 0-Z.agz"
+ rename "-  Demos - 0-Z.agz" TO "-  Demos - 0-Z.ags"
+endif
+if EXISTS "-  Demos - Adult.agz"
+ rename "-  Demos - Adult.agz" TO "-  Demos - Adult.ags"
+endif
+if EXISTS "-  Demos - AGA.agz"
+ rename "-  Demos - AGA.agz" TO "-  Demos - AGA.ags"
+endif
+if EXISTS "-  Demos - By Genre.agz"
+ rename "-  Demos - By Genre.agz" TO "-  Demos - By Genre.ags"
+endif
+if EXISTS "-  Demos - By Group.agz"
+ rename "-  Demos - By Group.agz" TO "-  Demos - By Group.ags"
+endif
+if EXISTS "-  Demos - By Year.agz"
+ rename "-  Demos - By Year.agz" TO "-  Demos - By Year.ags"
+endif
+if EXISTS "-  -----------------------.agz"
+ rename "-  -----------------------.agz" TO "-  -----------------------.ags"
+endif
+if EXISTS "-  Disk Magazines.agz"
+ rename "-  Disk Magazines.agz" TO "-  Disk Magazines.ags"
+endif
+if EXISTS "+  Games - Emerald Mines.agz"
+ rename "+  Games - Emerald Mines.agz" TO "+  Games - Emerald Mines.ags"
+endif
+if EXISTS "+  Emulators.agz"
+ rename "+  Emulators.agz" TO "+  Emulators.ags"
+endif
+if EXISTS "+  Games - MT32.agz"
+ rename "+  Games - MT32.agz" TO "+  Games - MT32.ags"
+endif
+if EXISTS "+  Games - Non English.agz"
+ rename "+  Games - Non English.agz" TO "+  Games - Non English.ags"
+endif
+if EXISTS "+  Games - NTSC.agz"
+ rename "+  Games - NTSC.agz" TO "+  Games - NTSC.ags"
+endif
+wait 2
+cls

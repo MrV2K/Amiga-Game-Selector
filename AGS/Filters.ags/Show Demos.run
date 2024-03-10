@@ -1,0 +1,26 @@
+cls
+cd AGS:
+echo "Showing demos on the main list."
+if EXISTS "-  Demos - 0-Z.agz"
+ rename "-  Demos - 0-Z.agz" TO "-  Demos - 0-Z.ags"
+endif
+if EXISTS "-  Demos - Adult.agz"
+ rename "-  Demos - Adult.agz" TO "-  Demos - Adult.ags"
+endif
+if EXISTS "-  Demos - AGA.agz"
+ rename "-  Demos - AGA.agz" TO "-  Demos - AGA.ags"
+endif
+if EXISTS "-  Demos - By Genre.agz"
+ rename "-  Demos - By Genre.agz" TO "-  Demos - By Genre.ags"
+endif
+if EXISTS "-  Demos - By Group.agz"
+ rename "-  Demos - By Group.agz" TO "-  Demos - By Group.ags"
+endif
+if EXISTS "-  Demos - By Year.agz"
+ rename "-  Demos - By Year.agz" TO "-  Demos - By Year.ags"
+endif
+if EXISTS "-  -----------------------.agz"
+ rename "-  -----------------------.agz" TO "-  -----------------------.ags"
+endif
+wait 2
+cls

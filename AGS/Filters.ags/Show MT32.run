@@ -1,0 +1,8 @@
+cls
+cd AGS:
+echo "Showing MT32 games on the main list."
+if EXISTS "+  Games - MT32.agz"
+ rename "+  Games - MT32.agz" TO "+  Games - MT32.ags"
+endif
+wait 2
+cls

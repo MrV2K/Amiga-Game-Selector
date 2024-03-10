@@ -1,0 +1,8 @@
+cls
+cd AGS:
+echo "Showing non english games on the main list."
+if EXISTS "+  Games - Non English.agz"
+ rename "+  Games - Non English.agz" TO "+  Games - Non English.ags"
+endif
+wait 2
+cls

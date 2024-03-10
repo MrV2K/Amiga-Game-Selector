@@ -1,0 +1,11 @@
+cls
+cd AGS:
+echo "Showing the disk magazines on the main list."
+if EXISTS "-  Disk Magazines.agz"
+ rename "-  Disk Magazines.agz" TO "-  Disk Magazines.ags"
+endif
+if EXISTS "-  -----------------------.agz"
+ rename "-  -----------------------.agz" TO "-  -----------------------.ags"
+endif
+wait 2
+cls

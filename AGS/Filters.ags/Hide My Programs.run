@@ -1,0 +1,8 @@
+cls
+cd AGS:
+echo "Hiding My Programs from the main list."
+ If EXISTS "+  My Programs.ags"
+ rename "+  My Programs.ags" TO "+  My Programs.agz"
+endif
+wait 2
+cls

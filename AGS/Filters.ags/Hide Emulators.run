@@ -1,0 +1,10 @@
+cls
+cd AGS:
+echo "Hiding Emulators from the main list."
+SETENV ADULT "0"
+Copy >NIL: ENV:ADULT ENVARC:
+if EXISTS "+  Emulators.ags"
+ rename "+  Emulators.ags" TO "+  Emulators.agz"
+endif
+wait 2
+cls

@@ -1,0 +1,26 @@
+cls
+cd AGS:
+echo "Hiding demos from the main list."
+if EXISTS "-  Demos - 0-Z.ags"
+ rename "-  Demos - 0-Z.ags" TO "-  Demos - 0-Z.agz"
+endif
+if EXISTS "-  Demos - Adult.ags"
+ rename "-  Demos - Adult.ags" TO "-  Demos - Adult.agz"
+endif
+if EXISTS "-  Demos - AGA.ags"
+ rename "-  Demos - AGA.ags" TO "-  Demos - AGA.agz"
+endif
+if EXISTS "-  Demos - By Genre.ags"
+ rename "-  Demos - By Genre.ags" TO "-  Demos - By Genre.agz"
+endif
+if EXISTS "-  Demos - By Group.ags"
+ rename "-  Demos - By Group.ags" TO "-  Demos - By Group.agz"
+endif
+if EXISTS "-  Demos - By Year.ags"
+ rename "-  Demos - By Year.ags" TO "-  Demos - By Year.agz"
+endif
+if NOT EXISTS "-  Disk Magazines.ags"
+ rename "-  -----------------------.ags" TO "-  -----------------------.agz"
+endif
+wait 2
+cls

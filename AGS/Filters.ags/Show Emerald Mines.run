@@ -1,0 +1,8 @@
+cls
+cd AGS:
+echo "Showing emerald mine games on the main list."
+if EXISTS "+  Games - Emerald Mines.agz"
+ rename "+  Games - Emerald Mines.agz" TO "+  Games - Emerald Mines.ags"
+endif
+wait 2
+cls
