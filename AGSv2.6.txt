@@ -6,15 +6,14 @@ Check PacMan & Paperboy
 Gothicvania link
 Stolen data 7 & 8.
 Cracker Journal (last one)
-Save path in extra game icons.
 Coverdisks ???
+
+Open Red Alert
+Open C & C
 
 Add permanent delete of adult games
 
-imgbb for images 
-
-JoytoMouse ????
-Shutdown on Pi & A500Mini
+System Shutdown on Pi & A500Mini
 Add more Scummvm games
 DOPUS drive buttons
 256mb memory on Pi4
@@ -29,6 +28,17 @@ ENV: fix on classic
 
 Xmas category.
 Halloween Category
+
+New HDD Sizes
+=============
+Workbench - 500mb to 1gb - 1gb
+Work      - 3gb to 4gb   - 4gb
+Media     - 10gb (New)   - 10gb
+AGS_Drive - 12gb to 16gb - 16gb
+Games     - 4gb to 8gb   - 8gb
+Extra     - 8gb to 16gb  - 16gb
+
+Total                    - 55gb
 
 New Themes
 ==========
@@ -133,7 +143,7 @@ Star Trek
 Starship Troopers
 * Stranger Things
 Street Hawk
-TRON
+* TRON
 Teenage Mutant Ninja Turtles
 The Black Hole
 The Thing
@@ -201,13 +211,16 @@ Added random mod playback to launcher. Mods need to be placed in the AGS:Mods dr
 Added Amiga Test Kit v1.21 to Utilities
 Added RNOPDF v1.6 to utilities and 'Programs' workbench menu.
 Added Demanding Games and Demos category to Games by Theme.
-Added SmartWin to WBStartup to speed up window drawing
+Added 1541 Instruments to ST-00:
+Added approximately 31,000 new mods.
+Added proper save paths to the WHDLoad based extra games.
 
 Changes
 =======
 Reduced the memory requirements for the amige guide based database.
 Sped up A-Train.
 Sped up Beneath a Steel Sky CD32.
+Sped Up Microprose Grand Prix 2022 / 2023 in Extra Games.
 Removed old favourites system.
 Moved favourite options to new folder. Now not included in backup archives.
 Moved all AGS commands out of user startup. Now runs a script called AGS-Stuff.
@@ -217,6 +230,7 @@ Added slight pause to random theme option.
 Changed several options to toggle rather than having both options.
 Optimised game scripts again to take into account of new favourites system, my
 program and expert modes.
+Improved restart speed if the system is reset and the CPU speed is slowed down.
 
 Fixes
 =====
@@ -262,28 +276,63 @@ GI Poker v1.0
 New Extra Games
 ===============
 Agonman ECS
+AlcoCopter
+Alehop
+All Valley Karate Championship
 AmiDonkey Kong LCD
 AmiHero
 Aminvaders
+Amisaber Mini
 Amoeba Invaders
 Ant Wars
 Ant Wars 2
-Bode Runner (Demo)
+Applejack AGA
+BlockBuster 2
+Bnoid AGA
+Boat LCD
+Boing
 Bomber
+Boondar AGA
+Bruce Lee
+Charlie Chimp SE '97
+Charlie Chimp 2
+Charlie Chimp 3 & The Treasure of Tutankhamun
+Charlie Chimp 4 - The Great Escape
+Coarse Angler
+Cubit
+Cybersphere
+Cybersphere Plus
+Day of the Tentacle AGA
 Death Angel
+Demon Wars
 Dogi (Demo)
 Duck Hunt
+Dylan Dog  - Through the Looking Glass
 Earth Defence Force AGA (Demo)
+Escape
+Escape 2
 Evil Garden
+F1 Racer
+Falling Down
+Fast Freddie
 Final Fight Enhanced
+Fruit Mania
+Funtris
 Gems Deluxe
+George and the Repton Clone
 Genghis Khan
 Giger Tetris AGA
+Gloom Deluxe 8bit Killer 
 Grand Prix Manager '95
 Gravity Power
 Hanse - Expedition AGA (De)
 Hemroids
+Henry's House
+High Noon
+Holiday
 Hyper Wings
+James Clavell's Shogun
+Jinx AGA
 Jump 'n Bump
 Jumpman Deluxe (Demo)
 Jumpman Junior
@@ -293,12 +342,20 @@ Manic Miner Mayhem
 M*A*S*H
 Meet Ball
 Merry Xmas 2023
+Microprose F1GP 2024
 Mini Zorro
 Mirror
 Mr Beanbag AGA
 Neon World AGA (Demo)
-Poing 1-7
+Poing 1
+Poing 2
+Poing 3
+Poing 4
+Poing 5
+Poing 6
+Poing 7
 Powerboat USA
+Risiko
 Risk
 Romance of the Three Kingdoms
 Romance of the Three Kingdoms 2
@@ -314,6 +371,7 @@ Spaceward Ho!
 Star Wars - Sweary Version
 Starflight 2
 Super Huey
+Tornado AGA (Framerate Fix)
 Turbo Tomato (Demo)
 Wizonk (Demo)
 Zerberk
@@ -327,6 +385,7 @@ Agonman AGA
 GothicVania AGA
 Super Delivery Boy Holiday Ed.
 Breathless (Fixed)
+Sim City 2000
 
 WHDLoad New & Updates
 =====================
@@ -354,6 +413,7 @@ Locomotion
 Made in Croatia (Binary)
 Music Disk 2 (Elite Inc)
 Menace
+Moon Patrol (Beta)
 Nuxelia Demo
 Panacea (TBL)
 Plague
