@@ -1,6 +1,123 @@
                          Frequently Asked Questions
                          ~~~~~~~~~~~~~~~~~~~~~~~~~~
-						 
+	
+	
+=================
+General Questions
+=================
+
+
+How do I exit a game?
+---------------------
+You need to use the WHDLoad quit key to exit a game properly. Check the game's
+readme file or the bottom of the blue WHDLoad splash screen to see what that
+key is.
+
+Why are my saves not err... saving?
+-----------------------------------
+Make sure to use the WHDLoad quit key when you exit a game. Check the game's
+readme file or the bottom of the blue WHDLoad splash screen to see what that
+key is.
+
+Can I shut down AGS without a keyboard?
+---------------------------------------
+Yes. Go to 'Options' - 'Quit to OS'. This will shutdown AGS correctly.
+
+Can I back-up my saves?
+-----------------------
+Yes. WHDLoad saves it's games to a folder on the SHARED drive. The folder is 
+located in SHARED/Savegames. Copy that folder to your PC and 
+your saves are backed up. Some of the WHDLoad games and most of the extra games 
+save into their install folder. You would have to manually copy those saves to 
+the 'SHARED' drive yourself. I have included Directory Opus 4 for that reason.
+
+Can I install my own games and programs?
+----------------------------------------
+Yes. Add the ADF's in the WinUAE/Amiberry interface and install as normal. There
+is a tutorial in the help list in AGS.
+
+Can I add the programs that I have installed to the AGS launcher?
+-----------------------------------------------------------------
+On version 2.6, yes. Enable 'My Programs' in the filter and use the 'Add
+Program' option to add the program that you have installed to the launcher.
+Make sure to read the instructions before completing an install.
+
+XXXXXX game still runs too fast. Can I slow it down?
+----------------------------------------------------
+Yes. There are a few things to try...
+1. The version of Amiberry on the A500 Mini is quite old and buggy. Most speed
+   and graphic errors can be fixed by pressing F12 to open Amiberry and press
+   F12 again to close it.
+2. Also report it on the thread in the AGS Facebook group and if I can fix it, I
+   will add it to my database so the speed will be set automatically in the next
+   version of AGS.
+3. You can also change a games speed when you run it by enabling 'Expert Mode'.
+
+What programs are included?
+---------------------------
+There is a list of included programs in the AGS search list.
+
+Why are some RTG games very slow?
+---------------------------------
+Run them with the JIT configuration.
+
+How do I access Workbench?
+--------------------------
+Press the 'Escape' key when the AGS launcher has loaded.
+
+How do I re-open AGS from Workbench?
+------------------------------------
+AGS is located in the Workbench menu and on the tool bar at the bottom 
+of the Workbench screen.
+
+Can I run the games from the Workbench?
+---------------------------------------
+Yes. There is a full WHDLoad install on the following drives...
+
+'WHD' drives(A500 Mini)
+'AGS_Drive' (WinUAE / Raspberry Pi)
+'Work:WHDLoad' (AGS Classic)
+
+More games are located on the 'Games' and 'Extras' drives. I have also included
+IGame which can be launched from the Workbench menu and the toolbar at the
+bottom of the Workbench screen.
+
+Where are my games saved?
+-------------------------
+Games are saved in a folder called 'Savegames' on the 'SHARED' drive.
+
+Why do the screenshots sometimes disappear on the AGS launcher?
+---------------------------------------------------------------
+If you run a game or demo whilst the image is fading in or out the image
+corrupts or stops loading. This is less of a problem from v1.2 onwards as the
+images load a lot faster.
+
+Can I access the Amiberry/WinUAE interface?
+-------------------------------------------
+Yes. Press the 'F12' key to open the menu and 'ESC' key to close it again. You 
+can also access it by opening the '[Options]'  menu in AGS. There is also an 
+option to access Amiberry/WinUAE from the 'System' Workbench menu.
+
+Can I use two controllers for two player games?
+-----------------------------------------------
+Yes. Use the WinUAE/Amiberry interface to add/change controllers.
+
+Will there be updates when new games or WHDLoad updates come out?
+-----------------------------------------------------------------
+Yes. I will add an update config file that updates the installs and 
+configurations.
+
+Vista Pro and Scenery Generator dont work when I run them. How do I fix them?
+-----------------------------------------------------------------------------
+Switch Workbench into AGA mode from the menu or with the icons in the drawer.
+
+When I run a 'Premium' game, nothing happens. What do I do?
+-----------------------------------------------------------
+The premium games are not supplied with the retail data files. You will need to
+source these files and add them to the relevant drawer. Instructions are
+included in the help files.
+	
+	
 ===================
 A500 Mini Questions
 ===================
@@ -120,112 +237,3 @@ Can I restart Amiberry from the Dietpi interface?
 -------------------------------------------------
 Yes. Either type 'reboot' and reboot the Pi or run 'dietpi-services' and restart the
 Amiberry service.
-
-=================
-General Questions
-=================
-
-
-Why are my saves not err... saving?
------------------------------------
-Make sure to use the WHDLoad quit key when you exit a game. Check the game's
-readme file or the bottom of the blue WHDLoad splash screen to see what that
-key is.
-
-Can I shut down AGS without a keyboard?
----------------------------------------
-Yes. Go to 'Options' - 'Quit to OS'. This will shutdown AGS correctly.
-
-Can I back-up my saves?
------------------------
-Yes. WHDLoad saves it's games to a folder on the SHARED drive. The folder is 
-located in SHARED/Savegames. Copy that folder to your PC and 
-your saves are backed up. Some of the WHDLoad games and most of the extra games 
-save into their install folder. You would have to manually copy those saves to 
-the 'SHARED' drive yourself. I have included Directory Opus 4 for that reason.
-
-Can I install my own games and programs?
-----------------------------------------
-Yes. Add the ADF's in the WinUAE/Amiberry interface and install as normal. There is a
-tutorial in the help list in AGS.
-
-Can I add the programs that I have installed to the AGS launcher?
------------------------------------------------------------------
-Yes. Enable 'My Programs' in the filter and use the 'Add Program' option to add
-the program that you have installed to the launcher. Make sure to read the
-instructions before completing an install.
-
-XXXXXX game still runs too fast. Can I slow it down?
-----------------------------------------------------
-Yes. There are a few things to try...
-1. The version of Amiberry on the A500 Mini is quite old and buggy. Most speed
-   and graphic errors can be fixed by pressing F12 to open Amiberry and press
-   F12 again to close it.
-2. Also report it on the thread in the AGS Facebook group and if I can fix it, I
-   will add it to my database so the speed will be set automatically in the next
-   version of AGS.
-3. You can also change a games speed when you run it by enabling 'Expert Mode'.
-
-What programs are included?
----------------------------
-There is a list of included programs in the AGS search list.
-
-Why are some RTG games very slow?
----------------------------------
-Run them with the JIT configuration.
-
-How do I access Workbench?
---------------------------
-Press the 'Escape' key when the AGS launcher has loaded.
-
-How do I re-open AGS from Workbench?
-------------------------------------
-The AGS icon is located in the Workbench menu and on the tool bar at the bottom 
-of the Workbench screen.
-
-Can I run the games from the Workbench?
----------------------------------------
-Yes. There is a full WHDLoad install on the following drives...
-
-'WHD' drives(A500 Mini)
-'AGS_Drive' (WinUAE / Raspberry Pi)
-'Work:WHDLoad' (AGS Classic)
-
-More games are located on the 'Games' and 'Extras' drives. I have also included
-IGame which can be launched from the Workbench menu and the toolbar at the
-bottom of the Workbench screen.
-
-Where are my games saved?
--------------------------
-Games are saved in a folder called 'Savegames' on the 'SHARED' drive.
-
-Why do the screenshots sometimes disappear on the AGS launcher?
----------------------------------------------------------------
-If you run a game or demo whilst the image is fading in or out the image
-corrupts or stops loading. This is less of a problem from v1.2 onwards as the
-images load a lot faster.
-
-Can I access the Amiberry/WinUAE interface?
--------------------------------------------
-Yes. Press the 'F12' key to open the menu and 'ESC' key to close it again. You 
-can also access it by opening the '[Options]'  menu in AGS. There is also an 
-option to access Amiberry/WinUAE from the 'System' Workbench menu.
-
-Can I use two controllers for two player games?
------------------------------------------------
-Yes. Use the WinUAE/Amiberry interface to add/change controllers.
-
-Will there be updates when new games or WHDLoad updates come out?
------------------------------------------------------------------
-Yes. I will add an update config file that updates the installs and 
-configurations.
-
-Vista Pro and Scenery Generator dont work when I run them. How do I fix them?
------------------------------------------------------------------------------
-Switch Workbench into AGA mode from the menu or with the icons in the drawer.
-
-When I run a 'Premium' game, nothing happens. What do I do?
------------------------------------------------------------
-The premium games are not supplied with the retail data files. You will need to
-source these files and add them to the relevant drawer. Instructions are
-included in the help files.
