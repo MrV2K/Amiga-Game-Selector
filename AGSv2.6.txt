@@ -4,24 +4,13 @@ To Do / Checks
 All versions
 ~~~~~~~~~~~~
 
-Extra games description links
-Gothicvania link
-Add more Amos stuff
-Add permanent delete of adult games
+Convert RTG version to real hardware.
+
 System Shutdown on Pi & A500Mini
-Add more Scummvm games
 256mb memory on Pi4
 
-0 byte config files check.
-
-Update Extra Games.txt
-Update Apps & Programs.txt
-
-https://www.amigaartwork.com/
-Pistorm wallpaper
-
-Game Checks
-~~~~~~~~~~~
+A500 mini Game Checks
+~~~~~~~~~~~~~~~~~~~~~
 cHECK GENESIA
 Check PacMan & Paperboy
 Stolen data 7 & 8.
@@ -29,14 +18,14 @@ Cracker Journal (last one)
 
 Classic Version
 ~~~~~~~~~~~~~~~
-
-SmartWin on Classic
+Convert new themes to lo-res
 MUI 3.8+key on classic
 Add NoClick to Classic version.
-AGS RTG backdrops in classic.
 Degrader on classic
 Amiga Test Kit on classic
 ENV: fix on classic
+Delitracker to Classic version
+PT1200 to Classic
 
 New HDD Sizes
 =============
@@ -51,6 +40,9 @@ Total                    - 55gb
 
 New Themes
 ==========
+
+* = Complete
+
 * Battlestar Galactica
 * 2001
 * A-Team
@@ -202,363 +194,3 @@ Temple of Asphai Trilogy
 The Goonies
 The Last Ninja
 Ultimate Wizard
-
-To Add
-======
-Delitracker to Classic version
-PT1200 to Classic
-
-Additions
-=========
-Added PiStorm32 version of AGS based on the emulated RTG version.
-Added My Programs and installer to add your own programs to the launcher.
-Added Say speech synthesiser and support files to Workbench.
-Added 'Expert Mode' to replace the favourites system and add more functionality
-and configuration to the loading process of games and demos.
-Added a script that logs the name and date/time of every game & demo when run.
-Added random mod playback to launcher. Mods need to be placed in the AGS:Mods drawer.
-Added Amiga Test Kit v1.21 to Utilities
-Added RNOPDF v1.6 to utilities and 'Programs' workbench menu.
-Added Demanding Games and Demos category to Games by Theme.
-Added 'Iconic Game' category to 'Games by Theme' with a list of the most iconic
-Amiga games of all time.
-Added 1541 Instruments to ST-00:
-Added approximately 31,000 new mods.
-Added proper save paths to the WHDLoad based extra games.
-Added 40 skins to AmigaAmp.
-Added 100 extra file formats to Hippoplayer.
-Added Maestrix AHI wrapper for OctaMED Sound Studio.
-Added Premium Games to AGS launcher.
-Added Immortal Joysticks ascii art to boot sequence.
-
-Changes
-=======
-Reduced the memory requirements for the amige guide based database.
-Sped up A-Train.
-Sped up Beneath a Steel Sky CD32.
-Sped Up Microprose Grand Prix 2022 / 2023 / 2024 in Extra Games.
-Removed old favourites system.
-Moved favourite option scripts to new menu. Now not included in backup archives.
-Moved all AGS commands out of user startup. Now runs a script called AGS-Stuff.
-Remove A500 mini recovery mode scripts.
-Changed all launcher scripts to look at AGS_Drive: rather than assigning WHD-HDD:
-Added slight pause to random theme option to hopefully stop crash.
-Changed several options to toggle rather than having both options.
-Optimised game scripts again to take into account of new favourites system, my
-programs and expert modes.
-Improved restart speed if the system is reset and the CPU speed is slowed down.
-Removed platform specific splash screens and added Immortal Joystick sponsor
-logo to image.
-Replaced Duke3D with JFDuke with full music support.
-Moved 'Educational Games' to standard A-Z lists in 'Extra Games'
-
-Fixes
-=====
-Fixed Green Beret height on A500 Mini.
-Fixed Restore Configs on A500 Mini.
-Fixed AGA / RTG Switching on emulated AGS.
-Fixed paths in Workbench menus.
-Fixed Harlequin games speed on Amiberry.
-Fixed AGS splash screen script resolution description.
-Fixed Operation Wolf (Must be run after boot).
-Fixed Renegade (Must be run after boot).
-Fixed JIT & Speed Regulation scripts running on PiStorm32 causing crash.
-Fixed a few game names that have underscores in them on the launcher.
-Fixed AmiMSX and AmiMasterGear script links and instructions.
-Fixed 'Restore Configs' on A500 mini. Now independant of main HDF files.
-Fixed all workbench games to work when running from the AGS launcher.
-Fixed speed regulation scripts to work on all platforms.
-Fixed drive labels.
-Fixed Directory Opus drive buttons.
-
-New Applications
-================
-RNOPDF v1.6
-Amiga Test Kit v1.21
-Protracker v3.15
-ReBuild v1.1.0
-AmiExpress v5.6.1
-The Maestrix v1.2
-Wazp3D library v0.56b
-
-Updated Applications
-====================
-WHDLoad v19.0 beta
-IGame v2.4.6
-Protracker v3.62
-Hippoplayer v2.60
-Redpill Game Creator v0.9.35
-EVO v3.7.0
-Amiblitz3 v3.9.10beta
-
-New Workbench Games
-===================
-Untangle v0.3
-Dynamite v24
-ArTKanoid v3.0
-521 v1.0
-Amtris v1.0
-GI Poker v1.0         
-
-New Premium Games
-=================
-Quake 3 Arena
-
-New Extra Games
-===============
-Agonman ECS
-AlcoCopter
-Alehop
-All Valley Karate Championship
-AmiDonkey Kong LCD
-AmiHero
-Aminvaders
-Amisaber Mini
-Amoeba Invaders
-Ant Wars
-Ant Wars 2
-Applejack AGA
-BlockBuster 2
-Bnoid AGA
-Boat LCD
-Boing
-Bomber
-Boondar AGA
-Bruce Lee
-Bunny's Bounty
-Charlie Chimp SE '97
-Charlie Chimp 2
-Charlie Chimp 3 & The Treasure of Tutankhamun
-Charlie Chimp 4 - The Great Escape
-Coarse Angler
-Cubit
-Cybersphere
-Cybersphere Plus
-Day of the Tentacle AGA
-Death Angel
-Demon Wars
-Dogi (Demo)
-Duck Hunt
-Dylan Dog  - Through the Looking Glass
-Earth Defence Force AGA (Demo)
-Escape
-Escape 2
-Evil Garden
-F1 Racer
-Falling Down
-Fast Freddie
-Final Fight Enhanced
-Fruit Mania
-Funtris
-Gems Deluxe
-George and the Repton Clone
-Genghis Khan
-Giger Tetris AGA
-Gloom Deluxe 8bit Killer
-Glubble
-Grand Prix Manager '95
-Gravity Power
-Hanse - Expedition AGA (De)
-Hemroids
-Henry's House
-High Noon
-Holiday
-Hyper Wings
-James Clavell's Shogun
-Jinx AGA
-Jump 'n Bump
-Jumpman Deluxe (Demo)
-Jumpman Junior
-Jumpman Lives
-Kondi Krush
-Light Cycles 2
-Lord of the Rings Vol 1
-Lord Vader
-Lumberjack
-Lumberjack Reloaded Xmas
-Mahjongg AGA
-Manic Miner Mayhem
-M*A*S*H
-Meet Ball
-Merry Xmas 2023
-Microprose F1GP 2024
-Mini Swat
-Mini Zorro
-Mirror
-Mirror Magic
-Mission Underground
-Mr Beanbag AGA
-Neon World AGA (Demo)
-Out Run AGA (Demo)
-Outfall
-Outliner AGA
-Pairs
-Phoenix Fighters
-Poing 1
-Poing 2
-Poing 3
-Poing 4
-Poing 5
-Poing 6
-Poing 7
-Powerboat USA
-ProFlight
-Push 'n Shove
-Quasi
-Quest Galaxia
-Risiko
-Risk
-Road Trip
-Romance of the Three Kingdoms
-Romance of the Three Kingdoms 2
-Rush Hour
-Santa and the Goblin
-Santa's Present Drop
-Santa's Present Drop 2
-Santa's Present Drop 3
-Santa's Workout 3
-Seemore Doolittle's Underwater Capers
-Seemore Doolittle's Toyland Capers
-Shadow Dancer (Demo)
-Sharks AGA
-Shenadoah (Demo)
-Silhouette AGA (Demo)
-S*M*A*S*H
-Spaceward Ho!
-Star Wars - Sweary Version
-Starflight 2
-Starstrike 2000
-Starwoids
-Step 5 AGA
-Speed Runner
-Super Chicken Run
-Super Huey
-Super Kikstart
-Swibble Dibble
-System 4
-Tanx 'n Stuff
-Taxi
-Terrahawks
-Tetris Pro '98
-Texas Chainsaw Massacre
-Tornado AGA (Framerate Fix)
-Touring Car Challenge
-Touring Car Challenge '97
-Train Driver 3
-Trapped
-Turbo Tomato (Demo)
-Wizonk (Demo)
-Zerberk
-
-Extra Games Updates
-===================
-Alien Breed 3D 2
-Alien Breed 3D 2 Mod
-Zeewolf (Mod)
-Agonman AGA
-GothicVania AGA
-Super Delivery Boy Holiday Ed.
-Breathless (Fixed)
-Sim City 2000
-Exult - Ultima VII v1.6
-JFDuke3D v1.3
-
-WHDLoad New & Updates
-=====================
-Breakthru
-Batman Rises (Batman Group)
-Bomber Bob (Italian)
-Captured Dreams Decrunched (TBL)
-Castlevania AGA
-Challenger
-Cruise for a Corpse
-Darkside (TBL)
-Debut
-Donkey Kong 500
-Donkey Kong (Bignonia)
-Dune 2 (NTSC)
-Dylan Dog - The Murderers
-Frogger
-Graham Gooch Cricket
-Hard Drivin'
-Historia Interminable 2 (Spanish)
-Imaginations (Defiance)
-Karting Grand Prix
-Kelly X
-Locomotion
-Made in Croatia (Binary)
-Music Disk 2 (Elite Inc)
-Menace
-Moon Patrol (Beta)
-Nuxelia Demo
-Panacea (TBL)
-Plague
-Renegade
-SWOS 23/24
-Spaceport
-Spectral (TBL)
-Stolen Data 10 (Anarchy)
-Stolen Data 9 (Anarchy)
-Storia Infinita 2 (Italian)
-Super Street Fighter II - The New Challengers
-Stuntman Seymour
-Subconscious (Dimension X)
-Summer Games
-Summer Games 2
-Super Bagman
-Tetris AGA
-Turrican 2 AGA
-Unendliche Geschichte 2 (German)
-ViroCop
-Waterloo
-Whizz AGA
-Wonderboy
-Xevious / Super Xevious
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Fixes
------
-
-1. Fixed path in AGA / RTG switching.
-2. Fixed AmiMSX link opening AmiMasterGear.
-
-WHDLoad Updates
-===============
-Foundations Waste
-Super Bagman
-
-New WHDLoad Games
-=================
-Locomotion (De)
