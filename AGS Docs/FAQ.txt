@@ -19,8 +19,8 @@ Make sure to use the WHDLoad quit key when you exit a game. Check the game's
 readme file or the bottom of the blue WHDLoad splash screen to see what that
 key is.
 
-Can I shut down AGS without a keyboard?
----------------------------------------
+Can I quit AGS without a keyboard?
+----------------------------------
 Yes. Go to 'Options' - 'Quit to OS'. This will shutdown AGS correctly.
 
 Can I back-up my saves?
@@ -34,7 +34,8 @@ the 'SHARED' drive yourself. I have included Directory Opus 4 for that reason.
 Can I install my own games and programs?
 ----------------------------------------
 Yes. Add the ADF's in the WinUAE/Amiberry interface and install as normal. There
-is a tutorial in the help list in AGS.
+is a tutorial in the 'Documentation - Help' list in the launcher and Workbench
+'Help' menu.
 
 Can I add the programs that I have installed to the AGS launcher?
 -----------------------------------------------------------------
@@ -55,7 +56,7 @@ Yes. There are a few things to try...
 
 What programs are included?
 ---------------------------
-There is a list of included programs in the AGS search list.
+There is a list of included programs in the AGS 'Search' list.
 
 Why are some RTG games very slow?
 ---------------------------------
@@ -65,10 +66,15 @@ How do I access Workbench?
 --------------------------
 Press the 'Escape' key when the AGS launcher has loaded.
 
+Can I boot straight to Workbench?
+---------------------------------
+Yes, You can switch the boot sequence in the 'Options' menu on the launcher or
+from the 'System' menu in Workbench.
+
 How do I re-open AGS from Workbench?
 ------------------------------------
-AGS is located in the Workbench menu and on the tool bar at the bottom 
-of the Workbench screen.
+AGS is located on the AGS_Drive and in the Workbench menu and on the tool bar
+at the bottom of the Workbench screen.
 
 Can I run the games from the Workbench?
 ---------------------------------------
@@ -89,8 +95,7 @@ Games are saved in a folder called 'Savegames' on the 'SHARED' drive.
 Why do the screenshots sometimes disappear on the AGS launcher?
 ---------------------------------------------------------------
 If you run a game or demo whilst the image is fading in or out the image
-corrupts or stops loading. This is less of a problem from v1.2 onwards as the
-images load a lot faster.
+corrupts or stops loading.
 
 Can I access the Amiberry/WinUAE interface?
 -------------------------------------------
@@ -100,24 +105,41 @@ option to access Amiberry/WinUAE from the 'System' Workbench menu.
 
 Can I use two controllers for two player games?
 -----------------------------------------------
-Yes. Use the WinUAE/Amiberry interface to add/change controllers.
+Yes. Use the WinUAE/Amiberry interface to add/change controllers. There is a 
+youtube video on the EasyEmu youtube channel and a text file in 'Documentation
+- Help' in the AGS Launcher
 
 Will there be updates when new games or WHDLoad updates come out?
 -----------------------------------------------------------------
 Yes. I will add an update config file that updates the installs and 
 configurations.
 
-Vista Pro and Scenery Generator dont work when I run them. How do I fix them?
+Vista Pro and Scenery Generator don't work when I run them. How do I fix them?
 -----------------------------------------------------------------------------
 Switch Workbench into AGA mode from the menu or with the icons in the drawer.
 
-When I run a 'Premium' game, nothing happens. What do I do?
------------------------------------------------------------
+When I run a 'Premium' game, I get an error about missing files. What do I do?
+------------------------------------------------------------------------------
 The premium games are not supplied with the retail data files. You will need to
 source these files and add them to the relevant drawer. Instructions are
-included in the help files.
-	
-	
+included in the relevant drawers in the 'Extras' drive and AGS will automatically
+detect if the data file is missing and will show a 'Required Files' text file.
+
+Can I remove stuff from the AGS launcher?
+-----------------------------------------
+Yes. There is a 'Filter' list that will remove whole categories from the main
+list. You can also remove specific games and demos from the launcher by enabling
+'Expert Mode' in the options and running the game that you would like to remove.
+You can then remove the game by selecting 'Delete Game'. WARNING! This process
+cannot be undone without a full re-install.
+
+Can I make AGS child friendly and permanently remove the 'Adult' categories?
+----------------------------------------------------------------------------
+Yes. Select 'Delete Adult Categories' in the 'Filter' menu and the script will
+remove the games and demos from the AGS launcher and IGame. It will not however
+delete the game files from the AGS_Drive.
+
+
 ===================
 A500 Mini Questions
 ===================
@@ -131,6 +153,12 @@ a script to do this for you called 'Restore_Configs'. Just run it from the USB
 screen on the A500 mini carousel and the configs will be restored. You can also
 copy them back manually if you want to. The backup configs are stored in a folder
 called 'Backup' in the AGS folder on the USB drive.
+
+The edges of my screen are cut off. How to I fix it?
+----------------------------------------------------
+This is caused by the 720p screen that AGS uses not working with your default
+TV zoom. You need to look in your TV's settings for scan/zoom/overscan settings
+or change your HDMI port settings to PC mode.
 
 Why do I get HDD block and sector errors when running AGS on the A500 mini.
 ---------------------------------------------------------------------------
@@ -156,7 +184,7 @@ in an inline USB-C power switch as this will prevent wear on the USB connector.
 
 Where is the 'PrtScn' or '*' quit key button on the A500 mini virtual keyboard?
 -------------------------------------------------------------------------------
-There are several keys not available on the virtual keyboard. Some of theses are
+There are several keys not available on the virtual keyboard. Some of these are
 used to quit certain games. If you do not have access to a real keyboard, I have
 added the ability to change the WHDLoad quit key. If you go to 'Options' 
 then 'WHDLoad', you can set a different quit key which will be used
@@ -170,8 +198,9 @@ Yes. AGS isn't affected by firmware updates.
 
 Why do the RTG games not fill the screen on the A500 mini?
 ----------------------------------------------------------
-RTG scaling is broken on the standard version. You can use the Pandory version
-which has an updated version of Amiberry but runs slightly slower.
+RTG scaling is broken on the standard version. They will run full screen if you
+use the Pandory version of AGS which has an updated version of Amiberry but
+it does run slightly slower.
 
 On the A500 mini, can I use scanlines?
 --------------------------------------
@@ -187,6 +216,12 @@ The sound runs too slow on Hippoplayer on the A500 mini. Can I fix it?
 ----------------------------------------------------------------------
 Yes. Either run AGS Pandory or switch Workbench into AGA mode.
 
+Can I safely shut down my A500 mini from AGS?
+---------------------------------------------
+Yes. Go to 'Options - Shut Down System' and AGS will turn off your A500 mini. Be
+aware though that there is a bug in the A500 mini firmware that prevents the
+power properly turning off, so you may have to unplug the USB cable.
+
 
 ======================
 Raspberry Pi Questions
@@ -195,7 +230,7 @@ Raspberry Pi Questions
 
 Can I safely shut down my Raspberry Pi in AGS?
 ----------------------------------------------
-Yes. Go to 'Options' - 'Shut Down Raspberry Pi'. This will shutdown your Pi
+Yes. Go to 'Options' - 'Shut Down System'. This will shutdown your Pi
 correctly without returning you to the login prompt.
 
 Why does AGS take a really long time to load on the Raspberry Pi?
@@ -211,7 +246,7 @@ Can I access DietPi?
 --------------------
 Yes. Quit Amiberry by either using 'Quit to OS' from the launcher options or
 press F12 and quit from there. You will then go to a login prompt. The user is
-root and the password is dietpi.
+'root' and the password is 'dietpi'.
 
 Can I use WIFI to connect AGS to the internet on the Raspberry Pi?
 ------------------------------------------------------------------
@@ -220,7 +255,9 @@ bsdsocket.library enabled so should automatically connect to your network.
 
 Can I use bluetooth controller on the Pi version of AGS?
 --------------------------------------------------------
-Yes. Quit to dietpi and pair the controller in 'dietpi-config'.
+Yes. Quit to dietpi and pair the controller in 'dietpi-config'. Restart Amiberry
+and you will be able to pick your controller from the Input menu. To permanently
+save the controller overwrite the default config in the Configurations menu.
 
 Can I change the output resolution of the Raspberry Pi?
 --------------------------------------------------------
