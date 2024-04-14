@@ -4,303 +4,358 @@
                                What's New
                                ~~~~~~~~~~
 							   
-					- Version v2.5 - Release 02-12-23 -	
+					- Version v2.6 - Release 29-04-24 -	
                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-This text file includes all updates from v2.2 as well as v2.3 for real hardware
-as it was an interim release.
-
-Fixes
-=====
-1. Fixed Disposable Hero screen height.
-2. Sped up CPU on Emerald Mines, Wings Of Death and Giana Sisters.
-3. Fixed disk path in the EmuCPC script.
-4. Fixed several music playback errors in the emulator scripts.
-5. Fixed mode promotion on EdPlayer.
-6. Fixed Klondike III loading.
-7. Fixed Favourite backup not overwriting old archive.
-8. Fixed Asterisk WHDLoad quit key config.
-9. Fixed Premium Game Help not showing on the Workbench menu.
-10. Fixed a couple of theme descriptions.
-11. Fixed Rick Dangerous AGA speed on A500 mini.
-12. Fixed Arkanoid NTSC error message.
-13. Fixed Filter not removing separator line in main list.
-14. Fixed Beta games not showing in other category lists.
-15. Fixed Publisher / Demo Group list names.
-16. Fixed DF0: error on the RHW image on the CD32.
-17. Fixed Final Odyssey loading script.
-18. Fixed Genetic Species loading script.
-19. Fixed Hunting Frogs loading script.
-20. Fixed Publisher / Demo Group list names.
-21. Fixed 68040.library error on 68060 processors.
-22. Fixed Boxx 3 Remake install.
-
-
-Changes
-=======
-1. Removed Emerald Mines from Games 0-Z, Games by Publisher/Year and 2-Player.
-2. Added icons to Death Rally so it can be run in AGA from Workbench. (Not RHW version)
-3. Added CRC checking to my download tool when updating.
-4. Updated 51 games to the latest versions with the new crc checks.
-5. Set WHDLoad dump path to T: for CD32 support.
-6. Added support for the new Demo - Beta WHDLoad category.
-7. Replaced player info for demos with release party info.
-8. Added file requester to Amstrad CPC emulators.
-9. Moved most RTG and PC games to Extra Drive.
-10. Removed RTG and PC game entries from the launcher.
-11. Moved Emulators from Work to the Extra drive.
-12. Removed the extra Vista DEM files. (Most didn't work)
-13. Tweaked the startup scripts and added a new disclaimer screen.
-14. Removed the Kickstart checks as they are no longer needed.
-15. Disabled automatic JIT settings in Raspberry Pi AGS. Can be set
-    manually from Amiberry or the Workbench 'System' menu.
-16. Renamed USB drive to SHARED on all formats and updated WHDLoad save path.
-17. Renamed the 'Game Manuals' list on the launcher to 'Manuals & Cheats'
-18. The music on the launcher now remembers the volume settings on startup.
-19. Raspberry Pi Amiberry updated to v5.6.4
-20. Raspberry Pi Dietpi updated to v8.42.1 (Bullseye)
-
 
 Additions
 =========
-1. Added ScummVM RTG.
-2. Added 57,000 C64 .sid music files.
-3. Added Mark Ferrari Slide Show.
-4. Added AHI audio to real hardware version.
-5. Added PCMCIA carddisk.device and CF0 dos driver to the real hardware version.
-6. Added 956 Sega MegaDrive / Genesis games.
-7. Added 20+ Extra Games supplied by Andreas Berntsson.
-8. Added AMiMSX and 750 MSX games to Emulators in the launcher.
-9. Added aBeeb, DOSBox AGA & RTG to Emulators on the Extra drive.
-10. Added 313 Sega Game Gear games.
-11. Added another 220 Master System games. Now up to 321 games.
-12. Added a couple of games to the Hatari emulator.
-13. Added 1400 cheats to the launcher's `Manuals & Cheats` menu.
-14. Added internet access via bsdsocket.library
-15. Added CD32 controller quit key combo to the WHDLoad options. Use Blue + Stop.
-16. Added demos to the random game list.
+Added PiStorm32 version of AGS based on the emulated RTG version.
+Added Raspberry Pi 5 image
+Added My Programs and installer to add your own programs to the launcher.
+Added Say speech synthesiser and support files to Workbench.
+Added 'Expert Mode' to replace the favourites system and add more functionality
+and configuration to the loading process of games and demos.
+Added a script that logs the name and date/time of every game & demo when run.
+Added random mod playback to launcher. Mods need to be placed in the AGS:Mods drawer.
+Added Amiga Test Kit v1.21 to Utilities
+Added RNOPDF v1.6 to utilities and 'Programs' workbench menu.
+Added Demanding Games and Demos categories to Games by Theme.
+Added 'Iconic Game' category to 'Games by Theme' with a list of the most iconic
+Amiga games of all time.
+Added 1541 Instruments to ST-00:
+Added approximately 31,000 new mods.
+Added proper save paths to the WHDLoad based extra games.
+Added 40 skins to AmigaAmp.
+Added 100 extra file formats to Hippoplayer.
+Added 2000 images including the entries from the Amiga Artwork Competitions.
+Added Maestrix AHI wrapper for OctaMED Sound Studio.
+Added Premium Games to AGS launcher.
+Added Immortal Joysticks ascii art to boot sequence.
+Added IGame and AGS icons to AGS_Drive hdf.
+Added check to Start_AGS script that checks for missing or zero byte theme 
+config files. If an error is found the script will copy back the default theme.
+Added a script to permanently remove the 'Adult' lists from the launcher and
+matching IGame scripts.
+Added Bad Apple 3D video to Animations drawer on Media drive.
 
+Changes
+=======
+Reduced the memory requirements for the amige guide based database.
+Sped up A-Train.
+Sped up Beneath a Steel Sky CD32.
+Sped Up Microprose Grand Prix 2022 / 2023 / 2024 in Extra Games.
+Removed old favourites system.
+Moved favourite option scripts to new menu. Now not included in backup archives.
+Moved all AGS commands out of user startup. Now runs a script called AGS-Stuff.
+Remove A500 mini recovery mode scripts.
+Changed all launcher scripts to look at AGS_Drive: rather than assigning WHD-HDD:
+Added slight pause to random theme option to hopefully stop crash.
+Changed several options to toggle rather than having both options.
+Optimised game scripts again to take into account of new favourites system, my
+programs and expert modes.
+Improved restart speed if the system is reset and the CPU speed is slowed down.
+Removed platform specific splash screens and added Immortal Joystick sponsor
+logo to main splash image.
+Replaced Duke3D with JFDuke with full music support.
+Moved 'Educational Games' to standard A-Z lists in 'Extra Games'
+There is a deliberate 1 second pause between each splash screen on boot.
+Moved IGame to AGS_Drive hdf and updated links and scripts.
+Updated Raspberry Pi image on to Dietpi Bookworm.
+Reduced default memory requirements on Raspberry Pi to work with 2gb models.
 
-WHDLoad Updates
-===============
-3D Net Analyzer (D.O.C.)
-Alien Legion
-Animotion (Phenomena)
-Another World Lost Level
-Astro Marine Corps
-Bagman 500
-Bismarck
-Book Of Songs (Complex)
-Breach
-Butcher Hill
-Cannon Fodder New Campaign
-Campaign
-Castlevania AGA (Demo)
-Crash Garrett
-Crayon Shinchan (Melon Dezign)
-Cruise for a Corpse (IT)
-Cruncher Factory
-Crystal Symphonies (Phenomena)
-Crystal Symphonies 2 (Phenomena)
-Escape from the Planet of the Robot Monsters
-Galaxian 500
-Gettysburg
-Hammerfist
-Hellrun Machine
-Karate Champ
-Killing Game Show
-Kingdoms of England
-Last Action Hero
-Manchester UTD Premier League Champs
-Manchester UTD Premier League Champs & Data Disk
-Nathan Never (IT)
-Nexus 7
-Rogue Declan Zero
-S.D.I (Cinemaware)
-Space Quest - The Sarien Encounter
-Super Cars 2 AGA (Beta)
-Super Hang On
-Sword
-TFX AGA
-Time Bandit
-Traders
-The Sword & the Rose
-Total Recall
-Twintris
-Wings of Death
-Zaxxon
+Fixes
+=====
+Fixed Green Beret height on A500 Mini.
+Fixed Restore Configs on A500 Mini.
+Fixed AGA / RTG Switching on emulated AGS.
+Fixed paths in Workbench menus.
+Fixed Harlequin games speed on Amiberry.
+Fixed AGS splash screen script resolution description.
+Fixed Operation Wolf (Must be run after boot).
+Fixed Renegade (Must be run after boot).
+Fixed JIT & Speed Regulation scripts running on PiStorm32 causing crash.
+Fixed a few game names that have underscores in them on the launcher.
+Fixed AmiMSX and AmiMasterGear script links and instructions.
+Fixed 'Restore Configs' on A500 mini. Now independant of main HDF files.
+Fixed all workbench games to work when running from the AGS launcher.
+Fixed speed regulation scripts to work on all platforms.
+Fixed drive labels.
+Fixed Directory Opus drive buttons.
 
+New Applications
+================
+AmiExpress v5.6.1
+Amiga Test Kit v1.21
+Protracker v3.15
+ReBuild v1.1.0
+RNOPDF v1.6
+The Maestrix v1.2
+Visage v39.22
+Wazp3D library v0.56b
 
-New WHDLoad Games / Demos
-=========================
-Amsterdam Blessings (Mad Wizards)
-Blue Boy
-Crimbo AGA
-Defender
-Delta (Embassy)
-Eon (The Black Lotus)
-Frogger (Beta)
-Gods (Controllable Jump) (Beta)
-Hunt For Red October (German)
-Last Train to Danzig (Ghostown & Haujobb)
-Mime (Silicon)
-Music Disk 3 (Vega)
-Myster & Tremor (Embassy)
-Quattro Stage One (Nature)
-Shake Yourself (Starline)
-Super Bagman
-Tolteka
-Zener Drive (Altair)
-
-
-Extra Game Additions
+Updated Applications
 ====================
-4D Sports Driving + Extra Car Pack
-6Tris
-Abbey(s) of the Dead (Demo)
-Abbaye des Morts
-Agonman AGA
-Alarcity Dungeon AGA (Demo)
-Astro Blox Revisited
-Ballistic Diplomacy
-Barney Bear Goes Camping
-Barney Bear Goes to School
-Barney Bear Goes to the Farm
-Blob v1.1 AGA
-BloodFest
-Bloodwars
-Brainkiller AGA
-Bratwurst AGA
-Bratwurst v1.01 AGA
-Breathless (040/060 Fix) AGA
-Brutal Homicide
-Brutal Homicide 2
-Chaos
-Chaos Heavy
-Chaos Guns 2023 (Demo)
-Charr
-Classic Zoo Super AGA
-Cold Blooded Murder AGA
-Dead Metal 3
-Dogfight Simulator
-Dylan Dog Series (Italian)
-Electroman AGA
+Amiblitz3 v3.9.10beta
+DOSBox v0.74.034
+EVO v3.7.0
+Hippoplayer v2.60
+IGame v2.4.6
+Protracker v3.62
+Redpill Game Creator v0.9.36
+ScummVM v2.5.1.03
+WHDLoad v19.0 beta
+
+New Workbench Games
+===================
+521 v1.0
+Amtris v1.0
+ArTKanoid v3.0
+Dynamite v24
+GI Poker v1.0         
+Untangle v0.3
+
+New Premium Games
+=================
+Quake 3 Arena
+
+Premium Game Updates
+====================
+Descent v0.58.1.014
+Exult - Ultima VII v1.6
+JFDuke3D v1.3
+
+New Extra Games
+===============
+Agonman ECS
+Alarcity Dungeon (Demo)
+AlcoCopter
+Alehop
+All Valley Karate Championship
+AmiDonkey Kong LCD
+AmiHero
+Aminvaders
+Amisaber Mini
+Amoeba Invaders
+Ant Wars
+Ant Wars 2
+Applejack AGA
+BlockBuster 2
+Bnoid AGA
+Boat LCD
+Boing
+Bomber
+Bombjacky
+Boondar AGA
+Bruce Lee
+Bunny's Bounty
+Charlie Chimp SE '97
+Charlie Chimp 2
+Charlie Chimp 3 & The Treasure of Tutankhamun
+Charlie Chimp 4 - The Great Escape
+Chicken Coop
+Coarse Angler
+Cold Blooded Murder
+Cubit
+County Racers
+Cybersphere
+Cybersphere Plus
+Day of the Tentacle AGA
+Death Angel
+Demon Wars
+Dogi (Demo)
+Duck Hunt
+Dylan Dog  - Through the Looking Glass
+Earth Defence Force AGA (Demo)
+Ecliptic (Demo)
 Emerald Caves
-Evil
-Fred's Journey
-Future Combat
-Future Combat 2
-Hop to the Top 2 : Bunny's Revenge
-Hoyle's Book of Games : Volume 1
-Hoyle's Book of Games : Volume 2
-KickIt
-Lost in Mine (English Translation)
-MechForce
-Minerunner
-Monsters of Terror
-Ooze
-Parachute (Game & Watch)
-Poweroids
-Project Quest (Demo)
-Pssst! AGA
-Rastan (Demo)
-Shadows of Sergoth (Demo)
-Space Battle
+Escape
+Escape 2
+Evil Garden
+F1 Racer
+Falling Down
+Fast Freddie
+Final Fight Enhanced
+Fruit Mania
+Funtris
+Funtris '96
+Gems Deluxe
+George and the Repton Clone
+Genghis Khan
+Giger Tetris AGA
+Gloom Deluxe 8bit Killer
+Glubble
+Grand Prix Manager '95
+Gravity Power
+Hanse - Expedition AGA (De)
+Hemroids
+Henry's House
+High Noon
+Holiday
+Hyper Wings
+James Clavell's Shogun
+JetHuntERS (Demo)
+Jinx AGA
+Jump 'n Bump
+Jumpman Deluxe (Demo)
+Jumpman Junior
+Jumpman Lives
+Kondi Krush
+Light Cycles 2
+Lord of the Rings Vol 1
+Lord Vader
+Lumberjack
+Lumberjack Reloaded Xmas
+Mahjongg AGA
+Manic Miner Mayhem
+M*A*S*H
+Meet Ball
+Merry Xmas 2023
+Microprose F1GP 2024
+Mini Swat
+Mini Zorro
+Mirror
+Mirror Magic
+Mission Underground
+Mr Beanbag AGA
+Neon World AGA (Demo)
+Nobunaga Ambition
+Out Run AGA (Demo)
+Outfall
+Outliner AGA
+Pairs
+Phoenix Fighters
+Poing 1
+Poing 2
+Poing 3
+Poing 4
+Poing 5
+Poing 6
+Poing 7
+Powerboat USA
+ProFlight
+Push 'n Shove
+Quasi
+Quest Galaxia
+Risiko
+Risk
+Road Trip
+Romance of the Three Kingdoms
+Romance of the Three Kingdoms 2
+Rush Hour
+Santa and the Goblin
+Santa's Present Drop
+Santa's Present Drop 2
+Santa's Present Drop 3
+Santa's Workout 3
+Seemore Doolittle's Underwater Capers
+Seemore Doolittle's Toyland Capers
+Shadow Dancer (Demo)
+Sharks AGA
+Shenadoah (Demo)
+Silhouette Threat AGA (Demo)
+S*M*A*S*H
+Spaceward Ho!
+Spheroid
+Spheroid Xmas Demo
 Sqrxz
 Sqrxz 2
-Star Dust Wars
-Super Bouncy AGA
-Thingamajig
-Total Chaos v5 AGA
-Total Chaos v7 AGA (Patched)
-Vikings Field of Conquest
-Willy's Weirdy Nightmare
-Wind Challengers '92
-Zeewolf (Patched Version)
+Star Wars - Sweary Version
+Starflight 2
+Starstrike 2000
+Starwoids
+Step 5 AGA
+Speed Runner
+Super Chicken Run
+Super Huey
+Super Kikstart
+Swibble Dibble
+System 4
+Tanx 'n Stuff
+Taxi
+Terrahawks
+Tetris Pro '98
+Texas Chainsaw Massacre
+Touring Car Challenge
+Touring Car Challenge '97
+Train Driver 3
+Trapped
+Wizonk (Demo)
 Zerberk
 ZgR3D
 
-
-Extra Game Updates
-==================
-Boxx 1 (Remake)
-Boxx 2 (Remake)
-Boxx 3 (Remake)
-Boxx 4
-CannonBall v1.4 (Not RHW version)
-Crimbo
-Dark Forces v1.1 (Not RHW version)
-Death Rally (Not RHW version)
-Settle the World - Farm Update
-Tony (Demo)
-Worm Wars v9.32
-
-
-Extra Games Removed
+Extra Games Updates
 ===================
-Boxx 2 (Remake Added Instead)
-Karate Champ (Full release added)
-Turbo Sprint
-Dodgy Rocks
+Agonman AGA
+Alien Breed 3D 2
+Alien Breed 3D 2 Mod
+Breathless (Fixed)
+GothicVania AGA
+Sim City 2000
+Super Delivery Boy Holiday Ed.
+Zeewolf (Mod)
 
+WHDLoad New
+===========
+Batman Rises (Batman Group)
+Bomber Bob (Italian)
+Breakthru
+Captured Dreams Decrunched (TBL)
+Challenger
+Darkside (TBL)
+De Profundis (Deadliners, Lemon & Oxygene)
+Donkey Kong 500
+Imaginations (Defiance)
+Krogharr (Demo)
+Made in Croatia (Binary)
+Moon Patrol (Beta)
+Panacea (TBL)
+Spectral (TBL)
+Stolen Data 10 (Anarchy)
+Stolen Data 9 (Anarchy)
+Stuntman Seymour
+Subconscious (Dimension X)
+The Fall (Deadliners & Lemon)
 
-App / Program Additions (Emulated)
-==================================
-ABeeb v0.9.1
-AmiFox v0.4
-AmiMSX v3.2
-AmiModRadio v0.99998
-AmiSSL v5.10
-AmiTube v1.4
-DCTelnet v1.5
-DGen v1.33
-Delitracker v2.34
-DosBox v0.74 (AGA & RTG)
-IBrowse v2.4 (Demo)
-Infinity Music Player v3.4.15
-MiamiDX v1.0c
-Next v4.1
-OpenURL v7.18
-Photogenics v5.0
-RNoxfer v1.4
-StoneCracker v4.10.3
-SuperDuper v3.13
-WookieChat v2.11
-YAM v2.9p1
-PNG Datatype v44
-
-
-App / Program Additions (Real Hardware)
-=======================================
-Super Duper v3.13
-
-
-App / Program Updates
-=====================
-HippoPlayer v2.59
-IGame v2.4.5
-IconSwap
-Protracker 2.3F 09.10.23
-RedPill v0.9.29
-ScummVM AGA/RTG v2.0.1
-SnoopDOS v3.11
-WHDLoad v19.0 (Beta)
-
-
-App / Program Removed
-=====================
-Personal Paint
-AWeb
-
-
-Dosbox Games Added
-==================
-Frontier Elite II
-Frontier First Encounters
-Indianapolis 500
-Oregon Train
-Raptor
-Settlers 2
-Star Control 2
-Ultima Underworld
-World Circuit
+WHDLoad Updates
+===============
+Afterburner
+Alien Breed 2
+Castlevania AGA
+Cruise for a Corpse
+Debut
+Donkey Kong (Bignonia)
+Dune 2 (NTSC)
+Dylan Dog - The Murderers
+Frogger
+Fusion
+Graham Gooch World Class Cricket
+Hard Drivin'
+Historia Interminable 2 (Spanish)
+Karting Grand Prix
+Kelly X
+Locomotion
+Menace
+Music Disk 2 (Elite Inc)
+Nuxelia Demo
+Plague
+Renegade
+Second Samurai
+Spaceport
+Storia Infinita 2 (Italian)
+Summer Games
+Summer Games 2
+Super Bagman
+Super Street Fighter II - The New Challengers
+SWOS 23/24
+Tetris AGA
+Tornado
+Tornado AGA
+Turbo Outrun
+Turrican 2 AGA
+Unendliche Geschichte 2 (German)
+ViroCop
+Waterloo
+Whizz AGA
+Wonderboy
+Xevious / Super Xevious
+Zener Drive
