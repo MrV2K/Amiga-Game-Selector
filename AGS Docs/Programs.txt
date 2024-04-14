@@ -5,8 +5,8 @@
 *******************************************
 
 This is a list of the programs and utilities that are included with AGS.
-Most are available from the 'Work' drive and 'Utilities' drawer on the
-Workbench drive. To access Workbench, press the 'Escape' key on the AGS
+Most are available from the 'Work' and 'Extra' drives and the 'Utilities' drawer
+on the Workbench drive. To access Workbench, press the 'Escape' key on the AGS
 menu.
 
 WHDLoad
@@ -20,114 +20,140 @@ Art Department Professional 2
 Art Effect 4
 Art Expression
 Brilliance
-True Brilliance
 Deluxe Paint V
+Disney Animation Studio
 Image FX 2
 Photogenics 5
 TVPaint
-Disney Animation Studio
+True Brilliance
 
 3D Rendering
 ============
-Tornado 3D
+Aladdin 4D
+Cinema 4D
 Imagine 5
 Imagine 5 Objects
-Cinema 4D
-Aladdin 4D
 Lightwave 5
 Real3D 3.5
+Tornado 3D
 
 Fractal
 =======
+Mand2000
+Scenery Animator 4
 Vista Pro 3.05
 World Creation System
-Scenery Animator 4
-Mand2000
 
 Multimedia
 ==========
 Adorage AGA
-Scala MM400
 Cando 3
+Scala MM400
 
 Programming
 ===========
-AmiBlitz 3
-Amos Professional Unity
 ASM-One
 ASMPro
+AmiBlitz 3
+Amiga E
+Amos Professional Unity
 Blitz Basic 2
 DevPac 3
-Purebasic
-SAS C v6.5
-Redpill Game Creator
-Amiga E
-Hisoft HiSpeed Pascal
 EVO
+Hisoft HiSpeed Pascal
+Purebasic
+Rebuild
+Redpill Game Creator
+SAS C v6.5
 
 Office
 ======
+Amiga Writer
 Final Calc
 Final Copy
 Final Data
 Final Writer
-Turbo Calc
 Pagestream 3
-Amiga Writer
+Turbo Calc
+
+Web
+===
+Ami Mod Radio
+AmiExpress
+AmiFox
+AmiSSL
+DCTelnet
+IBrowse v2 (Demo)
+Imp
+MiamiDX
+RNOXfer FTP
+Wookie Chat
+YAM (Mail)
 
 Music
 =====
+Aegis Audiomaster IV
+AmigaAmp
+Audiomaster
+DeliTracker 2
+Eagle Player
+EdPlayer
+Hippoplayer
 OctaMED Sound Studio
 OctaMED v4 Professional
-Protracker 2.3F
-Protracker 3.62
-Videotracker
+PT1210
+Protracker v2.3F
+Protracker v3.15
+Protracker v3.62
 Samples Disks: ST-01 to ST-10
-Hippoplayer
-Eagle Player
-AmigaAmp
-EdPlayer
-Aegis Audiomaster IV
+The Maestrix
+VideoTracker
 
 Emulators
 =========
-ZX-Live
-Magic C64
-ScummVM
-AmiMasterGear
-Hatari
-PC-Task
 Ami-CPC
+AmiMSX
+AmiMasterGear
 EmuCPC
+Hatari
+Magic C64
+PC-Task
+ScummVM
+ZX-Live
 
 Utilities
 =========
-Directory Opus 4
+ADFer
+AIBB
+Amiga Test Kit
+App Replace Icon
+Backup
+Button Menu
 CygnusEd Pro 4.2
+Directory Opus 4
+Disk Image
 Evenmore
+Icon Deluxe
+Iconian
+Ken's Icon Collection v4
+MCP
 MUI 3.8
+Magic Menu
+New Meter
 New Mode
 NewZap
+PFSDoctor
+Powerpacker 4 Pro
+RNO PDF Viewer
+Rewincy
+Riva Player
+SGrab
 Sysinfo
+UAE Control
+Unzip
 VirusZ
+Visage
 Voodoo-X
 WBDock 2
-Powerpacker 4 Pro
-UAE Control
-App Replace Icon
-Ken's Icon Collection v4
-Magic Menu
-MCP
-New Meter
-ADFer
-PFSDoctor
-Backup
-Rewincy
-Button Menu
-SGrab
-Iconian
-Icon Deluxe
+WaZP Library
 Which Amiga
-Disk Image
-AIBB
-Unzip
