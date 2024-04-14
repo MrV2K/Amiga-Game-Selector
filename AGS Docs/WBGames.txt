@@ -1,0 +1,42 @@
+**********************************************
+*                                            *
+*  Amiga Game Selector Workbench Games List  *
+*                                            *
+**********************************************
+
+Workbench game generally work in a window or 
+directly require Workbench to work. They are
+located in the WBGames drawer on the Work
+drive.
+
+4Wins
+521
+Ameko
+AmiWordle
+Amtris
+ArtKanoid
+BlackJack3
+CD-Worm
+Donkey Kong (Game & Watch)
+dynAMite
+Fire Attack (Game & Watch)
+Freecell
+GiMine
+Jetpack
+Mega Mind 2
+Mine Sweeper
+Poker
+Runaway (Game & Watch)
+SDLRoids
+SimplePac
+Tiny Invaders
+SoliTri
+Sudoku
+Towers of Hanoi
+Untangle
+WBArmy
+WBSteroids
+WBTic Tac Toe
+Worm Wars
+
+*** Workbench Games Count - 29 ***
