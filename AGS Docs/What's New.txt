@@ -4,7 +4,7 @@
                                What's New
                                ~~~~~~~~~~
 							   
-					- Version v2.6 - Release 29-04-24 -	
+                    - Version v2.6 - Release 29-04-24 -	
                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Additions
