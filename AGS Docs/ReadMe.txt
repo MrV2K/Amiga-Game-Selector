@@ -29,24 +29,49 @@ paid to myself for this service.
 Features
 ========
 
-5134 WHDload games and demos with screen, title and cover images.
-Over 350 hand picked non WHDLoad games including PD, AGA and RTG games.
-29 Premium Games
-3266 ROM's and Disk/Tape images for the included emulators.
-23 Workbench Games
-128 Custom menu themes.
+Support for UAE based emulators, Amiberry, Raspberry Pi 4, 400 & 5, The A500 Mini,
+Pistorm and classic hardware.
+A fully configured HD RTG desktop on emulated and high end Amigas.
+Classic Workbench 3.1 on real hardware.
+Special Retroarch version for low end devices.
+A 256 colour AGA game and demo launcher with appoximately 8,000 games and demos.
+128 full colour launcher themes.
+Background music MOD support on launcher.
+Scripts to add you own programs to the 'My Programs' list on the launcher.
+A full database of every WHDLoad release in Amigaguide format.
+An extensive collection of manuals and cheats for all the games where available.
+Random game and demo options.
+File logging to keep track on what you have played.
+A Favourite list to add you games to.
+Expert mode to edit, delete and manage your favourites.
+Filters to remove content that you are not interested in from the launcher.
 Automatic speed regulation for games that run too fast. (Not RHW version)
 Automatic game resolution scaling to fill as much of the screen as possible. (A500 mini only)
 Automatic chipset optimizations added to reduce glitches in games. (Not RHW version)
 User controlled CPU and chipset configuration from AGS or Workbench. (Not RHW version)
-Full Workbench 3.1 installation with AHI audio support.
-Full HD RTG true colour desktop with dozens of backdrops. (Not RHW version)
-Loads of office, art, music and programming software and Workbench utilities.
-11,000 iff samples, 57,000 sid tunes and over 6000 MOD's included.
-Directory Opus 4 to manage your files.
-Access to your USB/HDD drive to transfer files.
+AHI audio support for high quality sound playback.
+24 bit Workbench backdrops in full HD. (Not RHW version)
+Fully configured Directory Opus 4 to manage your files.
+Access to SD/CF/USB/HDD drives to transfer files.
 Shutdown and reset the Amiga from AGS or Workbench.
+Options to change the WHDLoad quit key for virtual keyboard support.
 
+Content
+=======
+
+5156 WHDload games and demos with screen, title and cover images.
+526 hand picked non WHDLoad games including PD, AGA and RTG games.
+50 Premium Games
+3266 ROM's and Disk/Tape images for the included emulators.
+29 Workbench Games
+120 Office, Rendering, Art, Design, Fractal, Music, Programming and Web Programs.
+11,000 IFF sound samples
+1,500 Instruments
+57,000 SID tunes
+36,000 MOD's.
+40 Animations.
+1,500 Amiga images.
+450 MP3 files from Amiga Remix. (www.amigremix.com)
 
 Requirements (A500 Mini)
 ========================
@@ -218,6 +243,6 @@ selling of them as part of USB copying services which I strictly forbid.
 
 =========================================
 
-Amiga Game Selector v2.5 ©2023 Paul Vince
+Amiga Game Selector v2.6 ©2024 Paul Vince
 
 =========================================
