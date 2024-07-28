@@ -145,14 +145,14 @@ A500 Mini Questions
 ===================
 
 
-All I get is a Kickstart screen when I run AGS on the A500 mini. How do I fix it?
----------------------------------------------------------------------------------
-You've ignored the important comment at the top of the installation file and broken the 
-config file. You will need to copy the original .uae files back. I've included
-a script to do this for you called 'Restore_Configs'. Just run it from the USB 
-screen on the A500 mini carousel and the configs will be restored. You can also
-copy them back manually if you want to. The backup configs are stored in a folder
-called 'Backup' in the AGS folder on the USB drive.
+I get is a Kickstart screen when I run AGS on the A500 mini. How do I fix it?
+-----------------------------------------------------------------------------
+You've ignored the important comment at the top of the installation file and
+broken the config file. You will need to copy the original .uae files back. I've
+included a script to do this for you called 'Restore_Configs'. Just run it from
+the USB screen on the A500 mini carousel and the configs will be restored. You
+can also copy them back manually if you want to. The backup configs are stored
+in a folder called 'Backup' in the AGS folder on the USB drive.
 
 The edges of my screen are cut off. How to I fix it?
 ----------------------------------------------------
@@ -175,8 +175,8 @@ the custom configuration file and extended memory used by AGS. Therefore it
 cannot create a save state. If the game supports saving, it will save to the
 'Savegames' folder on the USB drive.
 
-Why does the power light stay lit on the A500 mini when I power it off after using AGS?
----------------------------------------------------------------------------------------
+Why does the power light stay on when I power off after using AGS?
+------------------------------------------------------------------
 It is a bug in the carousel that fails to end a task when Amiberry closes if
 it has been using a custom configuration. If you have shut down AGS correctly,
 you shouldn't have an issue pulling the power cord. It is recommended to invest
@@ -272,5 +272,21 @@ see if there are any updates available in the text once you have logged in.
 
 Can I restart Amiberry from the Dietpi interface?
 -------------------------------------------------
-Yes. Either type 'reboot' and reboot the Pi or run 'dietpi-services' and restart the
-Amiberry service.
+Yes. Either type 'reboot' and reboot the Pi or run 'dietpi-services' and restart
+the Amiberry service.
+
+Why am I not getting any audio on a Pi400?
+------------------------------------------
+Sometimes Dietpi can be a bit funny with audio setup. When I set up AGS I had
+the hdmi in the port next to the SD Card. Swap your HDMI cable to that port and
+the audio should return.
+
+
+Other Questions ;P
+==================
+
+Where is the FAQ?
+-----------------
+
+The FAQ is located in the download archive, in the 'Documentation' menu on the
+AGS launcher and in the top menu in Workbench.
