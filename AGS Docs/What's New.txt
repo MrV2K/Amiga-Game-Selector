@@ -14,8 +14,9 @@ Added NoClick to PiStorm32 version.
 Added support for Pi4 emmc device to PiStorm32 version.
 Added Croatian language to Non-English games.
 New Amiga Game Selector release for ECS/OCS Amigas.
-Added 'Boot to Game' mode to 'Expert Mode'
+Added 'Boot to Game' mode to 'Expert Mode'.
 Centered window titles.
+Added the complete collection of WhatIFF amiga guide magazines.
 
 Changes
 =======
@@ -26,6 +27,14 @@ Removed MuTools from user-startup.
 'Expert Mode' can now be set to stay on after reboot.
 Enabled CDFS AutoMount in WinUAE version.
 Removed intros and data disks from IGame data as most didn't launch.
+Separated games and demos in random player script. No there are 2 entries in the
+launcher.
+Replaced tools daemon prefs with updated version.
+Improved AGS splash screen.
+Split random game/demo scripts.
+Changed default theme.
+Renamed 'Manuals & Cheats' menu to 'Add-on' Files.
+Rolled back MUI to v3.8
 
 Fixes
 =====
@@ -40,18 +49,23 @@ Fixed Now Pop Quiz script.
 Fixed 'Games by Theme' creation script. Rampage is now correct version.
 Fixed `Restore Favourites` script.
 Fixed IGame scripts on AGA Real Hardware version.
+Fixed Midland Amiga Group Theme
+Fixed corrupt graphics in Evil's Doom full version.
+Fixed Another World Lost Levels
 
 
 New Applications
 ================
-DirDiff v5.1
 7za v9.3 (7Zip)
-Dizzy Torrent v2.22
-AMOS v1.3
+AmiGameBoy v0.96
 AMOS 3D
 AMOS Compiler
-AMOS Pro v2.0
 AMOS Pro Compiler v1.0
+AMOS Pro v2.0
+AMOS v1.3
+DirDiff v5.1
+Easy AMOS v1.01
+TD Prefs 2 v1.0
 
 Updated Applications
 ====================
@@ -59,24 +73,34 @@ RedPill Game Creator v0.9.41
 
 New Themes
 ==========
-Ghostbusters
-The Mandalorian
-Last Ninja Remix
-Star Wars - A New Hope
-Westchester Amiga Group v2
-Andy Warhol - Debbie Harry
-Amiga 4 Ever
-16 Blitz
 16 Bit Pocket Power
-Electronic Arts Yellow Boxes
-Commodore Technical Drawing
+16 Blitz
+Amiga 4 Ever
+Andy Warhol - Debbie Harry
 Blade Runner
 Blue Thunder
-The Big Lebowski
+Breakfast Club
+Captain America
+Commodore Technical Drawing
+Deadpool - Dogpool
+Dungeons & Dragons
+Electronic Arts Yellow Boxes
+Ghostbusters
+Halloween
+Last Ninja Remix
+Nintendo Game Boy
+Star Wars - A New Hope
+Star Wars - Rise of Skywalker
+Star Trek - LCARS
+Star Trek - Voyager
 Street Hawk
-
-New Workbench Games
-===================
+Big Lebowski
+Black Hole
+Mandalorian
+Thundercats
+Transformers
+Westchester Amiga Group v2
+Yorkshire Amiga Group v2
 
 
 New Premium Games
@@ -93,16 +117,72 @@ Premium Game Updates
 ====================
 
 
+New Workbench Games
+===================
+Mini Arcanoid v2.9a
+Whack-A-Trump
+
+
+Updated Workbench Games
+=======================
+Untangle v1.1
+
+
 New Extra Games
 ===============
-Worms DC AGA + 240 Extra Maps (Req. 8mb)
-Shift
+2 Tiny Cowboys
+Alley Cat (PC Version)
 AmiRobbo 2 (Demo)
-PacBoy
+Attack of the PetSCII Robots (Demo)
+Bally Collection (1,2,3 & 5)
+Beavis & Butthead
+Blue Thunder (Demo)
+Bruce Lee (Demo)
+Capitan Trueno (AGA)
+Chips
+Cyberman
+Double Ball
+Drag Drop DX
+Droid SE
+Duel
+Dungeon of Evil
+Dynablaster Special Battle
+Fast Food Dizzy 2 AGA
+Global Domination AGA
+Global Effect CD32
+GoGoGo
+Halloween X AGA (Demo)
+Hidden Gems of Ireland (Demo)
+Hyperwings
+ITS - International Test Cricket '95
+Labyrinth
 Looty
+Lost Pixel AGA
+Love Dungeon
+Love Dungeon (Timeless)
 Metro Seige (Demo)
+Ninja Carnage
+PacBoy
+Perfect General
+Perfect General WW2
+Project Horizon (Demo)
+Psycho Santa
+Pumpkin
+Santa Rocks
+ShadowMage
+Shift
+Sim City Deluxe
+Simon the Sorceror (CD32 Talkie) (ScummVM)
+Spatial Hyperdrive
+Super Capacitator
+Tale of Evil
+Tetren
 The Curse of Monkey Island (ScummVM)
-Simon the Sorceror (CD32 Talkie)
+The Strangers AGA
+Tiny Pixel Adventure
+Vigilante SMS (Demo)
+Virtual Grand Prix AGA
+Worms DC AGA + 240 Extra Maps (Req. 8mb)
 
 
 Extra Games Updates
@@ -113,6 +193,7 @@ Geo's Quest 2
 Geo's Quest 3
 AmiHERO
 TankX
+Tony - Montezuma's Gold
 
 
 Extra Games Removed
@@ -120,6 +201,10 @@ Extra Games Removed
 Lord of the Rings Vol. 1
 Pizza Connection
 A320 Airbus Volume 2
+Tapper
+Sqrxz 2
+Sqrxz 3
+Sqrxz 4
 
 
 WHDLoad New
@@ -128,21 +213,28 @@ A320 Airbus
 A320 Airbus Edition Europa
 A320 Airbus Edition USA
 A320 Airbus Volume 2
+Air Supply
 Aladdin's Magic Lamp
 Celtic Heart
 Centerbase - Science-Fiction Simulation
+Charly
 Date Girl AGA (Beta)
 Digital Noize 2
 Doody
 Dynablaster
 Embryo (Croatian)
+Elevator Action 500 (AGA/OCS/ECS)
 Evolution Cryser
 Final Fight Enhanced
 Fortress Underground
 Galaga 500 (Beta)
 Glubble (PD)
 Grand National
+Humans 3 (CD32)
+Inside the Machine
 King & Balloon
+Little Princess
+Little Princess 2
 Lord of the Rings Volume 1
 Magic Serpent
 Magic Serpent (CDTV)
@@ -152,44 +244,80 @@ Phoenix 1200 (Beta)
 Phoenix 500 (Beta)
 Pop-Up
 Rectangle
+RoboCop (NTSC)
+RoboCop 2 (NTSC)
 Sexy Droids
 Shadow Fighter AGA (No Jump)
+Sqrxz 2
+Sqrxz 3
+Sqrxz 4
 Summer Olympix (CD32)
+Tapper
 The Final Trip
 Wrath of the Demon (Scoopex) (Beta)
 
 
 WHDLoad Updates
 ===============
+All Terrain Racing
 Amidar 500
+Animatunes
 Arcade Fruit Machine
 Arcade Pool
 Archipelagos
 Aventura Espacial, La
 Aventura Original, La
 Blades of Steel
+Cadaver
 Castlevania AGA
+Clown 'o Mania
+Commando
+Der Seelenturm
 Diosa de Cozumel, La
 Donkey Kong 500
+Drip
 Embryo
 Evil's Doom AGA (Demo)
 Fire and Brimstone
+Ghost Battle
+Grapevine Issue 17
+Hammer Boy
 Heimdall
 Humans 2
+Humans 3
 Jet Set Willy 2
 Leatherneck
 Lotus Turbo Challenge 2
 Manic Miner
 Mikro Mortal Tennis
 Ms Pac-Man
+Nicky II
 Pirates!
 Pirates! Gold
+Pop-Up
+Ruff 'n' Tumble
+Robocop
 Sensible World of Soccer
+Smarty & the Nasty Gluttons
+Space Harrier 2
 Steigar
 Super GemZ
 Super Tennis Champs
+Superfrog
+Superfrog (CD32)
 Tech
 Technocop
+Tower of Souls AGA
+Treasure Trap
+Trex Warrior
+Trolls
+Trolls (AGA)
+Trolls (CD32)
 Tubular Worlds
+Turrican II
 Universe
+Violator
 Wall
+Willy the Kid
+Windwalker (NTSC)
+Wiz 'n Liz
