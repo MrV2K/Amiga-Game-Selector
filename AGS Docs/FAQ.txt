@@ -29,7 +29,8 @@ Yes. WHDLoad saves it's games to a folder on the SHARED drive. The folder is
 located in SHARED/Savegames. Copy that folder to your PC and 
 your saves are backed up. Some of the WHDLoad games and most of the extra games 
 save into their install folder. You would have to manually copy those saves to 
-the 'SHARED' drive yourself. I have included Directory Opus 4 for that reason.
+the 'SHARED' drive yourself. I have included a set of scripts to back up the
+SaveGames directory to an LHA archive. This is available in the Options menu.
 
 Can I install my own games and programs?
 ----------------------------------------
@@ -80,8 +81,8 @@ Can I run the games from the Workbench?
 ---------------------------------------
 Yes. There is a full WHDLoad install on the following drives...
 
-'WHD' drives(A500 Mini)
-'AGS_Drive' (WinUAE / Raspberry Pi)
+'WHD' drives   (A500 Mini)
+'AGS_Drive'    (WinUAE / Raspberry Pi)
 'Work:WHDLoad' (AGS Classic)
 
 More games are located on the 'Games' and 'Extras' drives. I have also included
@@ -90,12 +91,14 @@ bottom of the Workbench screen.
 
 Where are my games saved?
 -------------------------
-Games are saved in a folder called 'Savegames' on the 'SHARED' drive.
+Games are saved in a folder called 'SaveGames'. On the emulated versions of AGS
+this is located on the 'SHARED' drive. On the classic version, the folder is
+located in the Work:AGS drawer.
 
 Why do the screenshots sometimes disappear on the AGS launcher?
 ---------------------------------------------------------------
 If you run a game or demo whilst the image is fading in or out the image
-corrupts or stops loading.
+corrupts or stops loading. You will need to reboot to fix the issue.
 
 Can I access the Amiberry/WinUAE interface?
 -------------------------------------------
@@ -138,6 +141,12 @@ Can I make AGS child friendly and permanently remove the 'Adult' categories?
 Yes. Select 'Delete Adult Categories' in the 'Filter' menu and the script will
 remove the games and demos from the AGS launcher and IGame. It will not however
 delete the game files from the AGS_Drive.
+
+Why do I get write errors on the WinUAE version?
+------------------------------------------------
+If you install the AGS folders on your C: drive or Windows desktop you need to 
+run WinUAE as administrator or move the AGS folder to a different drive as
+WinUAE doesn't have enough permissions to write onto the files on the drive.
 
 
 ===================

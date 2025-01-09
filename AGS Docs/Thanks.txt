@@ -1,26 +1,52 @@
-Thanks
-======
+Contributors
+============
 
-Jimmy Johansson -   For all the help & fixes.
-Mikayla Talls -     For working out the scanline scaling.
-Monideth Pen -      For all the help & fixes.
-Fabry Angie -       For all the help & fixes.
-Martin St-Pierre -  Bug hunting and fixes.
-Jason Smith -       Bug hunting and fixes.
-Karl Dyson -        For supporting & sponsoring AGS.
-Timothy Wilson -    For the brilliant YouTube video on AGS.
-Steve Harrison -    For the Amazing A500 Mini/Maxi Facebook group.
-Retroplay -         For his great WHDLoad collection.
-Aladin -            For his extended WHDLoad collection.
-Per Olofsson -      For the amazing AGS2 frontend.
-Pascal Visa -       For helping out and being very supportive on the AGS Facebook
-                    Group.
-Ben Cleary -	    For testing and bug fixes.
-Eric Cubizolle -    For supporting AGS on AmigaMuseum and mirroring the files.
-Walkero -           For the awesome IGame frontend.
-Andreas Berntsson - For the awesome additions to the Extra Games and bug hunting.
-Wayne Ashworth -    For the amazing ECS backdrops on the real hardware version.
-Cengiz Retrocengo Dennis - For testing and bug hunting on the real hardware version.
+All the guys below have contributed in one way or another to make
+AGS as great as it can be.
+
+Jimmy Johansson   - For all the help & fixes.
+Mikayla Talls     - For working out the scanline scaling.
+Monideth Pen      - For all the help & fixes.
+Fran Sendra       - For all the help & fixes.
+Martin St-Pierre  - For bug hunting and fixes.
+Jason Smith       - For bug hunting and fixes.
+Karl Dyson        - For supporting & sponsoring AGS.
+Timothy Wilson    - For the brilliant YouTube video on AGS.
+Steve Harrison    - For the Amazing A500 Mini/Maxi Facebook group.
+Retroplay         - For his great WHDLoad collection.
+Aladin            - For his extended WHDLoad collection.
+Per Olofsson      - For the amazing AGS2 frontend.
+Pascal Visa       - For helping out and being very supportive on the AGS
+                    Facebook Group.
+Ben Cleary        -	For testing and bug fixes.
+Eric Cubizolle    - For supporting AGS on AmigaMuseum and mirroring the files
+Walkero           - For the awesome IGame frontend.
+Andreas Berntsson - For the awesome additions to the Extra Games and bug
+                    hunting.
+Wayne Ashworth    - For the amazing ECS backdrops on the real hardware
+                    version.
+Cengiz Retrocengo - For testing and bug hunting on the real hardware
+Dennis              version.
+Andrew McCloud    - For being an amazing sponsor of AGS with
+                    Immortal Joysticks.
+Andy Pryer        - For bug reports and great youtube tutorials
+Amiga Bill        - For being a staunch supporter of AGS and giving me the
+                    opportunity to embarass myself on his twitch channel.
+Dave Holloway     - For the amazing Pandory Mod and getting AGS to work with it.
+Rik Ponne         - For helping get the ECS version working as a portable
+                    install.
+Dirk Vogel        - For making new themes and giving me a few ideas.
+Gerald Riedhofer  - For help with the Pistorm version.
+Geoff Ousby       - For help with the real hardware version boot issues.
+Peter Hazekamp    - For repeatedly posting the 030 solution in the FB group.
+
+
+Game Authors
+============
+
+Without you guys the Amiga would surely be dead. Thank you for letting me
+showcase your amazing software and I hope that the AGS user base supports
+you generously.
 
 
 Donators
@@ -28,3 +54,9 @@ Donators
 
 A huge thank you to everyone who has donated a coffee or two to my paypal
 account. Your generosity is much appreciated!
+
+                       ****************************
+                       *                          *
+                       * THANK YOU ALL VERY MUCH! *
+                       *                          *
+                       ****************************

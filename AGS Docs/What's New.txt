@@ -4,7 +4,7 @@
                                What's New
                                ~~~~~~~~~~
 							   
-                   - Version v2.7 - Release xx-xx-24 -	
+                   - Version v2.7 - Release 15-01-25 -	
                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -13,10 +13,15 @@ Additions
 Added NoClick to PiStorm32 version.
 Added support for Pi4 emmc device to PiStorm32 version.
 Added Croatian language to Non-English games.
-New Amiga Game Selector release for ECS/OCS Amigas.
+Added new Amiga Game Selector release for ECS/OCS Amigas.
 Added 'Boot to Game' mode to 'Expert Mode'.
-Centered window titles.
-Added the complete collection of WhatIFF amiga guide magazines.
+Added the complete collection of WhatIFF? amiga guide magazines.
+Added new options menu to manage WHDLoad save data.
+Added PDF manuals to AMOS collection.
+Added Bars 'n' Pipes (RTG Compatible)
+Added option to set 'Expert Mode' on permanently until disabled.
+Added device drivers drawer to the Storage folder.
+
 
 Changes
 =======
@@ -34,7 +39,11 @@ Improved AGS splash screen.
 Split random game/demo scripts.
 Changed default theme.
 Renamed 'Manuals & Cheats' menu to 'Add-on' Files.
+Moved Readme files to Add-On list.
 Rolled back MUI to v3.8
+Centered window titles.
+Re-structured A500 mini hdf files. 64gb Required.
+
 
 Fixes
 =====
@@ -45,13 +54,15 @@ Fixed 68040.library error.
 Fixed 68030 black screen error.
 Fixed Final Fight Enhanced.
 Fixed Lionheart.
-Fixed Now Pop Quiz script.
 Fixed 'Games by Theme' creation script. Rampage is now correct version.
-Fixed `Restore Favourites` script.
+Fixed 'Restore Favourites' script.
 Fixed IGame scripts on AGA Real Hardware version.
 Fixed Midland Amiga Group Theme
 Fixed corrupt graphics in Evil's Doom full version.
 Fixed Another World Lost Levels
+Fixed Robinson's Requiem
+Fixed some Expert Mode script errors.
+Fixed multiplayer games not adding to favourites.
 
 
 New Applications
@@ -63,48 +74,100 @@ AMOS Compiler
 AMOS Pro Compiler v1.0
 AMOS Pro v2.0
 AMOS v1.3
+AmiGPT v2.20
+Bars & Pipes v2.5 (v2.0 on ECS version)
 DirDiff v5.1
 Easy AMOS v1.01
 TD Prefs 2 v1.0
+Sound FX v4.3 (Amiberry/UAE Only)
+DCopy v3.1
+TUDE v1.0d
+
 
 Updated Applications
 ====================
-RedPill Game Creator v0.9.41
+RedPill Game Creator v0.9.45
+ZX Live v0.54
+
 
 New Themes
 ==========
 16 Bit Pocket Power
 16 Blitz
+80's Sweets
+AGS CD32
 Amiga 4 Ever
+Amiga Bill - King Kong
 Andy Warhol - Debbie Harry
+Blakes 7
 Blade Runner
 Blue Thunder
 Breakfast Club
+Bubble Bobble
+Buck Rogers
 Captain America
 Commodore Technical Drawing
 Deadpool - Dogpool
+Default Theme
+Die Hard
 Dungeons & Dragons
 Electronic Arts Yellow Boxes
+Elf
+Futurama
 Ghostbusters
+Gremlins
+Gremlin  - GBH
 Halloween
+He-Man
+Hey Duggee
+Highlander
+Home Alone
+Kixx
+Kixx - Electric
+Kixx - Sun
+Kixx XL
+Knight Rider
 Last Ninja Remix
+Microprose - Powerplus
+Moonstone
 Nintendo Game Boy
+North West Amiga Group
+Peppa Pig
+Psyclapse
+Psygnosis
+Robocop
+Sci-Fi Art
+Sci-fi Art 2
+Smash 16
+Spider-Man
+SSI - Strategic Simulations Inc.
+Star Trek - LCARS
+Star Trek - Original Series
+Star Trek - Voyager
 Star Wars - A New Hope
 Star Wars - Rise of Skywalker
-Star Trek - LCARS
-Star Trek - Voyager
+Starfleet - X-Bomber
+Starship Troopers
 Street Hawk
-Big Lebowski
-Black Hole
-Mandalorian
+The Big Lebowski
+The Black Hole
+The Boys
+The Boys 2
+The Goonies
+The Last Starfighter
+The Mandalorian
+The Nighmare Before Christmas
+The Witcher
+Thunderbirds
 Thundercats
 Transformers
+Walker
 Westchester Amiga Group v2
+Willo the Wisp
 Yorkshire Amiga Group v2
 
-
-New Premium Games
-=================
+New Premium Games (Pi/UAE only)
+===============================
 Chocolate Doom
 Chocolate Doom 2
 Chocolate Hexen + Data Disc
@@ -115,6 +178,7 @@ Open Dune 2
 
 Premium Game Updates
 ====================
+Commander Keen in Keen Dreams
 
 
 New Workbench Games
@@ -132,30 +196,39 @@ New Extra Games
 ===============
 2 Tiny Cowboys
 Alley Cat (PC Version)
-AmiRobbo 2 (Demo)
+Anguish AGA (Demo)
 Attack of the PetSCII Robots (Demo)
 Bally Collection (1,2,3 & 5)
+Battle Squadron 2
 Beavis & Butthead
 Blue Thunder (Demo)
 Bruce Lee (Demo)
 Capitan Trueno (AGA)
+Caveman LCD
 Chips
+Cosmic Blaster
 Cyberman
+Dogi Xmas (Demo)
 Double Ball
 Drag Drop DX
 Droid SE
 Duel
 Dungeon of Evil
 Dynablaster Special Battle
+Extreme Violence 2
 Fast Food Dizzy 2 AGA
+Flappy Ace
+G-Wars (RTG)
 Global Domination AGA
 Global Effect CD32
 GoGoGo
+Grav Attack
 Halloween X AGA (Demo)
 Hidden Gems of Ireland (Demo)
 Hyperwings
 ITS - International Test Cricket '95
 Labyrinth
+Last Battle 2 (Demo)
 Looty
 Lost Pixel AGA
 Love Dungeon
@@ -168,30 +241,43 @@ Perfect General WW2
 Project Horizon (Demo)
 Psycho Santa
 Pumpkin
+Rintivoorh (Demo)
+Riviera 79
+Roguecraft (Demo)
 Santa Rocks
+Santas Present Drop 4
+Santatron 2024
+SaperMania
 ShadowMage
 Shift
 Sim City Deluxe
 Simon the Sorceror (CD32 Talkie) (ScummVM)
 Spatial Hyperdrive
+Star Dust Wars Director's Cut
+Star Dust Wars Director's Cut (Ham Version)
 Super Capacitator
+Sybil
 Tale of Evil
+Taxi
 Tetren
 The Curse of Monkey Island (ScummVM)
 The Strangers AGA
 Tiny Pixel Adventure
 Vigilante SMS (Demo)
 Virtual Grand Prix AGA
+Winged Pumpkin
 Worms DC AGA + 240 Extra Maps (Req. 8mb)
+Yoomp!
 
 
 Extra Games Updates
 ===================
+AmiHERO
 Atic Atac Demo
 Geo's Quest 1
 Geo's Quest 2
 Geo's Quest 3
-AmiHERO
+Rastan (Demo)
 TankX
 Tony - Montezuma's Gold
 
@@ -201,10 +287,13 @@ Extra Games Removed
 Lord of the Rings Vol. 1
 Pizza Connection
 A320 Airbus Volume 2
+Final Fight Enhanced
 Tapper
+Sqrxz
 Sqrxz 2
 Sqrxz 3
 Sqrxz 4
+Wonderboy
 
 
 WHDLoad New
@@ -215,16 +304,22 @@ A320 Airbus Edition USA
 A320 Airbus Volume 2
 Air Supply
 Aladdin's Magic Lamp
+AmiRobbo2 (Demo)
 Celtic Heart
 Centerbase - Science-Fiction Simulation
 Charly
+Cybersphere
+Cybersphere Plus
 Date Girl AGA (Beta)
+Denaris (NTSC)
 Digital Noize 2
 Doody
+Dungeonette (Demo)
 Dynablaster
 Embryo (Croatian)
 Elevator Action 500 (AGA/OCS/ECS)
 Evolution Cryser
+Exodus 3010
 Final Fight Enhanced
 Fortress Underground
 Galaga 500 (Beta)
@@ -233,6 +328,7 @@ Grand National
 Humans 3 (CD32)
 Inside the Machine
 King & Balloon
+Kings Bounty (Fast Version)
 Little Princess
 Little Princess 2
 Lord of the Rings Volume 1
@@ -243,17 +339,22 @@ Moments AGA
 Phoenix 1200 (Beta)
 Phoenix 500 (Beta)
 Pop-Up
+Pooyan (Beta)
+Predator 2 (NTSC)
 Rectangle
 RoboCop (NTSC)
 RoboCop 2 (NTSC)
 Sexy Droids
+Sensible World of Soccer 24/25
 Shadow Fighter AGA (No Jump)
+Shadow of the Beast (NTSC)
 Sqrxz 2
 Sqrxz 3
 Sqrxz 4
 Summer Olympix (CD32)
 Tapper
 The Final Trip
+Think Twice
 Wrath of the Demon (Scoopex) (Beta)
 
 
@@ -268,45 +369,67 @@ Archipelagos
 Aventura Espacial, La
 Aventura Original, La
 Blades of Steel
+Buck Rogers
 Cadaver
 Castlevania AGA
+Cedric
+Chuck Yeager's Advanced Flight Trainer v2.0
 Clown 'o Mania
 Commando
+Cyber Empires (NTSC)
 Der Seelenturm
+Desert Strike
 Diosa de Cozumel, La
 Donkey Kong 500
 Drip
+Earl Weaver Baseball
 Embryo
+Enchanted Land
 Evil's Doom AGA (Demo)
 Fire and Brimstone
+Gearworks (NTSC)
 Ghost Battle
 Grapevine Issue 17
 Hammer Boy
+Head over Heels
 Heimdall
 Humans 2
 Humans 3
+Immortal, The
 Jet Set Willy 2
+Jim Power
 Leatherneck
+Lethal Weapon
+Liquid Kids
 Lotus Turbo Challenge 2
 Manic Miner
+Mega Typhoon
 Mikro Mortal Tennis
+Moktar, The Adventures of
+Neuromancer
 Ms Pac-Man
 Nicky II
+Oscar (All Versions)
+Pacmania
 Pirates!
 Pirates! Gold
 Pop-Up
+Predator 2
+Revenge of Defender (NTSC)
 Ruff 'n' Tumble
 Robocop
 Sensible World of Soccer
 Smarty & the Nasty Gluttons
 Space Harrier 2
 Steigar
+Summer Challenge (NTSC)
 Super GemZ
 Super Tennis Champs
 Superfrog
 Superfrog (CD32)
 Tech
 Technocop
+Titus the Fox
 Tower of Souls AGA
 Treasure Trap
 Trex Warrior
@@ -318,6 +441,10 @@ Turrican II
 Universe
 Violator
 Wall
+Where in the World is Carmen Sandiego (French & Spanish)
 Willy the Kid
 Windwalker (NTSC)
 Wiz 'n Liz
+Wonderboy
+Wonderdog
+Zyconix

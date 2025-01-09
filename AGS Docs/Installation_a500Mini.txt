@@ -1,5 +1,5 @@
-                  Welcome to Amiga Game Selector v2.6
-                  ===================================
+                     Welcome to Amiga Game Selector v2.6
+                     ===================================
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -21,6 +21,7 @@ The A500 Mini Computer, Controller & Mouse
 A 3 Amp USB Power Supply
 A 64GB USB Flash Drive
 USB Keyboard (Recommended)
+
 
 Installation
 ============
@@ -102,9 +103,9 @@ Backing Up Your Save Games
 1. To back up your save games, you will need to copy the 'Savegames' folder to
    your computer first. The folder is located here...
    
-   (v1.0 to v1.2)  - USB Drive -> THEA500 -> whdboot -> save-data -> Savegames
+   (v1.0 to v1.2) - USB Drive -> THEA500 -> whdboot -> save-data -> Savegames
    (v1.3 to v1.4) - USB Drive -> SHARED -> Savegames
-   (v1.5 to v2.0+) - USB Drive -> AGS -> SHARED -> Savegames
+   (v1.5 onwards) - USB Drive -> AGS -> SHARED -> Savegames
    
 2. Saves from non WHDLoad games and other programs will need to be backed up 
    onto the USB drive and then onto your computer before updating using the
@@ -118,9 +119,9 @@ Backing Up Other Content
 2. You will then need to copy the SHARED folder onto your computer.
    The folder is located here...  
    
-   (v1.0 to v1.2)  - USB Drive -> THEA500 -> whdboot -> save-data -> Transfer
+   (v1.0 to v1.2) - USB Drive -> THEA500 -> whdboot -> save-data -> Transfer
    (v1.3 to v1.4) - USB Drive -> SHARED
-   (v1.5 to v2.0+) - USB Drive -> AGS -> SHARED
+   (v1.5 onwards) - USB Drive -> AGS -> SHARED
 
 Restoring Your Save Games & Other Content
 =========================================

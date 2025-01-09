@@ -1,0 +1,73 @@
+******************************************
+*                                        *
+* Amiga Game Selector Premium Games List *
+*                                        *
+******************************************
+
+These games are all runnable from the AGS
+launcher. You can also run them from the
+'Games' drawer on the 'Extra' drive.
+
+Included Games
+--------------
+
+Blake Stone - Aliens of Gold
+Blake Stone Planet - Planet Strike
+Blood
+Blood - Death Wish
+Blood - Cryptic Passage
+Cannonball v1.0 (Out Run)
+Cannonball v1.4 (Out Run)
+Catacombs 3D
+Catacombs 3D - Abyss
+Catacombs 3D - Apocalypse
+Catacombs 3D - Armageddon
+Cave Story
+Command and Conquer
+Command and Conquer - Red Alert
+Dark Forces
+Death Rally
+Descent
+Diablo
+DOOM (Shareware WAD included)
+DOOM 2
+DOOM RPG
+Duke Nukem 3D - Atomic Edition
+Duke Nukem 3D - Caribbean - Life's a Beach
+Duke Nukem 3D - Duke it out in DC
+Exhumed / Powerslave
+Exhumed / Powerslave - Return to Ruins
+Exult - Ultima VII
+Heart of Darkness
+Heretic
+Heroes of Might & Magic 2
+Hexen
+Hexen - Death Kings of the Dark Citadel
+Keen Dreams
+Metal Slug (Mini Slug)
+Napalm
+Open Dune 2
+Payback
+Quake
+Quake - Scourge of Armagon
+Quake - Dissolution of Eternity
+Quake 2
+Quake 2 - Ground Zero
+Quake 2 - The Reckoning
+Quake 3 Arena
+Rise of the Triad
+Shadow Warrior
+Shadow Warrior - Twin Dragon
+Shadow Warrior - Wanton Destruction
+Spear Of Destiny
+Strife
+Wolfenstein 3D
+X-Com - Terror from the Deep
+
+----------------------------------------------
+
+IMPORTANT! Most of these games do not have the
+retail data files included. Please read the
+documents in each drawer for details.
+
+----------------------------------------------

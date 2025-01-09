@@ -25,18 +25,20 @@ GiMine
 Jetpack
 Mega Mind 2
 Mine Sweeper
+Mini Arcanoid
 Poker
 Runaway (Game & Watch)
 SDLRoids
 SimplePac
-Tiny Invaders
 SoliTri
 Sudoku
+Tiny Invaders
 Towers of Hanoi
 Untangle
 WBArmy
 WBSteroids
 WBTic Tac Toe
+Whack-A-Trump
 Worm Wars
 
-*** Workbench Games Count - 29 ***
+*** Workbench Games Count - 31 ***

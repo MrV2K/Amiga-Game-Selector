@@ -20,10 +20,12 @@ Art Department Professional 2
 Art Effect 4
 Art Expression
 Brilliance
+Deluxe Paint IV (ECS Only)
 Deluxe Paint V
 Disney Animation Studio
 Image FX 2
 Photogenics 5
+Photon Paint 2 (ECS Only)
 TVPaint
 True Brilliance
 
@@ -41,8 +43,9 @@ Fractal
 =======
 Mand2000
 Scenery Animator 4
-Vista Pro 3.05
+Vista Pro v3.05
 World Creation System
+Chaos Pro v3.3.3
 
 Multimedia
 ==========
@@ -56,9 +59,12 @@ ASM-One
 ASMPro
 AmiBlitz 3
 Amiga E
+Amos
+Amos Pro
 Amos Professional Unity
 Blitz Basic 2
 DevPac 3
+Easy Amos
 EVO
 Hisoft HiSpeed Pascal
 Purebasic
@@ -95,6 +101,7 @@ Music
 Aegis Audiomaster IV
 AmigaAmp
 Audiomaster
+Bars & Pipes
 DeliTracker 2
 Eagle Player
 EdPlayer
@@ -106,7 +113,6 @@ Protracker v2.3F
 Protracker v3.15
 Protracker v3.62
 Samples Disks: ST-01 to ST-10
-The Maestrix
 VideoTracker
 
 Emulators
@@ -129,7 +135,7 @@ Amiga Test Kit
 App Replace Icon
 Backup
 Button Menu
-CygnusEd Pro 4.2
+JanoEditor v1.01b
 Directory Opus 4
 Disk Image
 Evenmore
