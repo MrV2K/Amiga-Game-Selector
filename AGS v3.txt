@@ -1,0 +1,296 @@
+Fixes
+=====
+
+Fixed favourite script in top 200.
+Fixed ECS startup script
+Fixed Kindwords menu on ECS.
+Fixed Hatari (Atari ST Emulator) (Emulated Versions)
+Fixed Hide/Show My Programs
+Fixed Workbench backdrops on real hardware versions. (Thanks Dirk Vogel)
+Fixed Shared drawer on real hardware and Pistorm32 releases.
+Fixed Emulators filter script changing the adult filter.
+Fixed mystery bug in game boot script.
+Fixed launcher music script bugs (too many to list!)
+Fixed My Program script bugs.
+Fixed Add Favourite script bugs.
+Fixed WHDLoad save path changing if you set a new WHDLoad quit key.
+Fixed Add Programs script bugs.
+Fixed EmuCPC startup script.
+
+Changes
+=======
+Updated ECS WHDLoad executables.
+Moved AGS-Stuff script to new S:AGS drawer and renamed to ags.script on the
+emulated versions of AGS.
+Split the AGS HDD images to create modular system on emulated versions.
+Changed AGS scripts to use UnSet for environment variables rather than
+deleting them.
+Changed Reboot and UAEQuit to pause before acting so disk buffers can flush.
+Removed MCP as it broke on Kickstart 3.14 up.
+Moved Premium Games to main list.
+Moved expert mode check to before game boot mode to fix expert mode showing
+if it was disabled.
+Improved the sound quality on AmigaAmp
+Removed expired WarpDT datatype
+Removed 'Delete Program' from Expert Mode if the program has been added to
+favourites to avoid confusion.
+Removed adult games and demos from the random scripts.
+Hints & Cheats will now stop the launcher music on the A500 mini.
+Updated icon.library to the latest release. Added the archive contents to the
+drivers drawer.
+Music options scripts now detect whether a module is active before running.
+WHDLoad save backup script now allows you to copy the lha to a shared drive.
+WHDLoad restore script now allows you to delete the backup file.
+
+Additions
+=========
+Added ECS images to Deluxe Paint.
+Added AGS drawer to S: to hold modular startup scripts.(Emulated Versions)
+Added Modular script for drives.(Emulated Versions)
+Added Script to change the WHDLoad save path from the launcher.
+Added Clover Icons to real hardware versions.
+Added Modular script to create Workbench menus based on which drives 
+      are installed.
+Added Premium Games filter to filters.
+Added Edit Icon Tooltypes to expert mode.
+Added Create/Mount/Remove ADF to launcher disk options.
+Added AGA Only and ECS Only lists to IGame.
+Added AutoUpdateIcon to WBStartup to refesh drawers and icons when you make
+      changes to them from the cli or directory opus.
+Added Refresh Icons to the settings menu to update the desktop icons if you
+      change the workbench colour depth and the icons corrupt.
+Added SoftIEEE to real hardware editions to simulate an FPU on a non FPU system.
+
+New Themes
+==========
+Stamford Peterborough Amiga Group
+Amiga 40th Anniversary
+Westchester Amiga Group v3
+Kickstart Amiga Group BBQ 2025
+Amiga 4 Ever Nottingham Expo
+Chaos Engine Fan Art
+Amiga 1200 v2
+
+New Games
+=========
+A100
+Abuse AGA (Premium Game)
+Alien Breed 3D 2 Redux
+Alien Olympics (Demo)
+Amiga Boing Ball Demo
+AmiKlotski
+AmiTamagotchi (WB)
+Angel of Death (Scala)
+Anguish AGA (Bonus Level)
+Anguish AGA (Demo)
+Asymmetry (ZX Spectrum)
+Better Dead Than Zed (Demo)
+Bit By Bit AGA
+Block Cannon
+Boing Ball Demo
+Boom! AGA
+Carmageddon & Splat Pack (Premium Game)
+Cubix (ZX Spectrum)
+Dodge These Balls
+Donkey Kong (ZX Spectrum)
+Doom Attack (Premium Game)
+Final B Hangman
+Ghosts 'n' Goblins AGA (Demo)
+Go! Tony Go!
+Happy Bat AGA
+Hundra AGA
+In the Dead of Night
+International KopyCat Plus
+Joy of Killing (Demo)
+Jump 'n Bump AGA (Demo)
+Last Door (Demo)
+Legacy AGA (Demo)
+Ninjyations AGA
+Noisy Rabbit
+Open Dune 2 AGA (Premium Game)
+Open Lara AGA (Demo)
+Phantasy Star 2 (Demo)
+Phantom Leap
+Pjusk
+RCross AGA Extra Tracks
+Rex & the Galactic Plague (Demo)
+Robo Jet Action 2 (Demo)
+Rogue 2023
+Rueda
+Run Barbarian Run
+Santa's Chimney
+Sentinel X AGA (Demo)
+Shanghai 98
+Shanghai 98 AGA
+Sir Redford (Demo)
+Skidmarks (Torti Edition)
+Soltys AGA (Demo)
+Speed Haste AGA (060)
+Steel Rain AGA (Demo)
+Star Dust Wars DC (Ham Version)
+Switcher Boy AGA
+Talmino 1 AGA
+Talmino 2
+Tank in a Dungeon
+Temptations AGA
+Tie Fighter Simulator
+Tracker Hero AGA
+Trapped in the Tomb
+Turbo Sprint AGA
+Wardner AGA (Demo)
+White Lion (WB)
+Wings of Fear AGA (Demo)
+Xenomorph AGA (Demo)
+ZorkLand (Demo)
+
+Game Updates
+============
+G-Wars v1.2.04
+Absolute Zero AGA
+Aminer
+AmiSeaFox
+Earth Defense Force AGA (Demo)
+Ecliptic (Demo)
+Fast Food Dizzy 2 (AGA)
+Mirror
+Neo Noir AGA
+Scorched Tanks v1.9
+Shadows of Sergoth (Demo)
+Star Dust Wars DC
+Star Wars Holiday AGA
+Rintivoorh (Demo)
+Tale of Evil
+Monsters of Terror
+Yoomp!
+Vigilante SMS (Demo)
+
+WHDLoad Updates
+===============
+Abu Simbel Profanation (Spanish)
+Academy : Tau Ceti 2
+Advanced Fruiit Simulator
+Apidya (Kaiko)
+Battle Command
+Black Dawn II
+Castlevania AGA
+Chase H.Q. 2 (Virus Fixed)
+Crime Time (De)
+Elf (Ocean)
+Eliminator
+Elvira (De)
+Exodus 3010
+Femme Fatale & Data Disks
+Future Wars (Italian)
+High Steel
+IK+
+Millennium 2.2
+North & South
+Oswald of the Ice Floes
+Paradroid 90
+Powermonger
+Powermonger
+Quadralien
+Rampage (The Electronic Knights)
+Sidewinder (NTSC)
+Top Wrestling
+Universal Military Simulator
+Uridium 2
+Xenomorph
+Arena
+
+WHDLoad New
+===========
+3D Demo 3 : The Last Drop
+A-10 Tank Killer Extra Missions
+Arena (NTSC)
+B.A.T. II (Spanish)
+Bad Dudes vs Dragon Ninja AGA
+Breach + Data Disk
+Challenge Golf
+Crime Time (DE)
+Diabolik 01
+Diabolik 02
+Diabolik 03
+Diabolik 04
+Diabolik 05
+Diabolik 06
+Diabolik 07
+Diabolik 08
+Diabolik 09
+Diabolik 10
+Diabolik 11
+Discovery & Data Disks
+Dylan Dog 01
+Dylan Dog 02
+Dylan Dog 03
+Dylan Dog 04
+Dylan Dog 05
+Dylan Dog 06
+Dylan Dog 07
+Dylan Dog 08
+Dylan Dog 09
+Dylan Dog 10
+Dylan Dog 11
+Dylan Dog 12
+Dylan Dog 13
+Dylan Dog 14
+Dylan Dog 15
+Dylan Dog 16
+Forgotten Mine 2 (Preview)
+Future Sport
+Grimblood
+Gyruss
+Hyperwings
+Joan of Arc
+Lock 'n Chase
+Millenium (German)
+Oilmania
+Out Run Amiga Edition AGA
+Paladin + Data Disk
+Pulse (Nerve Axis) (Demo)
+Rampage (TEK) (Demo)
+Relic (Nerve Axis) (Demo)
+Quicksilva
+Realms (NTSC)
+Rogue Declan Zero (Amiga Addict Edition)
+Super Tennis Champs & Data Disks
+Tactical Transmissions
+Track & Field
+Transarctica (Spanish)
+U.S. Championship V'Ball (AGA & ECS)
+Universal Military Simulator + Data Disk
+Wizmo
+Works Team Rally
+
+New Applications
+================
+Music-X v2.0 (RHW only)
+Assign Wedge
+WBTitle
+SmartCrash
+AmiGet v1.8
+ANesPro v1.19
+ReqAsk
+MakePath
+Art Department Professional v2.5.1 (Real Hardware Version)
+Protracker v3.15 (Real Hardware Version)
+Brilliance v2.0 (Real Hardware Version)
+VincED (Real Hardware Version)
+DevEx
+Morph Plus v1.1.2 (Real Hardware Version)
+Mame v1.06
+Shapeshifter
+Stella
+Clover Icons (Real Hardware Version)
+Protracker v3.15 (Real Hardware Version)
+Redit v2.0
+
+Updated Applications
+====================
+AmiGPT v2.3.0
+DOSBox RTG 0.74.3 (Emulated Versions)
+Redpill v0.9.55
+Hippoplayer v2.65
+AmiChatGPT v2.8.1
+ZX-Live v0.58
+VirusX XVS Library v33.49
