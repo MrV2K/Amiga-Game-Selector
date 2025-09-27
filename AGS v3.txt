@@ -16,6 +16,8 @@ Fixed Add Favourite script bugs.
 Fixed WHDLoad save path changing if you set a new WHDLoad quit key.
 Fixed Add Programs script bugs.
 Fixed EmuCPC startup script.
+Fixed missing language catalogs in locale.
+Fixed ADF mounting in real hardware version.
 
 Changes
 =======
@@ -170,6 +172,7 @@ Abu Simbel Profanation (Spanish)
 Academy : Tau Ceti 2
 Advanced Fruiit Simulator
 Apidya (Kaiko)
+Arena
 Battle Command
 Black Dawn II
 Castlevania AGA
@@ -203,9 +206,11 @@ WHDLoad New
 3D Demo 3 : The Last Drop
 A-10 Tank Killer Extra Missions
 Arena (NTSC)
+Arena (Defcom)
 B.A.T. II (Spanish)
 Bad Dudes vs Dragon Ninja AGA
 Breach + Data Disk
+Bush Buck
 Challenge Golf
 Crime Time (DE)
 Diabolik 01
@@ -244,6 +249,7 @@ Hyperwings
 Joan of Arc
 Lock 'n Chase
 Millenium (German)
+Muscles AGA (Demo)
 Oilmania
 Out Run Amiga Edition AGA
 Paladin + Data Disk
@@ -294,3 +300,4 @@ Hippoplayer v2.65
 AmiChatGPT v2.8.1
 ZX-Live v0.58
 VirusX XVS Library v33.49
+MMULibs
