@@ -28,7 +28,7 @@ Changes
 * Changed AGS scripts to use UnSet for environment variables rather than
   deleting them.
 * Changed Reboot and UAEQuit to pause before acting so disk buffers can flush.
-* Removed MCP as it broke on Kickstart 3.14 up.
+* Removed MCP as it broke on Kickstart 3.1.4 up.
 * Moved Premium Games to main list.
 * Moved expert mode check to before game boot mode to fix expert mode showing
   if it was disabled.
@@ -65,12 +65,15 @@ Added AutoUpdateIcon to WBStartup to refesh drawers and icons when you make
 Added Refresh Icons to the settings menu to update the desktop icons if you
       change the Workbench colour depth and the icons corrupt.
 Added SoftIEEE to real hardware editions to simulate an FPU on a non FPU system.
-Added "FSUAE" HW variable
+Added "FSUAE" HW variable.
 Added new enviroment variable for PiStorm to work along side "Real" HW variable.
 Added low res topaz based file type select to all button menus.
-Added WhatIFF Issue 17
+Added WhatIFF Issues 16 & 17.
 Added Amplifier v1.55 MP3 player to emulated version.
-Added more skins and plugins to AmigaAmp
+Added more skins and plugins to AmigaAmp.
+Added the Amiga Rulez disk magazine collection.
+Added over 100 Roger Dean images to the Media drive.
+Added 68060 MMU library checks to emulated versions of AGS.
 
 New Themes
 ==========
@@ -431,3 +434,8 @@ DOSBox RTG v0.74-3.19
 DOSBox AGA v0.74-3.04
 AmiBlitz v3.11
 FreePascal v3.2.1
+
+New Documents
+=============
+WhatIFF? Issue 16
+WhatIFF? Issue 17
