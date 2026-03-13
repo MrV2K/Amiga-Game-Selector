@@ -255,7 +255,7 @@ Can I access DietPi?
 --------------------
 Yes. Quit Amiberry by either using 'Quit to OS' from the launcher options or
 press F12 and quit from there. You will then go to a login prompt. The user is
-'root' and the password is 'dietpi'.
+'root' and the password is 'ags'.
 
 Can I use WIFI to connect AGS to the internet on the Raspberry Pi?
 ------------------------------------------------------------------
