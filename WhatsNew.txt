@@ -89,7 +89,7 @@ Changes
 35. Added 'New & Updated' category to 'Games - By Theme' for the latest
     AGS game additions.
 36. Removed 'Max Speed' option from the AGS database as it wasn't required.
-37. Removed Dirk's themes by request.
+37. Moved NTSC games into "Games - By System"
 38. Changed path in all AGS configs to not rely on assigns and make it easier
     to run in portable mode.
 39. Improved playback on HippoPlayer on real hardware versions of AGS.
@@ -114,7 +114,6 @@ Changes
 55. Added a collection of Newtek demos to the Media drive.
 56. Moved the help files into the AGS Guide and added it to the main menu.
 57. Removed the Documentation menu as it was redundant.
-58. Moved NTSC games into "Games - By System"
 
 
 Updated Programs
