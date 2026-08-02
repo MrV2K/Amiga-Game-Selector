@@ -38,8 +38,10 @@ Fixes
 28. Fixed Ultimate Quiz 1 in 'Extra Games'
 29. Fixed My Programs 'Add Program' and 'Instructions' options.
 30. Fixed IGame images on real hardware AGA and Retroarch versions.
-31. Fixed IGame loading on all versions.
+31. Fixed IGame loading.
 32. Fixed Sinbad & the Throne of the Falcon speed.
+33. Fixed Rocket Ranger (NTSC)
+
 
 Changes
 =======
@@ -52,7 +54,7 @@ Changes
 03. Changed file naming tag priority
 04. Set Fast Copper for Scorpion Engine games on A500 mini and Amiberry.
 05. Removed Mame from A500 Mini version as it doesn't have enough cpu speed
-   and memory to run it properly.
+    and memory to run it properly.
 06. Added english only gameslist to IGame.
 07. Changed setpatch to v44.38.
 08. Removed icon.library remlib from startup sequence.
@@ -108,6 +110,11 @@ Changes
 51. Moved boing ball demo and bad apple to Extra Demos.
 52. Added Amiga Rulez Issue 2601.
 53. Tidied up the WBDock launcher bar.
+54. Added a large collection of Eric Schwartz animations to the Media drive.
+55. Added a collection of Newtek demos to the Media drive.
+56. Moved the help files into the AGS Guide and added it to the main menu.
+57. Removed the Documentation menu as it was redundant.
+58. Moved NTSC games into "Games - By System"
 
 
 Updated Programs
@@ -129,6 +136,10 @@ AmiSSL v5.27
 ANES v1.24
 A2000e v2.0
 LHA v40.46
+EVO v3.9.4
+Amico8 v0.9
+AmigaGPT v3.0
+Zip v2.2
 
 
 New Programs
@@ -136,8 +147,10 @@ New Programs
 ITidy v1.0
 EdWordPro v6.0.1
 xSysInfo v0.9.0
-Amelinium v0.8.2
+Amelinium v0.9.0
 Apple 2000e v1.7
+BeeView v1.0
+OpenDiskFont v1.0
 
 
 New Themes
@@ -164,6 +177,7 @@ Agresor
 Ankh in Popland (Kefrens)
 Black Dawn II (Shareware)
 Cannon Fodder 2 (Italian)
+Commando AGA
 Dig Dug II
 Double Dragon AGA
 Double Dragon AGA (Decrunched)
@@ -186,6 +200,7 @@ Police Quest III Remastered
 Roc 'n' Rope
 Second Nature (Demo)
 Sensible World of Soccer 25/26
+Space Battle
 Space Quest IV Remastered
 Space Vegetables
 Steve Davis Snooker
@@ -193,13 +208,14 @@ Stunt Car Racer Unleashed
 Stunt Track Racer Unleashed
 Theme Park Xmas Demo
 US Championship Volleyball AGA
+Vulgus AGA
 Zippy Race
 Zzzep
 
 
 WHDLoad Updates
 ===============
-Andromeda Mission
+Andromeda Mission / Mission Andromeda
 Army Moves
 Banshee
 Battle Squadron
@@ -218,6 +234,7 @@ Elevator Action
 Emerald Mine
 Emerald Mine 2
 Emerald Mine 3
+Emerald Mines CDROM
 Explora
 Fightin' Spirit
 Flight of the Intruder
@@ -226,10 +243,13 @@ Flying Shark
 Galaga 500
 Lost Vikings, The
 Mega-Typhoon
+Oilmania
 Overdrive
 Phoenix 1200
 Phoenix 500
 Pooyan
+RallyChampionships
+RallyChampionships AGA
 Renegade AGA
 Ruff 'n' Tumble
 Super Tennis Champs
@@ -240,13 +260,14 @@ US Championship Volleyball
 W Potrzasku
 Xevious / Super Xevious
 
+
 Extra Games New
 ===============
 Addams Family AGA (Beta)
 Adventure of Node, The
-Amico8
 AmiH.E.R.O. (New)
 Amiga Biznes 2
+Amigaman AGA Demo
 AmiGoonies AGA
 AmiRobbo 2
 ArkAmiga
@@ -261,14 +282,22 @@ Caves & Cargo Demo
 Celeste
 ChessAI
 Chromablast Demo
+Creeping Me Out AGA Demo
 Creepy Crawlers
 Dasher
+Dead Metal 5
 Deadband Demo
 Death Angel 3 - Reckoning
+Diamond Fever
+Donkey Kong II LCD
 Double Baboon Ninja AGA Demo
 Dylan the Spaceman Demo
 Echodrome
 Echodrome AGA
+Experiment, The (Spanish)
+Freestyle - Tales of Itch Demo
+Galamiga
+Gardening LCD
 Geo's Adventure Prologue
 Gloom Reforged
 Gloom Deluxe SE
@@ -284,7 +313,10 @@ Halo Zero Demo AGA
 Impact Armor AGA Demo
 Iron Hunt Demo
 Iron Rails
+Jay The Miner
+King Kong LCD
 LinCity AGA
+London Rain LCD
 Loony Ledges Demo
 Megafrog Christmas
 Miami Quack 82 AGA
@@ -294,15 +326,18 @@ Microprose Formula One Grand Prix 2026
 Mike Mech
 Mission Alien Demo
 Moon Cresta AGA
+Mort & Phil AGA
 Mundialito 2 Demo
 Norrland AGA (Demo)
 OmniPlay Basketball
+OpenTTD AGA
 Orbital Mission (Demo)
 Osiris Infection
 OutRex
 Pauldron AGA
 Pooperino
 PopSpin
+Raiden Demo
 Railblaze
 Rex 2 - Into the Shadow Realm Demo
 Set!
@@ -311,7 +346,6 @@ Sonic the Hedgehog AGA Demo
 Steel Rain 0 AGA
 Street Fighter 1 Demo
 Strike Force Omega AGA
-Stunt Car Racer Unleashed
 Super Combat 2
 Super Combat 3
 Super Santa Copter
@@ -319,6 +353,7 @@ Terra Cresta AGA
 Tracker Hero ECS
 Tritus
 Ultimate Basketball CDTV
+Vector Dreams
 Wardner AGA (Demo 2)
 Wheelchair Gladiators CE Xmas AGA
 Wings of Fear 2 AGA Demo
@@ -326,6 +361,7 @@ X-Wing Simulator
 Xeno Genesis
 XZap
 Zippy Race
+Zepton
 
 
 Extra Games Updates
@@ -337,6 +373,9 @@ AmiGoonies AGA
 Arpegio AGA
 Axion Demo
 Blok
+BoatLCD
+Chaos : Wizard War 2
+Chopper Duel
 Death Angel 1 - Angel of Death
 Death Angel 2 - Lefty's
 Ecliptic
@@ -371,23 +410,136 @@ Renegades Deluxe (Official Release)
 Whale's Voyage (Official Beta Release)
 Zzzep (Official Release)
 Kaboomania (Official Release)
+Space Battle (Official Slave)
+Moon Cresta (Official Slave)
+Superted (It was shit!)
+Wheelspin AGA (It didn't work!)
+Zippy Race (Official Slave)
+Gemdalus (Retream Don't Want Their Stuff in AGS!)
 
 
 Extra Demos Added
 =================
-Entropy Chamber (Logicoma)
-Lapsuus (Maturefurk)
-Last Goat Standng (Noice)
-Martini Effect, The (Flex)
-Rift (The Black Lotus)
-Smoke & Mirrors (Ghostown & Loonies)
-Sojourn Soul (Flex)
+1st Place (Winners of Revision)
+3D Demo 3 (Complete Edition) (Lemon)
+3D Demo 3 (Party Edition) (Lemon)
+68k Inside (Dekadence)
+Abstractica (Nah-Kolor)
 Alien (Scoopex)
+Antelogium (Software Failure)
+Astral Planes (Galactic Dreams Software)
+Automated Raster Machine (Tristar & Red Sector Inc.)
+Back to the Pixelated World (Agima)
+Backslide to Arcanum (Cosmic Orbs)
+Backtro (Moods Plateau)
 Bad Apple (Electric Black Sheep)
 Bad Apple 3D (Electric Black Sheep)
+Bantam (Cosmic Orbs)
+Bears (Void)
+Billtro (Nah-Kolor)
+Blood 4k (Appendix)
+Boing Ball Demo
 Book in Air (Darkage)
+Boom Party 2025 Invite (Boom!)
+Boozedrome IV (Dekadence)
+Branching Off (Moods Plateau)
+Bugas (Amiga Skool)
+Bunny Cracktro (Void)
+Can You Fill It? (The Fillers)
+Circle Undercover (Void)
+Circumvent (The Twitch Elite)
+Colour of Out of Space (Amiga Skool)
+CPE1704TKS (The Furious Four)
+Cycle-Op (Oxygene)
+Debut (Contain)
+Debutro (Nah-Kolor)
+Decent Exposure (Fnuque & Danish Underpants Brigade)
+Definitely Touching (Alkatraz & Spreadpoint)
+Demarination (sibCrew)
+DEMOTRaktor Demo (Grillcrew)
+Depeche`s Mode Demo (Spreadpoint)
+Diamondique (Nah-Kolor)
+Digital Chips 33 (Desire & Moods Plateau)
+Disiplin (Spaceballs)
+Dopamine (Darkage)
+Dual Panoply (Software Failure)
+Eggs (Void)
+Electric Lifeforms (Ghostown)
+Enchanted Glitch (Cosmic Orbs)
+Entropy Chamber (Logicoma)
+Extreme Boost (Laxative Effects)
 Fake Electronic Lightshow (Ephidrena)
+Fire Geisha (Nah-Kolor)
+Fisherhawk Dr. (Melon)
 Fruit Kitchen (The Silents)
+Griffin (Nah-Kolor & Offence)
+HAM Eager (Platon)
+HardKnee Lotus (Dekadence)
+Hey Amigo (Binary)
+High Score (Fab, Mack & Virgill)
+Hope (Finity Games)
+Ikadalawampu (Loonies)
+Jesus Christ Motocross (Nature)
+Juggler Demo (Eric Graham)
+Lambings (LoveJesus)
+Lapsuus (Maturefurk)
+Last Goat Standng (Noice)
+Legend of the Mushroom Man (Azure Onyx)
+Lightshaft (Elude)
+Logic OS (Logicoma)
+Luminagia (Loonies)
+Lupus Reditus (Tristar & Red Sector Inc.)
+Magical OCS (Agima)
+Melon Vibes (Grillcrew)
+Moon Base (Ghetto Crew)
+Neocolora (Darkage & Lemon)
+No! (The Polka Brothers)
+Norwegian Kindness (Spaceballs)
+Ocean Machine (The Black Lotus)
+On Fire (Nah-Kolor)
+One Percent Aids (Grillcrew)
+Open Your Mind (Void)
+Paint (Melon)
+Pegasus (Offence & Nah-Kolor)
+Pheeb (Void)
+Planet Disco Balls (Planet Jazz)
+Psylteflesk (Ephidrena)
+Rain (The Black Lotus)
+Remember Tribute (Fanatic2k)
+Retro32 (Moods Plateau & The Twitch Elite)
+Rewardision (Complex, Scoopex & Offence)
+Rift (The Black Lotus)
+Rise & Shine (Elude)
+Sciatica (Nah-Kolor)
+Second Nature (Desire & The Twitch Elite)
+Seven Huntsmen (Desire)
+Shinya 1986 (Almagest)
+Silhouette (Oxygene)
+Silk Cut (The Black Lotus)
+Skywards (Darkage)
+Smoke & Mirrors (Ghostown & Loonies)
+Smokebomb (Ozone)
+Sojourn Soul (Flex)
+Some Justice (Tony Horgan)
+Sorry for the Inconvenience (Void)
+Soul Strain (Amiga Skool)
+Space Swap (Isatari)
+Sprot a Nop Dilt (Void)
+Starstruck (The Black Lotus)
+Sticker (Melon)
+Swansong (Dekadence)
+The Comet (Focus Design)
+The Deep Meet (Darkage)
+The Loop (Ghostown & Haujobb)
+The Martini Effect (Flex)
+Vaaun (Numpties)
+Visor Beams (Nah-Kolor)
+vvlodgegdegdegdegdegdegde (Outsiders & Russian Prestige)
+Walker Demo (Imaginetics)
+Walker Demo 2 (Imaginetics)
+Water Our Blueberry (Amiga Scene All-Stars)
+You Are Lucy (Spaceballs)
+You Make Me Smile (Desire)
 
 
 New Premium Games
@@ -414,6 +566,7 @@ AmiQuake2 RTG
 Hexen
 Heretic
 Strife
+FreeSynd RTG
 
 
 Updated Workbench Games
